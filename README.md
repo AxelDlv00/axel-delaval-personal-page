@@ -1,7 +1,7 @@
 # Axel Delaval — Academic Website
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
-[![Website](https://img.shields.io/badge/Website-Live-blue.svg)](https://axel-delaval.github.io)
+[![Website](https://img.shields.io/badge/Website-Live-blue.svg)](https://axeldlv00.github.io/axel-delaval-personal-page/)
 
 A minimalist **multilingual academic portfolio**, built with **HTML, CSS, and vanilla JS**, showcasing my **education, research, and open-source projects**.  
 Fully static and deployable on **GitHub Pages**.
