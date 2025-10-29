@@ -1,0 +1,190 @@
+/* =========================================================
+   CARD COMPONENT
+   ---------------------------------------------------------
+   General container used for research items, projects, etc.
+   - Uses theme variables for background and border
+   - Rounded corners and soft shadow for depth
+   ========================================================= */
+.card {
+  background: var(--card);                        /* Card background (light/dark adaptive) */
+  border: 1px solid var(--border);                /* Subtle border for separation */
+  border-radius: 12px;                            /* Smooth rounded corners */
+  padding: 1.2rem 1.5rem;                         /* Inner spacing */
+  margin-bottom: 1rem;                            /* Space between stacked cards */
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);    /* Gentle shadow for visual lift */
+}
+
+/* ---------------------------------------------------------
+   CARD TITLE
+   ---------------------------------------------------------
+   - Highlights the title (usually section or project name)
+   - Accent color aligns with theme palette
+   --------------------------------------------------------- */
+.card h3 {
+  margin-bottom: 0.5rem;
+  color: var(--accent);
+}
+
+/* =========================================================
+   META INFORMATION
+   ---------------------------------------------------------
+   Used for displaying dates, authors, or brief contextual info.
+   ========================================================= */
+.meta {
+  font-size: 0.9rem;          /* Slightly smaller text */
+  color: var(--muted);        /* Subtle, de-emphasized tone */
+  margin-bottom: 0.4rem;
+}
+
+/* =========================================================
+   TAGS & CHIPS CONTAINERS
+   ---------------------------------------------------------
+   Layout for tag or chip elements displayed in a row.
+   ========================================================= */
+.tags, .chips {
+  display: flex;
+  flex-wrap: wrap;            /* Allow multiple rows when needed */
+  gap: 0.5rem;                /* Uniform space between items */
+}
+
+/* =========================================================
+   TAGS
+   ---------------------------------------------------------
+   - Rounded pills with solid accent color
+   - Typically used for categories or keywords
+   ========================================================= */
+.tag {
+  background: var(--accent);
+  color: white;
+  border-radius: 999px;       /* Fully rounded pill shape */
+  padding: 0.3rem 0.8rem;
+  font-size: 0.85rem;
+}
+
+/* =========================================================
+   CHIPS
+   ---------------------------------------------------------
+   - Lighter variant of tags (soft background, colored text)
+   - Useful for secondary labels or metadata
+   ========================================================= */
+.chip {
+  background: #e0e7ff;        /* Soft blue background */
+  color: #3730a3;             /* Contrasting blue text */
+  border-radius: 8px;
+  padding: 2px 8px;
+  font-size: 0.8rem;
+}
+
+/* =========================================================
+   "SEE MORE" BUTTON
+   ---------------------------------------------------------
+   - Expands hidden content within a card
+   - Full-width, accent-colored button with hover transition
+   ========================================================= */
+.see-more {
+  background: var(--accent);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 16px;
+  cursor: pointer;
+  font-weight: 600;
+  width: 100%;
+  display: block;
+  transition: background 0.2s ease;
+}
+
+/* Hover effect for button */
+.see-more:hover {
+  background: #1e40af;        /* Darker blue on hover */
+}
+
+/* =========================================================
+   COLLAPSIBLE EXTRA CONTENT
+   ---------------------------------------------------------
+   - Initially hidden (`max-height: 0`)
+   - When `.open` is added via JS, expands smoothly
+   ========================================================= */
+.extra {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.5s ease;
+}
+
+/* Expanded state (triggered dynamically by JS) */
+.extra.open {
+  max-height: 2000px;         /* Arbitrary large value to reveal all content */
+}
+
+/* =========================================================
+   CHIPS / TAGS STYLING (Improved visual layout)
+   ---------------------------------------------------------
+   Clean spacing between description and chips, modern pill style.
+   ========================================================= */
+
+.desc {
+  margin-bottom: 0.8rem; /* Add space between description and chips */
+}
+
+.chips-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem; /* uniform space between tags */
+  margin-top: 0.3rem;
+}
+
+.chip {
+  background: #eef2ff;             /* Soft blue background */
+  color: #1e3a8a;                  /* Deep indigo text */
+  border-radius: 999px;            /* Perfect pill shape */
+  padding: 0.35rem 0.9rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  transition: all 0.2s ease;
+  border: 1px solid rgba(30, 58, 138, 0.1); /* subtle border */
+}
+
+/* Subtle hover effect */
+.chip:hover {
+  background: #dbeafe;
+  color: #1e40af;
+  transform: translateY(-1px);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+/* =========================================================
+   HERO TAGS (INTERACTIVE STYLE MATCHING .CHIP)
+   ---------------------------------------------------------
+   Harmonize the intro tags (.tag) with .chip hover animation
+   while keeping their stronger accent background.
+   ========================================================= */
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: 0.8rem;
+}
+
+/* Base style: accent background, soft shadow */
+.tag {
+  background: var(--accent);
+  color: #ffffff;
+  border-radius: 999px;
+  padding: 0.35rem 0.9rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  transition: all 0.2s ease;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+/* Hover effect: same animation as .chip */
+.tag:hover {
+  background: #1e40af; /* slightly darker accent */
+  transform: translateY(-1px);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}

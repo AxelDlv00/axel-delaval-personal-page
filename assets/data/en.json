@@ -1,0 +1,99 @@
+{
+  "nav": {
+    "scolarpath": "Education",
+    "careerpath": "Professional Experience",
+    "publications": "Research",
+    "projects": "Open-Source Projects"
+  },
+  "hero": {
+    "title": "Profile, Projects, and Research Work",
+    "subtitle": "I am a fourth-year student at École Polytechnique, with a focus on computer science and mathematics. I enjoy exploring the intersections between science and artistic sensibility — music, in particular, plays an essential role in my life as a space for expression and balance.",
+    "tags": ["Computer Science", "Mathematics", "Music", "Interdisciplinary Research", "École Polytechnique", "Mines Paris"]
+  },
+  "scolarpath": [
+    {
+      "title": "Mines Paris – PSL — Double Degree in Computer Science, 2025–2026",
+      "desc": "Joint double degree with École Polytechnique, focused on computer science and mathematics.",
+      "chips": [
+        "Generative Models", "Natural Language Processing", "Compiler Design", "Cryptography", "Distributions and Applications", "Mathematical Morphology", "Law", "Social Controversies"
+      ]
+    },
+    {
+      "title": "École Polytechnique (l’X) — Engineering Program, 2022–2025",
+      "desc": "Multidisciplinary curriculum combining mathematics, physics, and computer science, with progressive specialization in machine learning and numerical modeling.",
+      "chips": [
+        "Machine Learning", "Deep Learning", "Natural Language Processing (NLP)", "Computer Vision",
+        "Image Synthesis", "3D Animation", "Computer Architecture",
+        "Topological Data Analysis", "Markov Chains and Martingales", "Measure Theory", "Lebesgue Integral", "Fourier Theory", "Continuous Probability", "Complex Analysis", "Robotics", "Quantum Physics", "Statistical Physics", "Relativity and Variational Principles",
+        "Fluid Mechanics", "Continuum Mechanics",
+        "Molecular Biology", "Cognitive Sciences", "Economics", "Business Management and Engineering (MIE)"
+      ]
+    },
+    {
+      "title": "Lycée Saint-Louis — Preparatory Classes MPSI/MP*, 2020–2022",
+      "desc": "Intensive training in mathematics, physics, and computer science (CS option). Preparation for entrance exams to École Polytechnique and other top French engineering schools.",
+      "chips": [
+        "Series and Sequences", "Topology", "Differential Calculus", "Differential Equations", "Improper Integrals",
+        "Linear Algebra", "Matrix Reduction and Diagonalization",
+        "Groups, Fields, Rings, Algebras", "Polynomials and Rational Fractions",
+        "Discrete Probability", 
+        "Mechanics of Point Masses and Rigid Bodies", "Electromagnetism", "Electric Circuits", "Geometrical Optics", "Physical Optics",
+        "Thermodynamics", "Heat Diffusion",
+        "Algorithmic Complexity", "Binary Trees and Graphs", "Automata and Grammars", "Functional Programming (OCaml)", "Imperative Programming (Python)"
+      ]
+    }
+  ],
+  "careerpath": [
+    {
+      "title": "Oral Examiner (Khôlleur) for Preparatory Classes MP* — Lycée Saint-Louis, 2023–2026",
+      "desc": "Preparation and evaluation of students in physics and mathematics at the MP* level (undergraduate +2). Design of exercises and mock oral exams for competitive entrance tests.",
+      "chips": ["Teaching", "Mathematics", "Physics"]
+    },
+    {
+      "title": "Research Internship — Shanghai Jiao Tong University (SJTU), 2025",
+      "desc": "Research on toxic language detection in low-resource languages, focusing on French. This work led to the publication of <a href='https://arxiv.org/abs/2508.11281' target='_blank'><em>ToxiFrench</em></a>.",
+      "chips": ["NLP", "SLM", "Fine-Tuning", "In-Context Learning", "Toxicity Detection", "Responsible AI"]
+    },
+    {
+      "title": "Nuclear Physics Internship — Naarea, 2024",
+      "desc": "Computational modeling of molten-salt reactors (MSR) using OpenMC and Dymola. Study of transients and nuclear safety analysis.",
+      "chips": ["Nuclear Physics", "Simulation", "Modeling"]
+    },
+    {
+      "title": "Teaching Assistant for Preparatory Classes MP* — INP-HB (Yamoussoukro, Ivory Coast), 2022–2023",
+      "desc": "Supervised lectures, practical sessions, and oral exams in physics and mathematics at the MP* level. Organized and graded the national mock exam.",
+      "chips": ["Physics", "Mathematics", "Teaching"]
+    }
+  ],
+  "publications": [
+    {
+      "title": "ToxiFrench: Benchmarking and Enhancing Language Models via CoT Fine-Tuning for French Toxicity Detection",
+      "meta": "Axel Delaval, Shujian Yang, Haicheng Wang, Han Qiu, Jialiang Lu — Shanghai Jiao Tong University (SJTU), 2025",
+      "desc": "ToxiFrench introduces a public benchmark of 53,622 French online comments for toxicity detection, built through a semi-automated annotation pipeline combining language models and human validation. We show that small language models often outperform larger ones in robustness, and propose a Chain-of-Thought (CoT) fine-tuning strategy that improves F1 scores by 13% and achieves state-of-the-art performance.",
+      "chips": ["NLP", "SLM", "Fine-Tuning", "In-Context Learning", "Toxicity Detection", "Responsible AI"],
+      "link": "https://arxiv.org/abs/2508.11281"
+    }
+  ],
+  "projects": [
+    {
+      "title": "ToxiFrench: French Toxicity Detection",
+      "desc": "Dataset and models for French toxicity detection. The <a href='https://huggingface.co/datasets/Naela00/ToxiFrench' target='_blank'><em>dataset</em></a>, <a href='https://huggingface.co/Naela00/ToxiFrench' target='_blank'><em>models</em></a>, <a href='https://github.com/AxelDlv00/ToxiFrench' target='_blank'><em>source code</em></a>, and <a href='https://arxiv.org/abs/2508.11281' target='_blank'><em>associated paper</em></a> are available on the <a href='https://axeldlv00.github.io/ToxiFrench/' target='_blank'><em>project page</em></a>.",
+      "chips": ["NLP", "SLM", "Fine-Tuning", "In-Context Learning", "Toxicity Detection", "Responsible AI"]
+    },
+    {
+      "title": "Comment Banners: VS Code Extension for Comment Banners",
+      "desc": "<a href='https://marketplace.visualstudio.com/items?itemName=naela.comment-banners' target='_blank'><em>VS Code</em></a> extension that lets developers quickly insert <b>styled comment banners</b> to structure and beautify code. It automatically adapts to the comment syntax of each language (C, Python, LaTeX, etc.) and offers multiple banner styles (double line, rounded, classic, arrowed, etc.). The source code is available on <a href='https://github.com/AxelDlv00/comment-banners' target='_blank'><em>GitHub</em></a>.",
+      "chips": ["VS Code", "Extension", "TypeScript", "Software Development"]
+    },
+    {
+      "title": "LaTeX Shortcuts: Keyboard Shortcuts for LaTeX in VS Code",
+      "desc": "<a href='https://marketplace.visualstudio.com/items?itemName=naela.latex-shortcuts' target='_blank'><em>VS Code</em></a> extension offering <b>fast keyboard shortcuts</b> for LaTeX formatting. It automatically wraps selected text with commands such as <code>\\textbf{...}</code>, <code>$...$</code>, <code>\\left(...\\right)</code>, or <code>\\underline{...}</code>, making LaTeX writing smoother and more enjoyable. Source code is available on <a href='https://github.com/AxelDlv00/latex-shortcuts' target='_blank'><em>GitHub</em></a>.",
+      "chips": ["VS Code", "Extension", "TypeScript", "LaTeX"]
+    },
+    {
+      "title": "RepoToPrompt: Converting Git Repositories into Structured Text for LLMs",
+      "desc": "<a href='https://github.com/AxelDlv00/RepoToPrompt' target='_blank'><em>RepoToPrompt</em></a> is a Python tool that converts an entire Git repository into a <b>single structured text document</b>, ideal for auditing, archiving, or large-language-model prompting. It allows fine-grained filtering of included files, skips binaries, removes base64-encoded notebook images, and supports custom headers. Inspired by <a href='https://github.com/mpoon/gpt-repository-loader' target='_blank'>gpt-repository-loader</a>, it offers more flexible control over extensions and output format.",
+      "chips": ["Repository", "LLM", "Automation", "Developer Tools"]
+    }
+  ]
+}

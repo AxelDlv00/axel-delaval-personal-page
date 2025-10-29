@@ -1,0 +1,99 @@
+{
+  "nav": {
+    "scolarpath": "Formazione",
+    "careerpath": "Esperienze professionali",
+    "publications": "Ricerca",
+    "projects": "Progetti Open Source"
+  },
+  "hero": {
+    "title": "Presentazione · Progetti e Attività di Ricerca",
+    "subtitle": "Sono uno studente del quarto anno all’École Polytechnique, con un percorso focalizzato su informatica e matematica. Mi piace esplorare le connessioni tra scienza e sensibilità artistica — in particolare, la musica occupa un posto importante nella mia vita, come spazio di espressione e di equilibrio.",
+    "tags": ["Informatica", "Matematica", "Musica", "Ricerca interdisciplinare", "École Polytechnique", "Mines Paris"]
+  },
+  "scolarpath": [
+    {
+      "title": "Mines Paris – PSL — Doppia laurea in Informatica, 2025–2026",
+      "desc": "Doppia laurea congiunta con l’École Polytechnique, incentrata su informatica e matematica.",
+      "chips": [
+        "Modelli generativi", "Elaborazione del linguaggio naturale", "Compilazione", "Crittografia", "Distribuzioni e applicazioni", "Morfologia matematica", "Diritto", "Controversie scientifiche e sociali"
+      ]
+    },
+    {
+      "title": "École Polytechnique (l’X) — Corso di Ingegneria, 2022–2025",
+      "desc": "Formazione multidisciplinare che combina matematica, fisica e informatica, con una specializzazione progressiva in apprendimento automatico e modellazione numerica.",
+      "chips": [
+        "Apprendimento automatico", "Deep Learning", "Elaborazione del linguaggio naturale (NLP)", "Visione artificiale",
+        "Sintesi d’immagine", "Animazione 3D", "Architettura dei computer",
+        "Analisi topologica dei dati", "Catene di Markov e martingale", "Teoria della misura", "Integrale di Lebesgue", "Analisi di Fourier", "Probabilità continue", "Analisi complessa", "Robotica", "Fisica quantistica", "Fisica statistica", "Relatività e principi variazionali",
+        "Meccanica dei fluidi", "Meccanica dei mezzi continui",
+        "Biologia molecolare", "Scienze cognitive", "Economia", "Gestione e Ingegneria d’impresa (MIE)"
+      ]
+    },
+    {
+      "title": "Lycée Saint-Louis — Classi preparatorie MPSI/MP*, 2020–2022",
+      "desc": "Formazione intensiva in matematica, fisica e informatica (opzione informatica), finalizzata alla preparazione dei concorsi d’ammissione all’École Polytechnique e alle grandi scuole d’ingegneria francesi.",
+      "chips": [
+        "Serie e successioni", "Topologia", "Calcolo differenziale", "Equazioni differenziali", "Integrali generalizzati",
+        "Algebra lineare", "Riduzione e diagonalizzazione",
+        "Gruppi, campi, anelli, algebre", "Polinomi e frazioni razionali",
+        "Probabilità discrete",
+        "Meccanica del punto e del corpo rigido", "Elettromagnetismo", "Elettrocinetica", "Ottica geometrica", "Ottica fisica",
+        "Termodinamica", "Diffusione termica",
+        "Complessità algoritmica", "Alberi binari e grafi", "Automi e grammatiche", "Programmazione funzionale (OCaml)", "Programmazione imperativa (Python)"
+      ]
+    }
+  ],
+  "careerpath": [
+    {
+      "title": "Esaminatore orale (Khôlleur) per le classi preparatorie MP* — Lycée Saint-Louis, 2023–2026",
+      "desc": "Preparazione e valutazione di studenti in matematica e fisica a livello MP* (equivalente al secondo anno universitario). Ideazione di esercizi e simulazioni orali per i concorsi d’ammissione alle Grandes Écoles.",
+      "chips": ["Insegnamento", "Matematica", "Fisica"]
+    },
+    {
+      "title": "Tirocinio di ricerca — Shanghai Jiao Tong University (SJTU), 2025",
+      "desc": "Ricerca sulla rilevazione di linguaggio tossico in lingue con risorse limitate, con un focus sul francese. Questo lavoro ha portato alla pubblicazione di <a href='https://arxiv.org/abs/2508.11281' target='_blank'><em>ToxiFrench</em></a>.",
+      "chips": ["NLP", "SLM", "Fine-Tuning", "In-Context Learning", "Rilevamento di tossicità", "IA responsabile"]
+    },
+    {
+      "title": "Tirocinio in fisica nucleare — Naarea, 2024",
+      "desc": "Modellazione computazionale di reattori a sali fusi (MSR) con OpenMC e Dymola. Studio dei transitori e della sicurezza nucleare.",
+      "chips": ["Fisica nucleare", "Simulazione", "Modellazione"]
+    },
+    {
+      "title": "Assistente all’insegnamento nelle classi preparatorie MP* — INP-HB (Yamoussoukro, Costa d’Avorio), 2022–2023",
+      "desc": "Supervisione di lezioni, esercitazioni e orali in fisica e matematica al livello MP*. Organizzazione e correzione degli esami simulati nazionali.",
+      "chips": ["Fisica", "Matematica", "Insegnamento"]
+    }
+  ],
+  "publications": [
+    {
+      "title": "ToxiFrench: Benchmarking and Enhancing Language Models via CoT Fine-Tuning for French Toxicity Detection",
+      "meta": "Axel Delaval, Shujian Yang, Haicheng Wang, Han Qiu, Jialiang Lu — Shanghai Jiao Tong University (SJTU), 2025",
+      "desc": "ToxiFrench presenta un benchmark pubblico di 53.622 commenti online in francese per la rilevazione di linguaggio tossico, costruito tramite una pipeline di annotazione semi-automatica che combina modelli linguistici e validazione umana. Dimostriamo che i modelli linguistici di piccole dimensioni spesso superano quelli più grandi in termini di robustezza, e proponiamo una strategia di fine-tuning basata sul Chain-of-Thought (CoT) che migliora l’F1-score del 13% raggiungendo lo stato dell’arte.",
+      "chips": ["NLP", "SLM", "Fine-Tuning", "In-Context Learning", "Rilevamento di tossicità", "IA responsabile"],
+      "link": "https://arxiv.org/abs/2508.11281"
+    }
+  ],
+  "projects": [
+    {
+      "title": "ToxiFrench: Rilevamento della tossicità in francese",
+      "desc": "Dataset e modelli per il rilevamento della tossicità in lingua francese. I <a href='https://huggingface.co/datasets/Naela00/ToxiFrench' target='_blank'><em>dataset</em></a>, <a href='https://huggingface.co/Naela00/ToxiFrench' target='_blank'><em>modelli</em></a>, <a href='https://github.com/AxelDlv00/ToxiFrench' target='_blank'><em>codici sorgente</em></a> e <a href='https://arxiv.org/abs/2508.11281' target='_blank'><em>articolo associato</em></a> sono disponibili sulla <a href='https://axeldlv00.github.io/ToxiFrench/' target='_blank'><em>pagina del progetto</em></a>.",
+      "chips": ["NLP", "SLM", "Fine-Tuning", "In-Context Learning", "Rilevamento di tossicità", "IA responsabile"]
+    },
+    {
+      "title": "Comment Banners: Estensione VS Code per banner di commento",
+      "desc": "Estensione per <a href='https://marketplace.visualstudio.com/items?itemName=naela.comment-banners' target='_blank'><em>VS Code</em></a> che consente di inserire rapidamente <b>banner di commento stilizzati</b> per strutturare e rendere più leggibile il codice. Riconosce automaticamente la sintassi dei commenti secondo il linguaggio (C, Python, LaTeX, ecc.) e offre diversi stili (doppia linea, arrotondato, classico, con frecce, ecc.). Il codice sorgente è disponibile su <a href='https://github.com/AxelDlv00/comment-banners' target='_blank'><em>GitHub</em></a>.",
+      "chips": ["VS Code", "Estensione", "TypeScript", "Sviluppo software"]
+    },
+    {
+      "title": "LaTeX Shortcuts: Scorciatoie da tastiera per LaTeX in VS Code",
+      "desc": "Estensione per <a href='https://marketplace.visualstudio.com/items?itemName=naela.latex-shortcuts' target='_blank'><em>VS Code</em></a> che offre <b>scorciatoie rapide da tastiera</b> per la formattazione LaTeX. Permette di avvolgere automaticamente il testo selezionato con comandi come <code>\\textbf{...}</code>, <code>$...$</code>, <code>\\left(...\\right)</code> o <code>\\underline{...}</code>, rendendo la scrittura in LaTeX più fluida e piacevole. Il codice sorgente è disponibile su <a href='https://github.com/AxelDlv00/latex-shortcuts' target='_blank'><em>GitHub</em></a>.",
+      "chips": ["VS Code", "Estensione", "TypeScript", "LaTeX"]
+    },
+    {
+      "title": "RepoToPrompt: Conversione di repository Git in testo strutturato per LLM",
+      "desc": "<a href='https://github.com/AxelDlv00/RepoToPrompt' target='_blank'><em>RepoToPrompt</em></a> è uno strumento Python che converte un intero repository Git in un <b>documento di testo unico e strutturato</b>, ideale per audit, archiviazione o utilizzo con modelli linguistici di grandi dimensioni. Permette di filtrare i file inclusi/esclusi, ignorare i binari, rimuovere le immagini codificate base64 dai notebook Jupyter e aggiungere intestazioni personalizzate. Ispirato a <a href='https://github.com/mpoon/gpt-repository-loader' target='_blank'>gpt-repository-loader</a>, offre un controllo più flessibile sulle estensioni e sul formato di output.",
+      "chips": ["Repository", "LLM", "Automazione", "Strumenti per sviluppatori"]
+    }
+  ]
+}

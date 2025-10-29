@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- =========================================================
+       META & PAGE INFO
+       ========================================================= -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Axel Delaval — Research & Projects</title>
+
+  <!-- =========================================================
+       STYLESHEETS
+       (Fonts, Theme, Layout, Components)
+       ========================================================= -->
+  <link rel="stylesheet" href="assets/fonts/inter.css">        <!-- Custom Inter font -->
+  <link rel="stylesheet" href="assets/css/theme.css">          <!-- Color palette & dark/light mode -->
+  <link rel="stylesheet" href="assets/css/base.css">           <!-- Base typography & resets -->
+  <link rel="stylesheet" href="assets/css/layout.css">         <!-- Page layout & positioning -->
+  <link rel="stylesheet" href="assets/css/components.css">     <!-- Buttons, cards, etc. -->
+</head>
+
+<body>
+
+  <!-- =========================================================
+       HEADER & NAVIGATION BAR
+       ========================================================= -->
+  <header>
+    <nav class="navbar">
+      <!-- Website Logo / Brand -->
+      <div class="logo">Axel Delaval</div>
+
+      <!-- Navigation Links (inserted dynamically via JS) -->
+      <ul class="links" id="nav-links"></ul>
+
+      <!-- Language Switcher (interactive buttons) -->
+      <div class="lang-switcher" id="lang-switcher">
+        <button data-lang="en">EN</button>     <!-- English -->
+        <button data-lang="fr">FR</button>     <!-- French -->
+        <button data-lang="zh">中文</button>   <!-- Chinese -->
+        <button data-lang="it">IT</button>     <!-- Italian -->
+      </div>
+    </nav>
+  </header>
+
+  <!-- =========================================================
+       MAIN CONTENT SECTIONS
+       (Filled dynamically using app.js)
+       ========================================================= -->
+  <main>
+    <!-- Hero / Intro Section (title, photo, tagline, etc.) -->
+    <section class="hero" id="hero"></section>
+
+
+    <!-- Publications section -->
+    <section id="publications"></section>
+
+    <!-- scolarpath section -->
+    <section id="scolarpath"></section>
+
+    <!-- careerpath section -->
+    <section id="careerpath"></section>
+
+    <!-- Projects section -->
+    <section id="projects"></section>
+
+  </main>
+
+  <!-- =========================================================
+       FOOTER
+       ========================================================= -->
+  <footer>
+    © 2025 Axel Delaval — Built with GitHub Pages
+  </footer>
+
+  <!-- =========================================================
+       SCRIPTS
+       (Handles dynamic content & language switching)
+       ========================================================= -->
+  <script src="assets/js/app.js"></script>
+
+</body>
+</html>

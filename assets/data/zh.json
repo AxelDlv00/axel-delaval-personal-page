@@ -1,0 +1,99 @@
+{
+  "nav": {
+    "scolarpath": "教育经历",
+    "careerpath": "职业经历",
+    "publications": "科研成果",
+    "projects": "开源项目"
+  },
+  "hero": {
+    "title": "个人简介 · 项目与科研工作",
+    "subtitle": "我目前就读于法国综合理工学院（École Polytechnique）四年级，主修计算机科学与数学。我热衷于探索科学与艺术感性之间的联系——音乐在我的生活中占据着重要位置，是表达与平衡的空间。",
+    "tags": ["计算机科学", "数学", "音乐", "跨学科研究", "综合理工学院", "巴黎矿业学院"]
+  },
+  "scolarpath": [
+    {
+      "title": "巴黎矿业学院 – PSL — 计算机科学双学位, 2025–2026",
+      "desc": "与法国综合理工学院联合培养的双学位项目，侧重于计算机科学与数学。",
+      "chips": [
+        "生成模型", "自然语言处理", "编译原理", "密码学", "分布与应用", "数学形态学", "法律", "社会争议"
+      ]
+    },
+    {
+      "title": "法国综合理工学院（l’X）— 工程师课程, 2022–2025",
+      "desc": "多学科培养体系，融合数学、物理与计算机科学，并逐步在机器学习与数值建模方向深化。",
+      "chips": [
+        "机器学习", "深度学习", "自然语言处理（NLP）", "计算机视觉",
+        "图像合成", "三维动画", "计算机体系结构",
+        "拓扑数据分析", "马尔可夫链与鞅", "测度论", "勒贝格积分", "傅里叶分析", "连续概率论", "复分析", "机器人学", "量子物理", "统计物理", "相对论与变分原理",
+        "流体力学", "连续介质力学",
+        "分子生物学", "认知科学", "经济学", "企业管理与工程（MIE）"
+      ]
+    },
+    {
+      "title": "圣路易中学 — MPSI/MP* 预科班, 2020–2022",
+      "desc": "强化数学、物理与计算机科学训练（含信息学选修），为法国综合理工学院及其他顶级工程师学校入学考试做准备。",
+      "chips": [
+        "数列与级数", "拓扑学", "微分计算", "微分方程", "广义积分",
+        "线性代数", "矩阵化简与对角化",
+        "群、域、环、代数", "多项式与有理分式",
+        "离散概率论", 
+        "质点与刚体力学", "电磁学", "电路理论", "几何光学", "物理光学",
+        "热力学", "热扩散",
+        "算法复杂度", "二叉树与图论", "自动机与文法", "函数式编程（OCaml）", "命令式编程（Python）"
+      ]
+    }
+  ],
+  "careerpath": [
+    {
+      "title": "预科班 MP* 口试考官 — 圣路易中学, 2023–2026",
+      "desc": "为预科班学生准备并评估数学与物理口试（相当于本科二年级水平）。设计题目与模拟考试，用于法国工程师学院入学考试训练。",
+      "chips": ["教学", "数学", "物理"]
+    },
+    {
+      "title": "科研实习 — 上海交通大学（SJTU）, 2025",
+      "desc": "从事低资源语言的有害言论检测研究，重点关注法语。该研究成果发表于 <a href='https://arxiv.org/abs/2508.11281' target='_blank'><em>ToxiFrench</em></a>。",
+      "chips": ["NLP", "小型语言模型（SLM）", "微调", "上下文学习（ICL）", "有害语言检测", "负责任的人工智能"]
+    },
+    {
+      "title": "核物理实习 — Naarea 公司, 2024",
+      "desc": "利用 OpenMC 与 Dymola 进行熔盐堆（MSR）建模与仿真，研究瞬态行为与核安全分析。",
+      "chips": ["核物理", "仿真", "建模"]
+    },
+    {
+      "title": "预科班助教 — 科特迪瓦雅穆苏克罗国立高等理工学院（INP-HB）, 2022–2023",
+      "desc": "负责预科班数学与物理课程、实验与口试辅导，组织并批改全国模拟考试。",
+      "chips": ["物理", "数学", "教学"]
+    }
+  ],
+  "publications": [
+    {
+      "title": "ToxiFrench：通过推理链微调提升法语有害语言检测的语言模型性能",
+      "meta": "Axel Delaval, Shujian Yang, Haicheng Wang, Han Qiu, Jialiang Lu — 上海交通大学（SJTU）, 2025",
+      "desc": "ToxiFrench 提出一个包含 53,622 条法语网络评论的公开基准数据集，用于有害语言检测。数据集通过半自动标注流程构建，结合大语言模型与人工验证。结果显示，小型语言模型在鲁棒性方面往往优于大型模型。我们提出了一种基于推理链（CoT）的微调策略，使 F1 得分提升 13%，达到当今最先进水平。",
+      "chips": ["NLP", "小型语言模型（SLM）", "微调", "上下文学习（ICL）", "有害语言检测", "负责任的人工智能"],
+      "link": "https://arxiv.org/abs/2508.11281"
+    }
+  ],
+  "projects": [
+    {
+      "title": "ToxiFrench：法语有害语言检测项目",
+      "desc": "本项目提供法语有害言论检测的数据集与模型。相关资源包括 <a href='https://huggingface.co/datasets/Naela00/ToxiFrench' target='_blank'><em>数据集</em></a>、<a href='https://huggingface.co/Naela00/ToxiFrench' target='_blank'><em>模型</em></a>、<a href='https://github.com/AxelDlv00/ToxiFrench' target='_blank'><em>代码</em></a> 和 <a href='https://arxiv.org/abs/2508.11281' target='_blank'><em>论文</em></a>，均可在 <a href='https://axeldlv00.github.io/ToxiFrench/' target='_blank'><em>项目主页</em></a> 查看。",
+      "chips": ["NLP", "小型语言模型（SLM）", "微调", "上下文学习（ICL）", "有害语言检测", "负责任的人工智能"]
+    },
+    {
+      "title": "Comment Banners：VS Code 注释横幅扩展",
+      "desc": "<a href='https://marketplace.visualstudio.com/items?itemName=naela.comment-banners' target='_blank'><em>VS Code</em></a> 扩展，可快速插入<b>美观的注释横幅</b>，用于结构化与美化代码。它能自动识别编程语言的注释语法（如 C、Python、LaTeX 等），并提供多种样式（双线、圆角、经典、箭头等）。源代码托管于 <a href='https://github.com/AxelDlv00/comment-banners' target='_blank'><em>GitHub</em></a>。",
+      "chips": ["VS Code", "扩展", "TypeScript", "软件开发"]
+    },
+    {
+      "title": "LaTeX Shortcuts：VS Code 中的 LaTeX 快捷键",
+      "desc": "该 <a href='https://marketplace.visualstudio.com/items?itemName=naela.latex-shortcuts' target='_blank'><em>VS Code</em></a> 扩展提供<b>快速键盘快捷键</b>，便于 LaTeX 格式编辑。它能自动将选中文本包裹在如 <code>\\textbf{...}</code>、<code>$...$</code>、<code>\\left(...\\right)</code> 或 <code>\\underline{...}</code> 等命令中，使 LaTeX 编写更加流畅与高效。源码可在 <a href='https://github.com/AxelDlv00/latex-shortcuts' target='_blank'><em>GitHub</em></a> 获取。",
+      "chips": ["VS Code", "扩展", "TypeScript", "LaTeX"]
+    },
+    {
+      "title": "RepoToPrompt：将 Git 仓库转换为结构化文本以供大语言模型使用",
+      "desc": "<a href='https://github.com/AxelDlv00/RepoToPrompt' target='_blank'><em>RepoToPrompt</em></a> 是一个 Python 工具，可将整个 Git 仓库转换为单个<b>结构化文本文件</b>，适用于审计、归档或大语言模型提示输入。它支持灵活筛选文件、自动跳过二进制文件、删除 Jupyter Notebook 的 base64 图像，并允许自定义标题。该项目灵感来源于 <a href='https://github.com/mpoon/gpt-repository-loader' target='_blank'>gpt-repository-loader</a>，但提供更灵活的扩展与输出格式控制。",
+      "chips": ["仓库", "大语言模型（LLM）", "自动化", "开发者工具"]
+    }
+  ]
+}
