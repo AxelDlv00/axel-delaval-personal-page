@@ -188,3 +188,52 @@
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   cursor: pointer;
 }
+
+/* =========================================================
+   SOCIAL LINK BUTTONS
+   ---------------------------------------------------------
+   - Row of buttons with icon + text
+   - Accent color hover and consistent padding
+   ========================================================= */
+.social-links {
+  max-width: 1000px;
+  margin: 0 auto 3rem auto;
+  padding: 0 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  justify-content: flex-start;
+}
+
+.social-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 0.6rem 1rem;
+  font-weight: 500;
+  color: var(--text);
+  text-decoration: none;
+  transition: all 0.2s ease;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.social-button img {
+  width: 20px;
+  height: 20px;
+}
+
+.social-button:hover {
+  background: var(--accent);
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+}
+
+@media (max-width: 768px) {
+  .social-links {
+    justify-content: center;
+  }
+}

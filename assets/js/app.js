@@ -101,6 +101,24 @@ function renderPage(data) {
     <img src="assets/img/hero.jpg" alt="Cover image">
   `;
 
+  // --- Social Links Section ---
+  const socialLinks = [
+    { name: "GitHub", icon: "github.svg", url: "https://github.com/AxelDlv00" },
+    { name: "Hugging Face", icon: "huggingface.svg", url: "https://huggingface.co/Naela00" },
+    { name: "Google Scholar", icon: "googlescholar.svg", url: "https://scholar.google.com/citations?user=-89Mh24AAAAJ" },
+  ];
+
+  document.getElementById("social-links").innerHTML = `
+    <div class="social-links">
+      ${socialLinks.map(link => `
+        <a class="social-button" href="${link.url}" target="_blank" rel="noopener">
+          <img src="assets/img/icons/${link.icon}" alt="${link.name} icon">
+          ${link.name}
+        </a>
+      `).join("")}
+    </div>
+  `;
+
   // --- Dynamic Sections ---
   buildSection("scolarpath", data.scolarpath, data.nav.scolarpath);
   buildSection("careerpath", data.careerpath, data.nav.careerpath);
