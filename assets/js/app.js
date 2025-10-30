@@ -105,7 +105,7 @@ function renderPage(data) {
   const socialLinks = [
     { name: "GitHub", icon: "github.svg", url: "https://github.com/AxelDlv00" },
     { name: "Hugging Face", icon: "huggingface.svg", url: "https://huggingface.co/Naela00" },
-    { name: "Google Scholar", icon: "googlescholar.svg", url: "https://scholar.google.com/citations?user=-89Mh24AAAAJ" },
+    { name: "Google Scholar", icon: "googlescholar.png", url: "https://scholar.google.com/citations?user=-89Mh24AAAAJ" },
   ];
 
   document.getElementById("social-links").innerHTML = `
