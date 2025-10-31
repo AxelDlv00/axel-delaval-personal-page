@@ -132,6 +132,12 @@ function renderPage(data) {
 // ---------------------------------------------------------
 // Creates styled cards for each item and improves spacing and
 // chip rendering for a cleaner layout.
+// ---------------------------------------------------------
+// 7. BUILD SECTION HELPER (Improved with logos integration)
+// ---------------------------------------------------------
+// ---------------------------------------------------------
+// 7. BUILD SECTION HELPER (Logo aligned with title + description)
+// ---------------------------------------------------------
 function buildSection(id, items, title) {
   const section = document.getElementById(id);
   if (!items) return;
@@ -141,17 +147,28 @@ function buildSection(id, items, title) {
       const labels = item.chips || item.tags;
       const labelHTML = labels
         ? `
-          <div class="chips-container">
-            ${labels.map(label => `<span class="chip">${label}</span>`).join("")}
+          <div class="card-footer">
+            <div class="chips-container">
+              ${labels.map(label => `<span class="chip">${label}</span>`).join("")}
+            </div>
           </div>
         `
         : "";
 
+      const logoHTML = item.logo
+        ? `<img class="inline-logo" src="assets/img/logos/${item.logo}" alt="${item.title} logo" loading="lazy">`
+        : "";
+
       return `
         <div class="card">
-          <h3>${item.link ? `<a href="${item.link}" target="_blank">${item.title}</a>` : item.title}</h3>
-          ${item.meta ? `<p class="meta">${item.meta}</p>` : ""}
-          <p class="desc">${item.desc}</p>
+          <div class="card-main">
+            <div class="card-text">
+              <h3>${item.link ? `<a href="${item.link}" target="_blank">${item.title}</a>` : item.title}</h3>
+              ${item.meta ? `<p class="meta">${item.meta}</p>` : ""}
+              <p class="desc">${item.desc}</p>
+            </div>
+            ${logoHTML}
+          </div>
           ${labelHTML}
         </div>
       `;

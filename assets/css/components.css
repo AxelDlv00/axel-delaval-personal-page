@@ -6,12 +6,12 @@
    - Rounded corners and soft shadow for depth
    ========================================================= */
 .card {
-  background: var(--card);                        /* Card background (light/dark adaptive) */
-  border: 1px solid var(--border);                /* Subtle border for separation */
-  border-radius: 12px;                            /* Smooth rounded corners */
-  padding: 1.2rem 1.5rem;                         /* Inner spacing */
-  margin-bottom: 1rem;                            /* Space between stacked cards */
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);    /* Gentle shadow for visual lift */
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.2rem 1.5rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
 }
 
 /* ---------------------------------------------------------
@@ -31,45 +31,37 @@
    Used for displaying dates, authors, or brief contextual info.
    ========================================================= */
 .meta {
-  font-size: 0.9rem;          /* Slightly smaller text */
-  color: var(--muted);        /* Subtle, de-emphasized tone */
+  font-size: 0.9rem;
+  color: var(--muted);
   margin-bottom: 0.4rem;
 }
 
 /* =========================================================
    TAGS & CHIPS CONTAINERS
-   ---------------------------------------------------------
-   Layout for tag or chip elements displayed in a row.
    ========================================================= */
 .tags, .chips {
   display: flex;
-  flex-wrap: wrap;            /* Allow multiple rows when needed */
-  gap: 0.5rem;                /* Uniform space between items */
+  flex-wrap: wrap;
+  gap: 0.5rem;
 }
 
 /* =========================================================
    TAGS
-   ---------------------------------------------------------
-   - Rounded pills with solid accent color
-   - Typically used for categories or keywords
    ========================================================= */
 .tag {
   background: var(--accent);
   color: white;
-  border-radius: 999px;       /* Fully rounded pill shape */
+  border-radius: 999px;
   padding: 0.3rem 0.8rem;
   font-size: 0.85rem;
 }
 
 /* =========================================================
    CHIPS
-   ---------------------------------------------------------
-   - Lighter variant of tags (soft background, colored text)
-   - Useful for secondary labels or metadata
    ========================================================= */
 .chip {
-  background: #e0e7ff;        /* Soft blue background */
-  color: #3730a3;             /* Contrasting blue text */
+  background: #e0e7ff;
+  color: #3730a3;
   border-radius: 8px;
   padding: 2px 8px;
   font-size: 0.8rem;
@@ -77,9 +69,6 @@
 
 /* =========================================================
    "SEE MORE" BUTTON
-   ---------------------------------------------------------
-   - Expands hidden content within a card
-   - Full-width, accent-colored button with hover transition
    ========================================================= */
 .see-more {
   background: var(--accent);
@@ -94,16 +83,12 @@
   transition: background 0.2s ease;
 }
 
-/* Hover effect for button */
 .see-more:hover {
-  background: #1e40af;        /* Darker blue on hover */
+  background: #1e40af;
 }
 
 /* =========================================================
    COLLAPSIBLE EXTRA CONTENT
-   ---------------------------------------------------------
-   - Initially hidden (`max-height: 0`)
-   - When `.open` is added via JS, expands smoothly
    ========================================================= */
 .extra {
   overflow: hidden;
@@ -111,41 +96,36 @@
   transition: max-height 0.5s ease;
 }
 
-/* Expanded state (triggered dynamically by JS) */
 .extra.open {
-  max-height: 2000px;         /* Arbitrary large value to reveal all content */
+  max-height: 2000px;
 }
 
 /* =========================================================
    CHIPS / TAGS STYLING (Improved visual layout)
-   ---------------------------------------------------------
-   Clean spacing between description and chips, modern pill style.
    ========================================================= */
-
 .desc {
-  margin-bottom: 0.8rem; /* Add space between description and chips */
+  margin-bottom: 0.8rem;
 }
 
 .chips-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem; /* uniform space between tags */
+  gap: 0.5rem;
   margin-top: 0.3rem;
 }
 
 .chip {
-  background: #eef2ff;             /* Soft blue background */
-  color: #1e3a8a;                  /* Deep indigo text */
-  border-radius: 999px;            /* Perfect pill shape */
+  background: #eef2ff;
+  color: #1e3a8a;
+  border-radius: 999px;
   padding: 0.35rem 0.9rem;
   font-size: 0.85rem;
   font-weight: 500;
   letter-spacing: 0.01em;
   transition: all 0.2s ease;
-  border: 1px solid rgba(30, 58, 138, 0.1); /* subtle border */
+  border: 1px solid rgba(30, 58, 138, 0.1);
 }
 
-/* Subtle hover effect */
 .chip:hover {
   background: #dbeafe;
   color: #1e40af;
@@ -154,12 +134,8 @@
 }
 
 /* =========================================================
-   HERO TAGS (INTERACTIVE STYLE MATCHING .CHIP)
-   ---------------------------------------------------------
-   Harmonize the intro tags (.tag) with .chip hover animation
-   while keeping their stronger accent background.
+   HERO TAGS (Interactive style matching .chip)
    ========================================================= */
-
 .tags {
   display: flex;
   flex-wrap: wrap;
@@ -167,10 +143,9 @@
   margin-top: 0.8rem;
 }
 
-/* Base style: accent background, soft shadow */
 .tag {
   background: var(--accent);
-  color: #ffffff;
+  color: #fff;
   border-radius: 999px;
   padding: 0.35rem 0.9rem;
   font-size: 0.85rem;
@@ -181,9 +156,8 @@
   border: 1px solid rgba(0, 0, 0, 0.05);
 }
 
-/* Hover effect: same animation as .chip */
 .tag:hover {
-  background: #1e40af; /* slightly darker accent */
+  background: #1e40af;
   transform: translateY(-1px);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   cursor: pointer;
@@ -191,9 +165,6 @@
 
 /* =========================================================
    SOCIAL LINK BUTTONS
-   ---------------------------------------------------------
-   - Row of buttons with icon + text
-   - Accent color hover and consistent padding
    ========================================================= */
 .social-links {
   max-width: 1000px;
@@ -232,8 +203,82 @@
   box-shadow: 0 2px 5px rgba(0,0,0,0.15);
 }
 
-@media (max-width: 768px) {
-  .social-links {
-    justify-content: center;
+/* =========================================================
+   CARD MAIN LAYOUT (Equal height text + logo)
+   ---------------------------------------------------------
+   Logo dynamically matches text block height for visual symmetry
+   ========================================================= */
+
+.card-main {
+  display: flex;
+  align-items: stretch;         /* Ensures both children have same height */
+  justify-content: space-between;
+  gap: 1.5rem;
+  margin-bottom: 0.8rem;
+}
+
+.card-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;      /* Centers text vertically if short */
+}
+
+/* =========================================================
+   INLINE LOGO — Transparent background & proportional scaling
+   --------------------------------------------------------- */
+.inline-logo {
+  max-width: 140px;
+  max-height: 120px;
+  width: auto;
+  height: auto;
+  align-self: center;                /* Center vertically */
+  border-radius: 10px;
+  border: 1px solid var(--border);
+
+  /* Semi-transparent background for soft blending */
+  background: rgba(255, 255, 255, 0.7);  /* Light mode base */
+  backdrop-filter: blur(4px);            /* Slight frosted-glass effect */
+
+  object-fit: contain;                   /* Keep proportions */
+  padding: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+/* Make sure logos don't stretch or overflow */
+.card-main img.inline-logo {
+  display: block;
+  margin: auto 0;
+}
+
+/* Hover effect: subtle glow */
+.inline-logo:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.25);
+  border-color: var(--accent);
+}
+
+/* =========================================================
+   DARK MODE — Adjust transparency & color balance
+   ========================================================= */
+@media (prefers-color-scheme: dark) {
+  .inline-logo {
+    background: rgba(31, 41, 55, 0.6); /* dark translucent background */
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.25);
+  }
+
+  .inline-logo:hover {
+    box-shadow: 0 4px 12px rgba(59, 130, 246, 0.35);
+  }
+}
+
+/* =========================================================
+   RESPONSIVE LAYOUT
+   ========================================================= */
+@media (max-width: 700px) {
+  .inline-logo {
+    max-width: 100px;
+    max-height: 80px;
   }
 }

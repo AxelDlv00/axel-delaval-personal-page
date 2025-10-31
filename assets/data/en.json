@@ -13,6 +13,7 @@
   "scolarpath": [
     {
       "title": "Mines Paris – PSL — Double Degree in Computer Science, 2025–2026",
+      "logo": "mines.png",
       "desc": "Joint double degree with École Polytechnique, focused on computer science and mathematics.",
       "chips": [
         "Generative Models", "Natural Language Processing", "Compiler Design", "Cryptography", "Distributions and Applications", "Mathematical Morphology", "Law", "Social Controversies"
@@ -20,6 +21,7 @@
     },
     {
       "title": "École Polytechnique (l’X) — Engineering Program, 2022–2025",
+      "logo": "polytechnique.png",
       "desc": "Multidisciplinary curriculum combining mathematics, physics, and computer science, with progressive specialization in machine learning and numerical modeling.",
       "chips": [
         "Machine Learning", "Deep Learning", "Natural Language Processing (NLP)", "Computer Vision",
@@ -30,7 +32,8 @@
       ]
     },
     {
-      "title": "Lycée Saint-Louis — Preparatory Classes MPSI/MP*, 2020–2022",
+      "title": "Lycée Saint-Louis — 'Classe préparatoire' MPSI/MP*, 2020–2022",
+      "logo": "saintlouis.jpeg",
       "desc": "Intensive training in mathematics, physics, and computer science (CS option). Preparation for entrance exams to École Polytechnique and other top French engineering schools.",
       "chips": [
         "Series and Sequences", "Topology", "Differential Calculus", "Differential Equations", "Improper Integrals",
@@ -45,22 +48,26 @@
   ],
   "careerpath": [
     {
-      "title": "Oral Examiner (Khôlleur) for Preparatory Classes MP* — Lycée Saint-Louis, 2023–2026",
+      "title": "Oral Examiner (Khôlleur) for 'Classe préparatoire' MP* — Lycée Saint-Louis, 2023–2026",
+      "logo": "saintlouis.jpeg",
       "desc": "Preparation and evaluation of students in physics and mathematics at the MP* level (undergraduate +2). Design of exercises and mock oral exams for competitive entrance tests.",
       "chips": ["Teaching", "Mathematics", "Physics"]
     },
     {
       "title": "Research Internship — Shanghai Jiao Tong University (SJTU), 2025",
+      "logo": "sjtu.png",
       "desc": "Research on toxic language detection in low-resource languages, focusing on French. This work led to the publication of <a href='https://arxiv.org/abs/2508.11281' target='_blank'><em>ToxiFrench</em></a>.",
       "chips": ["NLP", "SLM", "Fine-Tuning", "In-Context Learning", "Toxicity Detection", "Responsible AI"]
     },
     {
       "title": "Nuclear Physics Internship — Naarea, 2024",
+      "logo": "naarea.png",
       "desc": "Computational modeling of molten-salt reactors (MSR) using OpenMC and Dymola. Study of transients and nuclear safety analysis.",
       "chips": ["Nuclear Physics", "Simulation", "Modeling"]
     },
     {
-      "title": "Teaching Assistant for Preparatory Classes MP* — INP-HB (Yamoussoukro, Ivory Coast), 2022–2023",
+      "title": "Teaching Assistant for 'Classe préparatoire' MP* — INP-HB (Yamoussoukro, Ivory Coast), 2022–2023",
+      "logo": "inphb.png",
       "desc": "Supervised lectures, practical sessions, and oral exams in physics and mathematics at the MP* level. Organized and graded the national mock exam.",
       "chips": ["Physics", "Mathematics", "Teaching"]
     }
@@ -68,6 +75,7 @@
   "publications": [
     {
       "title": "ToxiFrench: Benchmarking and Enhancing Language Models via CoT Fine-Tuning for French Toxicity Detection",
+      "logo": "sjtu.png",
       "meta": "Axel Delaval, Shujian Yang, Haicheng Wang, Han Qiu, Jialiang Lu — Shanghai Jiao Tong University (SJTU), 2025",
       "desc": "ToxiFrench introduces a public benchmark of 53,622 French online comments for toxicity detection, built through a semi-automated annotation pipeline combining language models and human validation. We show that small language models often outperform larger ones in robustness, and propose a Chain-of-Thought (CoT) fine-tuning strategy that improves F1 scores by 13% and achieves state-of-the-art performance.",
       "chips": ["NLP", "SLM", "Fine-Tuning", "In-Context Learning", "Toxicity Detection", "Responsible AI"],
@@ -77,6 +85,7 @@
   "projects": [
     {
       "title": "ToxiFrench: French Toxicity Detection",
+      "logo": "sjtu.png",
       "desc": "Dataset and models for French toxicity detection. The <a href='https://huggingface.co/datasets/Naela00/ToxiFrench' target='_blank'><em>dataset</em></a>, <a href='https://huggingface.co/Naela00/ToxiFrench' target='_blank'><em>models</em></a>, <a href='https://github.com/AxelDlv00/ToxiFrench' target='_blank'><em>source code</em></a>, and <a href='https://arxiv.org/abs/2508.11281' target='_blank'><em>associated paper</em></a> are available on the <a href='https://axeldlv00.github.io/ToxiFrench/' target='_blank'><em>project page</em></a>.",
       "chips": ["NLP", "SLM", "Fine-Tuning", "In-Context Learning", "Toxicity Detection", "Responsible AI"]
     },

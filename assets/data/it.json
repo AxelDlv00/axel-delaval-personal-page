@@ -14,6 +14,7 @@
     {
       "title": "Mines Paris – PSL — Doppia laurea in Informatica, 2025–2026",
       "desc": "Doppia laurea congiunta con l’École Polytechnique, incentrata su informatica e matematica.",
+      "logo": "mines.png",
       "chips": [
         "Modelli generativi", "Elaborazione del linguaggio naturale", "Compilazione", "Crittografia", "Distribuzioni e applicazioni", "Morfologia matematica", "Diritto", "Controversie scientifiche e sociali"
       ]
@@ -21,6 +22,7 @@
     {
       "title": "École Polytechnique (l’X) — Corso di Ingegneria, 2022–2025",
       "desc": "Formazione multidisciplinare che combina matematica, fisica e informatica, con una specializzazione progressiva in apprendimento automatico e modellazione numerica.",
+      "logo": "polytechnique.png",
       "chips": [
         "Apprendimento automatico", "Deep Learning", "Elaborazione del linguaggio naturale (NLP)", "Visione artificiale",
         "Sintesi d’immagine", "Animazione 3D", "Architettura dei computer",
@@ -30,7 +32,8 @@
       ]
     },
     {
-      "title": "Lycée Saint-Louis — Classi preparatorie MPSI/MP*, 2020–2022",
+      "title": "Lycée Saint-Louis — 'Classe préparatoire' MPSI/MP*, 2020–2022",
+      "logo": "saintlouis.jpeg",
       "desc": "Formazione intensiva in matematica, fisica e informatica (opzione informatica), finalizzata alla preparazione dei concorsi d’ammissione all’École Polytechnique e alle grandi scuole d’ingegneria francesi.",
       "chips": [
         "Serie e successioni", "Topologia", "Calcolo differenziale", "Equazioni differenziali", "Integrali generalizzati",
@@ -45,22 +48,26 @@
   ],
   "careerpath": [
     {
-      "title": "Esaminatore orale (Khôlleur) per le classi preparatorie MP* — Lycée Saint-Louis, 2023–2026",
+      "title": "Esaminatore orale (Khôlleur) per le 'Classe préparatoire' MP* — Lycée Saint-Louis, 2023–2026",
+      "logo": "saintlouis.jpeg",
       "desc": "Preparazione e valutazione di studenti in matematica e fisica a livello MP* (equivalente al secondo anno universitario). Ideazione di esercizi e simulazioni orali per i concorsi d’ammissione alle Grandes Écoles.",
       "chips": ["Insegnamento", "Matematica", "Fisica"]
     },
     {
       "title": "Tirocinio di ricerca — Shanghai Jiao Tong University (SJTU), 2025",
+      "logo": "sjtu.png",
       "desc": "Ricerca sulla rilevazione di linguaggio tossico in lingue con risorse limitate, con un focus sul francese. Questo lavoro ha portato alla pubblicazione di <a href='https://arxiv.org/abs/2508.11281' target='_blank'><em>ToxiFrench</em></a>.",
       "chips": ["NLP", "SLM", "Fine-Tuning", "In-Context Learning", "Rilevamento di tossicità", "IA responsabile"]
     },
     {
       "title": "Tirocinio in fisica nucleare — Naarea, 2024",
+      "logo": "naarea.png",
       "desc": "Modellazione computazionale di reattori a sali fusi (MSR) con OpenMC e Dymola. Studio dei transitori e della sicurezza nucleare.",
       "chips": ["Fisica nucleare", "Simulazione", "Modellazione"]
     },
     {
-      "title": "Assistente all’insegnamento nelle classi preparatorie MP* — INP-HB (Yamoussoukro, Costa d’Avorio), 2022–2023",
+      "title": "Assistente all’insegnamento nelle 'Classe préparatoire' MP* — INP-HB (Yamoussoukro, Costa d’Avorio), 2022–2023",
+      "logo": "inphb.png",
       "desc": "Supervisione di lezioni, esercitazioni e orali in fisica e matematica al livello MP*. Organizzazione e correzione degli esami simulati nazionali.",
       "chips": ["Fisica", "Matematica", "Insegnamento"]
     }
@@ -68,6 +75,7 @@
   "publications": [
     {
       "title": "ToxiFrench: Benchmarking and Enhancing Language Models via CoT Fine-Tuning for French Toxicity Detection",
+      "logo": "sjtu.png",
       "meta": "Axel Delaval, Shujian Yang, Haicheng Wang, Han Qiu, Jialiang Lu — Shanghai Jiao Tong University (SJTU), 2025",
       "desc": "ToxiFrench presenta un benchmark pubblico di 53.622 commenti online in francese per la rilevazione di linguaggio tossico, costruito tramite una pipeline di annotazione semi-automatica che combina modelli linguistici e validazione umana. Dimostriamo che i modelli linguistici di piccole dimensioni spesso superano quelli più grandi in termini di robustezza, e proponiamo una strategia di fine-tuning basata sul Chain-of-Thought (CoT) che migliora l’F1-score del 13% raggiungendo lo stato dell’arte.",
       "chips": ["NLP", "SLM", "Fine-Tuning", "In-Context Learning", "Rilevamento di tossicità", "IA responsabile"],
@@ -77,6 +85,7 @@
   "projects": [
     {
       "title": "ToxiFrench: Rilevamento della tossicità in francese",
+      "logo": "sjtu.png",
       "desc": "Dataset e modelli per il rilevamento della tossicità in lingua francese. I <a href='https://huggingface.co/datasets/Naela00/ToxiFrench' target='_blank'><em>dataset</em></a>, <a href='https://huggingface.co/Naela00/ToxiFrench' target='_blank'><em>modelli</em></a>, <a href='https://github.com/AxelDlv00/ToxiFrench' target='_blank'><em>codici sorgente</em></a> e <a href='https://arxiv.org/abs/2508.11281' target='_blank'><em>articolo associato</em></a> sono disponibili sulla <a href='https://axeldlv00.github.io/ToxiFrench/' target='_blank'><em>pagina del progetto</em></a>.",
       "chips": ["NLP", "SLM", "Fine-Tuning", "In-Context Learning", "Rilevamento di tossicità", "IA responsabile"]
     },
