@@ -84,6 +84,12 @@
   ],
   "projects": [
     {
+      "title": "ChineseIsEasy — Outils pour apprendre le chinois efficacement",
+      "logo": "anki.png",
+      "desc": "<a href='https://github.com/AxelDlv00/ChineseIsEasy' target='_blank'><em>ChineseIsEasy</em></a> est un ensemble d’outils open-source destinés à l’apprentissage du chinois. Il comprend des <b>générateurs automatiques de paquets Anki</b> (<em>AnkiWords</em> et <em>HSKWords</em>) ainsi qu’un <b>générateur de dialogues aléatoires</b> pour s’entraîner à la traduction français→chinois. Les decks combinent des jeux de données ouverts (<em>SUBTLEX-CH</em>, <em>CCCEDICT</em>) avec un enrichissement sémantique par GPT et des animations de traits (<em>HanziWriter</em>).",
+      "chips": ["Apprentissage des langues", "Chinois", "Anki", "NLP", "Éducation", "Python"]
+    },
+    {
       "title": "ToxiFrench : Détection de toxicité en français",
       "logo": "sjtu.png",
       "desc": "Jeu de données et modèles pour la détection de toxicité en français. Les <a href='https://huggingface.co/datasets/Naela00/ToxiFrench' target='_blank'><em>données</em></a>, <a href='https://huggingface.co/Naela00/ToxiFrench' target='_blank'><em>modèles</em></a>, <a href='https://github.com/AxelDlv00/ToxiFrench' target='_blank'><em>codes</em></a> et <a href='https://arxiv.org/abs/2508.11281' target='_blank'><em>publication associée</em></a> sont disponibles sur la <a href='https://axeldlv00.github.io/ToxiFrench/' target='_blank'><em>page du projet</em></a>",

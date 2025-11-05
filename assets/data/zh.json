@@ -84,6 +84,12 @@
   ],
   "projects": [
     {
+      "title": "ChineseIsEasy —— 高效学习中文的开源工具集",
+      "logo": "anki.png",
+      "desc": "<a href='https://github.com/AxelDlv00/ChineseIsEasy' target='_blank'><em>ChineseIsEasy</em></a> 是一个帮助学习者高效学习中文的开源项目合集。它包含自动生成 <b>Anki 词汇卡片</b> 的工具（<em>AnkiWords</em> 和 <em>HSKWords</em>），以及一个用于法语→中文翻译练习的 <b>随机对话生成器</b>。这些词汇包结合了开放数据集（<em>SUBTLEX-CH</em>、<em>CCCEDICT</em>）、GPT 语义生成和汉字笔画动画（<em>HanziWriter</em>）。",
+      "chips": ["语言学习", "中文", "Anki", "自然语言处理", "教育", "Python"]
+    },
+    {
       "title": "ToxiFrench：法语有害语言检测项目",
       "logo": "sjtu.png",
       "desc": "本项目提供法语有害言论检测的数据集与模型。相关资源包括 <a href='https://huggingface.co/datasets/Naela00/ToxiFrench' target='_blank'><em>数据集</em></a>、<a href='https://huggingface.co/Naela00/ToxiFrench' target='_blank'><em>模型</em></a>、<a href='https://github.com/AxelDlv00/ToxiFrench' target='_blank'><em>代码</em></a> 和 <a href='https://arxiv.org/abs/2508.11281' target='_blank'><em>论文</em></a>，均可在 <a href='https://axeldlv00.github.io/ToxiFrench/' target='_blank'><em>项目主页</em></a> 查看。",

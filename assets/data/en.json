@@ -84,6 +84,12 @@
   ],
   "projects": [
     {
+      "title": "ChineseIsEasy — Tools to Learn Chinese Efficiently",
+      "logo": "anki.png",
+      "desc": "<a href='https://github.com/AxelDlv00/ChineseIsEasy' target='_blank'><em>ChineseIsEasy</em></a> is a collection of open-source tools for learning Chinese efficiently. It includes automatic <b>Anki deck generators</b> (<em>AnkiWords</em> and <em>HSKWords</em>) and a <b>random conversation generator</b> for French→Chinese translation practice. The decks combine open datasets (<em>SUBTLEX-CH</em>, <em>CCCEDICT</em>) with GPT-based semantic enrichment and stroke animations (<em>HanziWriter</em>).",
+      "chips": ["Language Learning", "Chinese", "Anki", "NLP", "Education", "Python"]
+    },
+    {
       "title": "ToxiFrench: French Toxicity Detection",
       "logo": "sjtu.png",
       "desc": "Dataset and models for French toxicity detection. The <a href='https://huggingface.co/datasets/Naela00/ToxiFrench' target='_blank'><em>dataset</em></a>, <a href='https://huggingface.co/Naela00/ToxiFrench' target='_blank'><em>models</em></a>, <a href='https://github.com/AxelDlv00/ToxiFrench' target='_blank'><em>source code</em></a>, and <a href='https://arxiv.org/abs/2508.11281' target='_blank'><em>associated paper</em></a> are available on the <a href='https://axeldlv00.github.io/ToxiFrench/' target='_blank'><em>project page</em></a>.",
