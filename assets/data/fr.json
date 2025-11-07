@@ -56,8 +56,8 @@
     {
       "title": "Stage de recherche — Shanghai Jiao Tong University (SJTU), 2025",
       "logo": "sjtu.png",
-      "desc": "Travail de recherche sur la détection de discours toxique dans des langues peu dotées, avec un focus sur le français. Ce travail a conduit à la publication de l’article <a href='https://arxiv.org/abs/2508.11281' target='_blank'><em>ToxiFrench</em></a>.",
-      "chips": ["NLP", "SLM", "Fine-tuning", "In-Context Learning", "Détection de toxicité", "IA responsable"]
+      "desc": "Travail de recherche sur la détection de discours toxique dans des langues peu dotées, avec un focus sur le français. Ce travail a conduit à la publication de l’article <a href='https://arxiv.org/abs/2508.11281' target='_blank'><em>ToxiFrench</em></a>. Ce projet a été distingué par le <b>🏅 Prix du Stage de Recherche 2025 de l’École Polytechnique 🏅</b>, récompensant la qualité scientifique et l’impact du travail mené.",
+      "chips": ["NLP", "SLM", "Fine-tuning", "In-Context Learning", "Détection de toxicité", "IA responsable", "Prix du Stage de Recherche"]
     },
     {
       "title": "Stage en physique nucléaire — Naarea, 2024",

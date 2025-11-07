@@ -100,7 +100,24 @@ header {
   width: 100%;
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+  transition: transform 0.4s ease, filter 0.4s ease;
 }
+
+.hero img:hover {
+  transform: scale(1.05);
+  filter: brightness(1.05) saturate(1.1);
+}
+
+.clickable-hero {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  cursor: pointer;
+}
+
+.clickable-hero:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.25);
+}
+
 
 /* ====== SECTIONS ====== */
 section {
@@ -156,10 +173,4 @@ footer {
 .lang-switcher {
   backdrop-filter: blur(8px);
   background: rgba(255, 255, 255, 0.6);
-}
-
-@media (prefers-color-scheme: dark) {
-  .lang-switcher {
-    background: rgba(31, 41, 55, 0.6);
-  }
 }

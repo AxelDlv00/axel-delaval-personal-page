@@ -56,8 +56,8 @@
     {
       "title": "Tirocinio di ricerca — Shanghai Jiao Tong University (SJTU), 2025",
       "logo": "sjtu.png",
-      "desc": "Ricerca sulla rilevazione di linguaggio tossico in lingue con risorse limitate, con un focus sul francese. Questo lavoro ha portato alla pubblicazione di <a href='https://arxiv.org/abs/2508.11281' target='_blank'><em>ToxiFrench</em></a>.",
-      "chips": ["NLP", "SLM", "Fine-Tuning", "In-Context Learning", "Rilevamento di tossicità", "IA responsabile"]
+      "desc": "Progetto di ricerca sulla rilevazione del linguaggio tossico in lingue a bassa disponibilità di risorse, con particolare attenzione al francese. Questo lavoro ha portato alla pubblicazione dell’articolo <a href='https://arxiv.org/abs/2508.11281' target='_blank'><em>ToxiFrench</em></a>. Il progetto è stato premiato con il <b>🏅 Premio per il Tirocinio di Ricerca 2025 dell’École Polytechnique 🏅</b>, in riconoscimento della qualità scientifica e dell’impatto del lavoro svolto.",
+      "chips": ["NLP", "SLM", "Fine-tuning", "Apprendimento contestuale", "Rilevazione della tossicità", "IA responsabile", "Premio per il Tirocinio di Ricerca"]
     },
     {
       "title": "Tirocinio in fisica nucleare — Naarea, 2024",

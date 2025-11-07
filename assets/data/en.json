@@ -56,8 +56,8 @@
     {
       "title": "Research Internship — Shanghai Jiao Tong University (SJTU), 2025",
       "logo": "sjtu.png",
-      "desc": "Research on toxic language detection in low-resource languages, focusing on French. This work led to the publication of <a href='https://arxiv.org/abs/2508.11281' target='_blank'><em>ToxiFrench</em></a>.",
-      "chips": ["NLP", "SLM", "Fine-Tuning", "In-Context Learning", "Toxicity Detection", "Responsible AI"]
+      "desc": "Research project on toxic speech detection in low-resource languages, with a particular focus on French. This work led to the publication of the paper <a href='https://arxiv.org/abs/2508.11281' target='_blank'><em>ToxiFrench</em></a>. The project was honored with the <b>🏅 2025 Research Internship Prize of École Polytechnique 🏅</b>, in recognition of its scientific quality and impact.",
+      "chips": ["NLP", "SLM", "Fine-tuning", "In-Context Learning", "Toxicity Detection", "Responsible AI", "Research Internship Prize"]
     },
     {
       "title": "Nuclear Physics Internship — Naarea, 2024",

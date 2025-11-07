@@ -98,8 +98,11 @@ function renderPage(data) {
         ${data.hero.tags.map(tag => `<span class="tag">${tag}</span>`).join("")}
       </div>
     </div>
-    <img src="assets/img/hero.jpg" alt="Cover image">
+    <a href="https://www.mam.paris.fr/fr/oeuvre/rythme-ndeg1" target="_blank" rel="noopener">
+      <img src="assets/img/hero.jpg" alt="Rythme n°1 artwork" class="clickable-hero">
+    </a>
   `;
+
 
   // --- Social Links Section ---
   const socialLinks = [
@@ -132,11 +135,6 @@ function renderPage(data) {
 // ---------------------------------------------------------
 // Creates styled cards for each item and improves spacing and
 // chip rendering for a cleaner layout.
-// ---------------------------------------------------------
-// 7. BUILD SECTION HELPER (Improved with logos integration)
-// ---------------------------------------------------------
-// ---------------------------------------------------------
-// 7. BUILD SECTION HELPER (Logo aligned with title + description)
 // ---------------------------------------------------------
 function buildSection(id, items, title) {
   const section = document.getElementById(id);

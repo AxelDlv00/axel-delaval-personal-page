@@ -26,11 +26,12 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #111827;          /* Dark background */
-    --text: #f3f4f6;        /* Light text for contrast */
-    --muted: #9ca3af;       /* Dimmed gray for secondary text */
-    --accent: #3b82f6;      /* Bright blue accent in dark mode */
-    --border: #374151;      /* Darker border color */
-    --card: #1f2937;        /* Card background (slightly lighter than page) */
+      --bg: #fafafa;           /* Page background color */
+      --text: #1f2937;         /* Main text color (dark gray) */
+      --muted: #4b5563;        /* Muted / secondary text (subtle gray) */
+      --accent: #2563eb;       /* Primary accent color (blue) */
+      --border: #e5e7eb;       /* Light border color */
+      --card: #ffffff;         /* Background for cards and panels */
+      --second-bg: #e6e6e6;      /* Dark background color */
   }
 }
