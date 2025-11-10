@@ -84,29 +84,35 @@
   ],
   "projects": [
     {
-      "title": "ChineseIsEasy —— 高效学习中文的开源工具集",
+      "title": "Ondelettes —— 小波与 JPEG 2000 图像压缩 （2025年11月)",
+      "logo": "delaunay.jpg",
+      "desc": "<a href='https://github.com/AxelDlv00/Ondelettes' target='_blank'><em>Ondelettes</em></a> 是一个开源的 Beamer 演示与教学笔记本，用于讲解 <b>小波变换</b>（AMR、QMF） 的数学原理及其在 <b>JPEG 2000 图像压缩</b> 中的应用。项目包含一个基于 <em>PyWavelets</em> 与 <em>Matplotlib</em> 的 <b>Python 模拟流程</b>，可视化分解、量化与重建过程。",
+      "chips": ["信号处理", "小波", "JPEG 2000", "Python", "图像压缩", "LaTeX", "开源教育"]
+    },
+    {
+      "title": "ChineseIsEasy —— 高效学习中文的开源工具集 （2025年11月)",
       "logo": "anki.png",
       "desc": "<a href='https://github.com/AxelDlv00/ChineseIsEasy' target='_blank'><em>ChineseIsEasy</em></a> 是一个帮助学习者高效学习中文的开源项目合集。它包含自动生成 <b>Anki 词汇卡片</b> 的工具（<em>AnkiWords</em> 和 <em>HSKWords</em>），以及一个用于法语→中文翻译练习的 <b>随机对话生成器</b>。这些词汇包结合了开放数据集（<em>SUBTLEX-CH</em>、<em>CCCEDICT</em>）、GPT 语义生成和汉字笔画动画（<em>HanziWriter</em>）。",
       "chips": ["语言学习", "中文", "Anki", "自然语言处理", "教育", "Python"]
     },
     {
-      "title": "ToxiFrench：法语有害语言检测项目",
+      "title": "ToxiFrench：法语有害语言检测项目 （2025年8月)",
       "logo": "sjtu.png",
       "desc": "本项目提供法语有害言论检测的数据集与模型。相关资源包括 <a href='https://huggingface.co/datasets/Naela00/ToxiFrench' target='_blank'><em>数据集</em></a>、<a href='https://huggingface.co/Naela00/ToxiFrench' target='_blank'><em>模型</em></a>、<a href='https://github.com/AxelDlv00/ToxiFrench' target='_blank'><em>代码</em></a> 和 <a href='https://arxiv.org/abs/2508.11281' target='_blank'><em>论文</em></a>，均可在 <a href='https://axeldlv00.github.io/ToxiFrench/' target='_blank'><em>项目主页</em></a> 查看。",
       "chips": ["NLP", "小型语言模型（SLM）", "微调", "上下文学习（ICL）", "有害语言检测", "负责任的人工智能"]
     },
     {
-      "title": "Comment Banners：VS Code 注释横幅扩展",
+      "title": "Comment Banners：VS Code 注释横幅扩展 （2025年7月)",
       "desc": "<a href='https://marketplace.visualstudio.com/items?itemName=naela.comment-banners' target='_blank'><em>VS Code</em></a> 扩展，可快速插入<b>美观的注释横幅</b>，用于结构化与美化代码。它能自动识别编程语言的注释语法（如 C、Python、LaTeX 等），并提供多种样式（双线、圆角、经典、箭头等）。源代码托管于 <a href='https://github.com/AxelDlv00/comment-banners' target='_blank'><em>GitHub</em></a>。",
       "chips": ["VS Code", "扩展", "TypeScript", "软件开发"]
     },
     {
-      "title": "LaTeX Shortcuts：VS Code 中的 LaTeX 快捷键",
+      "title": "LaTeX Shortcuts：VS Code 中的 LaTeX 快捷键 （2025年7月)",
       "desc": "该 <a href='https://marketplace.visualstudio.com/items?itemName=naela.latex-shortcuts' target='_blank'><em>VS Code</em></a> 扩展提供<b>快速键盘快捷键</b>，便于 LaTeX 格式编辑。它能自动将选中文本包裹在如 <code>\\textbf{...}</code>、<code>$...$</code>、<code>\\left(...\\right)</code> 或 <code>\\underline{...}</code> 等命令中，使 LaTeX 编写更加流畅与高效。源码可在 <a href='https://github.com/AxelDlv00/latex-shortcuts' target='_blank'><em>GitHub</em></a> 获取。",
       "chips": ["VS Code", "扩展", "TypeScript", "LaTeX"]
     },
     {
-      "title": "RepoToPrompt：将 Git 仓库转换为结构化文本以供大语言模型使用",
+      "title": "RepoToPrompt：将 Git 仓库转换为结构化文本以供大语言模型使用 （2025年6月)",
       "desc": "<a href='https://github.com/AxelDlv00/RepoToPrompt' target='_blank'><em>RepoToPrompt</em></a> 是一个 Python 工具，可将整个 Git 仓库转换为单个<b>结构化文本文件</b>，适用于审计、归档或大语言模型提示输入。它支持灵活筛选文件、自动跳过二进制文件、删除 Jupyter Notebook 的 base64 图像，并允许自定义标题。该项目灵感来源于 <a href='https://github.com/mpoon/gpt-repository-loader' target='_blank'>gpt-repository-loader</a>，但提供更灵活的扩展与输出格式控制。",
       "chips": ["仓库", "大语言模型（LLM）", "自动化", "开发者工具"]
     }

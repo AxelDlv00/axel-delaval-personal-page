@@ -84,29 +84,35 @@
   ],
   "projects": [
     {
-      "title": "ChineseIsEasy — Strumenti per imparare il cinese in modo efficace",
+      "title": "Ondelettes — Wavelet e Compressione JPEG 2000 (novembre 2025)",
+      "logo": "delaunay.jpg",
+      "desc": "<a href='https://github.com/AxelDlv00/Ondelettes' target='_blank'><em>Ondelettes</em></a> è una presentazione Beamer e un notebook didattico open-source che illustra le basi matematiche e l’implementazione pratica delle <b>wavelet</b> (AMR, QMF) applicate alla <b>compressione di immagini JPEG 2000</b>. Il progetto include una <b>simulazione Python</b> con <em>PyWavelets</em> e <em>Matplotlib</em> per visualizzare decomposizione, quantizzazione e ricostruzione.",
+      "chips": ["Elaborazione del segnale", "Wavelet", "JPEG 2000", "Python", "Compressione d’immagine", "LaTeX", "Educazione open-source"]
+    },
+    {
+      "title": "ChineseIsEasy — Strumenti per imparare il cinese in modo efficace (novembre 2025)",
       "logo": "anki.png",
       "desc": "<a href='https://github.com/AxelDlv00/ChineseIsEasy' target='_blank'><em>ChineseIsEasy</em></a> è una raccolta di strumenti open-source per l’apprendimento efficiente del cinese. Include <b>generatori automatici di mazzi Anki</b> (<em>AnkiWords</em> e <em>HSKWords</em>) e un <b>generatore di conversazioni casuali</b> per esercitarsi nella traduzione francese→cinese. I mazzi combinano dataset aperti (<em>SUBTLEX-CH</em>, <em>CCCEDICT</em>) con arricchimento semantico GPT e animazioni dei tratti (<em>HanziWriter</em>).",
       "chips": ["Apprendimento linguistico", "Cinese", "Anki", "NLP", "Educazione", "Python"]
     },
     {
-      "title": "ToxiFrench: Rilevamento della tossicità in francese",
+      "title": "ToxiFrench: Rilevamento della tossicità in francese (agosto 2025)",
       "logo": "sjtu.png",
       "desc": "Dataset e modelli per il rilevamento della tossicità in lingua francese. I <a href='https://huggingface.co/datasets/Naela00/ToxiFrench' target='_blank'><em>dataset</em></a>, <a href='https://huggingface.co/Naela00/ToxiFrench' target='_blank'><em>modelli</em></a>, <a href='https://github.com/AxelDlv00/ToxiFrench' target='_blank'><em>codici sorgente</em></a> e <a href='https://arxiv.org/abs/2508.11281' target='_blank'><em>articolo associato</em></a> sono disponibili sulla <a href='https://axeldlv00.github.io/ToxiFrench/' target='_blank'><em>pagina del progetto</em></a>.",
       "chips": ["NLP", "SLM", "Fine-Tuning", "In-Context Learning", "Rilevamento di tossicità", "IA responsabile"]
     },
     {
-      "title": "Comment Banners: Estensione VS Code per banner di commento",
+      "title": "Comment Banners: Estensione VS Code per banner di commento (luglio 2025)",
       "desc": "Estensione per <a href='https://marketplace.visualstudio.com/items?itemName=naela.comment-banners' target='_blank'><em>VS Code</em></a> che consente di inserire rapidamente <b>banner di commento stilizzati</b> per strutturare e rendere più leggibile il codice. Riconosce automaticamente la sintassi dei commenti secondo il linguaggio (C, Python, LaTeX, ecc.) e offre diversi stili (doppia linea, arrotondato, classico, con frecce, ecc.). Il codice sorgente è disponibile su <a href='https://github.com/AxelDlv00/comment-banners' target='_blank'><em>GitHub</em></a>.",
       "chips": ["VS Code", "Estensione", "TypeScript", "Sviluppo software"]
     },
     {
-      "title": "LaTeX Shortcuts: Scorciatoie da tastiera per LaTeX in VS Code",
+      "title": "LaTeX Shortcuts: Scorciatoie da tastiera per LaTeX in VS Code (luglio 2025)",
       "desc": "Estensione per <a href='https://marketplace.visualstudio.com/items?itemName=naela.latex-shortcuts' target='_blank'><em>VS Code</em></a> che offre <b>scorciatoie rapide da tastiera</b> per la formattazione LaTeX. Permette di avvolgere automaticamente il testo selezionato con comandi come <code>\\textbf{...}</code>, <code>$...$</code>, <code>\\left(...\\right)</code> o <code>\\underline{...}</code>, rendendo la scrittura in LaTeX più fluida e piacevole. Il codice sorgente è disponibile su <a href='https://github.com/AxelDlv00/latex-shortcuts' target='_blank'><em>GitHub</em></a>.",
       "chips": ["VS Code", "Estensione", "TypeScript", "LaTeX"]
     },
     {
-      "title": "RepoToPrompt: Conversione di repository Git in testo strutturato per LLM",
+      "title": "RepoToPrompt: Conversione di repository Git in testo strutturato per LLM (giugno 2025)",
       "desc": "<a href='https://github.com/AxelDlv00/RepoToPrompt' target='_blank'><em>RepoToPrompt</em></a> è uno strumento Python che converte un intero repository Git in un <b>documento di testo unico e strutturato</b>, ideale per audit, archiviazione o utilizzo con modelli linguistici di grandi dimensioni. Permette di filtrare i file inclusi/esclusi, ignorare i binari, rimuovere le immagini codificate base64 dai notebook Jupyter e aggiungere intestazioni personalizzate. Ispirato a <a href='https://github.com/mpoon/gpt-repository-loader' target='_blank'>gpt-repository-loader</a>, offre un controllo più flessibile sulle estensioni e sul formato di output.",
       "chips": ["Repository", "LLM", "Automazione", "Strumenti per sviluppatori"]
     }
