@@ -157,6 +157,10 @@ function buildSection(id, items, title) {
         ? `<img class="inline-logo" src="assets/img/logos/${item.logo}" alt="${item.title} logo" loading="lazy">`
         : "";
 
+      const mediaHTML = item.media
+        ? `<img class="side-media" src="assets/img/${item.media}" alt="${item.title} media" loading="lazy">`
+        : "";
+
       return `
         <div class="card">
           <div class="card-main">
@@ -165,7 +169,16 @@ function buildSection(id, items, title) {
               ${item.meta ? `<p class="meta">${item.meta}</p>` : ""}
               <p class="desc">${item.desc}</p>
             </div>
-            ${logoHTML}
+            ${
+            item.logo || item.media
+              ? `
+                <div class="visual-column">
+                  ${logoHTML}
+                  ${mediaHTML}
+                </div>
+              `
+              : ""
+            }
           </div>
           ${labelHTML}
         </div>

@@ -92,8 +92,9 @@
     {
       "title": "ChineseIsEasy — Strumenti per imparare il cinese in modo efficace (novembre 2025)",
       "logo": "anki.png",
-      "desc": "<a href='https://github.com/AxelDlv00/ChineseIsEasy' target='_blank'><em>ChineseIsEasy</em></a> è una raccolta di strumenti open-source per l’apprendimento efficiente del cinese. Include <b>generatori automatici di mazzi Anki</b> (<em>AnkiWords</em> e <em>HSKWords</em>) e un <b>generatore di conversazioni casuali</b> per esercitarsi nella traduzione francese→cinese. I mazzi combinano dataset aperti (<em>SUBTLEX-CH</em>, <em>CCCEDICT</em>) con arricchimento semantico GPT e animazioni dei tratti (<em>HanziWriter</em>).",
-      "chips": ["Apprendimento linguistico", "Cinese", "Anki", "NLP", "Educazione", "Python"]
+      "media": "gifs/琴.gif",
+      "desc": "<a href='https://github.com/AxelDlv00/ChineseIsEasy' target='_blank'><em>ChineseIsEasy</em></a> è un ecosistema open-source completo progettato per aiutare gli studenti francofoni a imparare il cinese in modo più efficace. Il sistema genera automaticamente <b>mazzi Anki di alta qualità</b> a partire da dataset aperti (CCCEDICT, SUBTLEX-CH, HSK Standard Course) e li arricchisce con <b>definizioni strutturate in francese</b>, <b>esempi progressivi CH→PN→FR</b>, <b>immagini semantiche</b> (create con <a href='https://huggingface.co/RunDiffusion/Juggernaut-XL-v9' target='_blank'><code>Juggernaut XL v9</code></a> utilizzando prompt generati da <code>GPT-4o-mini</code>) e <b>audio</b> stabili. Il progetto include anche un <b>motore HanziWriter unificato</b> per le animazioni dei tratti e un <b>generatore di dialoghi casuali</b> per esercitarsi nella traduzione. L’intera pipeline è <b>totalmente deterministica</b>, consentendo di ricostruire ogni mazzo direttamente dal codice sorgente. La versione v2.0 offre più di <b>28.000 parole classificate per frequenza</b>, <b>mazzi HSK strutturati</b> e piena compatibilità <b>desktop, mobile e AnkiWeb</b>.",
+      "chips": ["Apprendimento linguistico", "Cinese", "Anki", "NLP", "Educazione", "Python", "Modello di diffusione", "Modelli generativi", "GPT-4o-mini", "Juggernaut XL v9"]
     },
     {
       "title": "ToxiFrench: Rilevamento della tossicità in francese (agosto 2025)",

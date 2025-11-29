@@ -92,8 +92,9 @@
     {
       "title": "ChineseIsEasy —— 高效学习中文的开源工具集 （2025年11月)",
       "logo": "anki.png",
-      "desc": "<a href='https://github.com/AxelDlv00/ChineseIsEasy' target='_blank'><em>ChineseIsEasy</em></a> 是一个帮助学习者高效学习中文的开源项目合集。它包含自动生成 <b>Anki 词汇卡片</b> 的工具（<em>AnkiWords</em> 和 <em>HSKWords</em>），以及一个用于法语→中文翻译练习的 <b>随机对话生成器</b>。这些词汇包结合了开放数据集（<em>SUBTLEX-CH</em>、<em>CCCEDICT</em>）、GPT 语义生成和汉字笔画动画（<em>HanziWriter</em>）。",
-      "chips": ["语言学习", "中文", "Anki", "自然语言处理", "教育", "Python"]
+      "media": "gifs/琴.gif",
+      "desc": "<a href='https://github.com/AxelDlv00/ChineseIsEasy' target='_blank'><em>ChineseIsEasy</em></a> 是一套完整的开源工具生态系统，专为以法语为母语的学习者提升中文学习效率而设计。系统可自动生成基于开放数据集（CCCEDICT、SUBTLEX-CH、HSK 标准教程）的<b>高质量 Anki 词汇卡包</b>，并加入<b>结构化法语释义</b>、<b>分阶段例句（中文→拼音→法语）</b>、<b>语义化图片</b>（通过 <a href='https://huggingface.co/RunDiffusion/Juggernaut-XL-v9' target='_blank'><code>Juggernaut XL v9</code></a> 结合 <code>GPT-4o-mini</code> 生成提示词）以及<b>稳定音频</b>。项目还包含统一的 <b>HanziWriter 笔画动画引擎</b>和<b>随机对话生成器</b>，用于翻译训练。整条生产链<b>完全可复现</b>，所有卡片均可从源码重新构建。v2.0 版本提供超过<b>28,000 个按频率排序的词汇</b>、<b>结构化 HSK 词汇包</b>，并支持 <b>桌面端、移动端与 AnkiWeb</b> 全平台使用。",
+      "chips": ["语言学习", "中文", "Anki", "自然语言处理", "教育", "Python", "扩散模型", "生成模型", "GPT-4o-mini", "Juggernaut XL v9"]
     },
     {
       "title": "ToxiFrench：法语有害语言检测项目 （2025年8月)",

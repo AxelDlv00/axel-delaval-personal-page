@@ -259,6 +259,21 @@
   border-color: var(--accent);
 }
 
+.side-media {
+  max-width: 120px;
+  border-radius: 10px;
+  box-shadow: var(--shadow-sm);
+  object-fit: contain;
+}
+
+.visual-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+}
+
 
 /* =========================================================
    RESPONSIVE LAYOUT

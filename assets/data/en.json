@@ -92,8 +92,9 @@
     {
       "title": "ChineseIsEasy — Tools to Learn Chinese Efficiently (November 2025)",
       "logo": "anki.png",
-      "desc": "<a href='https://github.com/AxelDlv00/ChineseIsEasy' target='_blank'><em>ChineseIsEasy</em></a> is a collection of open-source tools for learning Chinese efficiently. It includes automatic <b>Anki deck generators</b> (<em>AnkiWords</em> and <em>HSKWords</em>) and a <b>random conversation generator</b> for French→Chinese translation practice. The decks combine open datasets (<em>SUBTLEX-CH</em>, <em>CCCEDICT</em>) with GPT-based semantic enrichment and stroke animations (<em>HanziWriter</em>).",
-      "chips": ["Language Learning", "Chinese", "Anki", "NLP", "Education", "Python"]
+      "media": "gifs/琴.gif",
+      "desc": "<a href='https://github.com/AxelDlv00/ChineseIsEasy' target='_blank'><em>ChineseIsEasy</em></a> is a complete open-source ecosystem designed to help French learners study Mandarin efficiently. It automatically generates <b>high-quality Anki decks</b> from open datasets (CCCEDICT, SUBTLEX-CH, HSK Standard Course) and enriches them with <b>structured French definitions</b>, <b>progressive examples CH→PN→FR</b>, <b>semantic images</b> (generated with <a href='https://huggingface.co/RunDiffusion/Juggernaut-XL-v9' target='_blank'><code>Juggernaut XL v9</code></a> using prompts produced by <code>GPT-4o-mini</code>), and <b>stable audio</b>. The project also includes a unified <b>HanziWriter engine</b> for stroke animations and a <b>random dialogue generator</b> for translation practice. The entire pipeline is <b>fully deterministic</b>, allowing every deck to be rebuilt from source. Version v2.0 provides more than <b>28,000 frequency-ranked words</b>, <b>structured HSK decks</b>, and full compatibility with <b>desktop, mobile, and AnkiWeb</b>.",
+      "chips": ["Language Learning", "Chinese", "Anki", "NLP", "Education", "Python", "Diffusion Model", "Generative Models", "GPT-4o-mini", "Juggernaut XL v9"]
     },
     {
       "title": "ToxiFrench: French Toxicity Detection (August 2025)",
