@@ -96,6 +96,11 @@ header {
   color: var(--muted);
 }
 
+.hero .meta {
+  opacity: 0.8;
+  display: block;
+}
+
 .hero img {
   width: 100%;
   border-radius: 12px;
@@ -136,10 +141,21 @@ section h2 {
 /* ====== FOOTER ====== */
 footer {
   border-top: 1px solid var(--border);
-  text-align: center;
-  color: var(--muted);
   padding: 2rem 1rem;
   font-size: 0.9rem;
+  color: var(--muted);
+  
+  /* Utilisation de Flexbox pour un centrage parfait */
+  display: flex;
+  flex-direction: column; /* Aligne les paragraphes verticalement */
+  align-items: center;    /* Centre les éléments horizontalement */
+  justify-content: center;
+  text-align: center;     /* Sécurité pour le texte interne */
+}
+
+footer p {
+  margin: 0.2rem 0;       /* Espace léger entre les lignes */
+  width: auto;            /* Permet au flex-container de gérer la largeur */
 }
 
 /* ====== RESPONSIVE DESIGN ====== */

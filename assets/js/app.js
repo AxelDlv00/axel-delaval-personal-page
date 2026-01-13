@@ -93,6 +93,9 @@ function renderPage(data) {
   document.getElementById("hero").innerHTML = `
     <div>
       <h1>${data.hero.title}</h1>
+      <p class="meta" style="margin-bottom: 1rem; font-style: italic; font-size: 0.8rem;">
+        ${data.last_updated}
+      </p>
       <p>${data.hero.subtitle}</p>
       <div class="tags">
         ${data.hero.tags.map(tag => `<span class="tag">${tag}</span>`).join("")}
@@ -103,11 +106,10 @@ function renderPage(data) {
     </a>
   `;
 
-
   // --- Social Links Section ---
   const socialLinks = [
     { name: "GitHub", icon: "github.svg", url: "https://github.com/AxelDlv00" },
-    { name: "Hugging Face", icon: "huggingface.svg", url: "https://huggingface.co/Naela00" },
+    { name: "Hugging Face", icon: "huggingface.svg", url: "https://huggingface.co/AxelDlv00" },
     { name: "Google Scholar", icon: "googlescholar.png", url: "https://scholar.google.com/citations?user=-89Mh24AAAAJ" },
   ];
 
@@ -121,6 +123,11 @@ function renderPage(data) {
       `).join("")}
     </div>
   `;
+
+  const lastUpdatedEl = document.getElementById("last-updated");
+  if (lastUpdatedEl && data.last_updated) {
+    lastUpdatedEl.textContent = data.last_updated;
+  }
 
   // --- Dynamic Sections ---
   buildSection("scolarpath", data.scolarpath, data.nav.scolarpath);
