@@ -1,3 +1,9 @@
+html {
+  /* Permet un défilement fluide lors des ancres, 
+     mais aide aussi à stabiliser le rendu lors des changements de contenu */
+  scroll-behavior: auto;
+}
+
 /* =========================================================
    GLOBAL RESET & BOX MODEL
    ---------------------------------------------------------

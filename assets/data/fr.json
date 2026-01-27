@@ -7,116 +7,244 @@
   },
   "hero": {
     "title": "Présentation, projets et travaux de recherche",
-    "subtitle": "Je suis étudiant en 4e année à l’École Polytechnique, avec un parcours tourné vers l’informatique et les mathématiques. J’aime explorer les liens entre science et sensibilité artistique, en particulier la musique tient une place importante dans ma vie, comme espace d’expression et d’équilibre.",
-    "tags": ["Informatique", "Mathématiques", "Musique", "Recherche interdisciplinaire", "École Polytechnique", "Mines Paris"]
+    "subtitle": "Je suis étudiant en 4e année à l’École Polytechnique, au sein d'un parcours alliant mathématiques et informatique. Si l'art et la science sont souvent perçus comme antinomiques, je les considère, pour ma part, comme indissociables : la science permet de comprendre le monde, tandis que l'art permet de le ressentir. Conjuguer la rigueur analytique à l'intuition et à la sensibilité artistique me semble, en ce sens, essentiel. Mon affinité pour les arts s'exprime par la musique, à travers la pratique de plusieurs instruments et la composition, mais aussi par les arts visuels et la littérature, en particulier la poésie. Pour autant, si cette sensibilité nourrit ma réflexion, elle ne saurait infléchir mon exigence scientifique. Cette dualité forge ma philosophie de vie et de recherche : porter une attention absolue à la rigueur de chaque assertion que je puisse formuler.",
+    "artwork_desc": "Rythme n°1 (1938) de Robert Delaunay. Cette composition monumentale marque l'aboutissement des recherches de l'artiste sur l'orphisme et le contraste simultané. À travers des jeux de cercles concentriques et de courbes, Delaunay explore ici la dynamique pure de la couleur, créant une illusion de mouvement par la seule interaction physique du regard.",
+    "monet_artwork_desc": "La Maison vue du jardin aux roses (v. 1922-1924) de Claude Monet. Dans cette œuvre tardive, Monet s'éloigne de la représentation fidèle pour capturer une impression pure. Les contours s'effacent au profit d'un jaillissement chromatique, préfigurant l'abstraction lyrique par l'étude vibrante de la lumière.",
+    "poem_intro": "Comme un vol criard d’oiseaux en émoi,\nTous mes souvenirs s’abattent sur moi,",
+    "poem_rest": "\nS’abattent parmi le feuillage jaune\nDe mon coeur mirant son tronc plié d’aune\nAu tain violet de l’eau des Regrets,\nQui mélancoliquement coule auprès,\nS’abattent, et puis la rumeur mauvaise\nQu’une brise moite en montant apaise,\nS’éteint par degrés dans l’arbre, si bien\nQu’au bout d’un instant on n’entend plus rien,\nPlus rien que la voix célébrant l’Absente,\nPlus rien que la voix -ô si languissante!-\nDe l’oiseau qui fut mon Premier Amour,\nEt qui chante encor comme au premier jour;\nEt, dans la splendeur triste d’une lune\nSe levant blafarde et solennelle, une\nNuit mélancolique et lourde d’été,\nPleine de silence et d’obscurité,\nBerce sur l’azur qu’un vent doux effleure\nL’arbre qui frissonne et l’oiseau qui pleure.",
+    "tags": [
+      { "text": "Informatique", "desc": "Étude théorique et pratique de l'algorithmique, de l'IA et des systèmes complexes." },
+      { "text": "Mathématiques", "desc": "Analyse, probabilités, algèbre, etc." },
+      { "text": "Musique", "desc": "Pratique de plusieurs instruments (notamment piano, saxophone, violoncelle) et composition." },
+      { "text": "Recherche interdisciplinaire", "desc": "Application des outils informatiques à d'autres domaines (musique, physique, etc.)." },
+      { "text": "École Polytechnique", "desc": "Prestigieuse institution française (1e école du classement des écoles françaises) ayant formé des élèves comme Poincaré, Cauchy, etc." },
+      { "text": "Mines Paris", "desc": "École d'ingénieurs de l'Université PSL (2e du classement des écoles d'ingénieurs françaises), réputée pour sa recherche et ses liens industriels." }
+    ]
   },
-  "last_updated": "Dernière mise à jour : 13 janvier 2026",
+  "last_updated": "Dernière mise à jour : 26 janvier 2026",
   "scolarpath": [
-     {
+    {
       "title": "Mines Paris – PSL — Double diplôme en Informatique, 2025–2026",
       "logo": "mines.png",
-      "desc": "Double diplôme conjoint avec l’École Polytechnique, axé sur l'informatique et les mathématiques.",
+      "logo_desc": "Mines Paris - PSL : École de rang mondial dont sont issus des leaders comme Anne Rigail (Air France).",
+      "desc": "Double diplôme conjoint avec l’École Polytechnique, axé sur l'informatique.",
       "chips": [
-        "Modèles génératifs", "Traitement du langage naturel", "Compilation", "Cryptographie", "Distributions et applications", "Morphologie mathématique", "Droit", "Controverses"
+        { "text": "Modèles génératifs", "desc": "IA créatives (GANs, Diffusion, LLMs) pour la création automatique de contenu." },
+        { "text": "Traitement du langage naturel", "desc": "NLP : interaction homme-machine par le langage humain." },
+        { "text": "Compilation", "desc": "Transformation de code source en instructions exécutables par un processeur." },
+        { "text": "Cryptographie", "desc": "Protection des données par des principes mathématiques de chiffrement." },
+        { "text": "Distributions et applications", "desc": "Généralisation des fonctions mathématiques, permettant notamment de modéliser des phénomènes physiques." },
+        { "text": "Bases de données", "desc": "Notamment SQL pour la gestion et l'interrogation de données structurées." },
+        { "text": "Pentesting", "desc": "Tests d'intrusion pour évaluer la sécurité des systèmes informatiques, notamment sur la plateforme Rootme." },
+        { "text": "Morphologie mathématique", "desc": "Traitement d'images basé sur la théorie des ensembles et la géométrie." },
+        { "text": "Droit", "desc": "Introduction au droit français et européen, et en particulier au droit du travail." },
+        { "text": "Controverses", "desc": "Étude sociologique de grands débats scientifiques et techniques." }
       ]
     },
     {
       "title": "École Polytechnique (l'X) — Cycle Ingénieur, 2022–2025",
       "logo": "polytechnique.png",
+      "logo_desc": "L'X : École d'excellence fondée en 1794, ayant formé des scientifiques de renom comme Poincaré et Cauchy.",
       "desc": "Formation pluridisciplinaire alliant mathématiques, physique et informatique, avec une spécialisation progressive en apprentissage automatique et en modélisation numérique.",
       "chips": [
-        "Apprentissage automatique", "Deep Learning", "Traitement automatique du langage (NLP)", "Vision par ordinateur",
-        "Synthèse d’image", "Animation 3D", "Architecture des ordinateurs",
-        "Analyse topologique des données", "Chaînes de Markov et martingales", "Théorie de la mesure", "Intégrale de Lebesgue", "Théorie de Fourier", "Probabilités continues", "Analyse complexe", "Robotique", "Physique quantique", "Physique statistique", "Relativité et principes variationnels",
-        "Mécanique des fluides", "Mécanique des milieux déformables",
-        "Biologie moléculaire", "Sciences cognitives", "Économie", "Management et ingénierie des entreprises (MIE)"
+        { "text": "Apprentissage automatique", "desc": "Machine Learning : modèles apprenant à partir de données statistiques." },
+        { "text": "Deep Learning", "desc": "Apprentissage profond utilisant des réseaux de neurones multi-couches." },
+        { "text": "Traitement automatique du langage (NLP)", "desc": "Analyse et génération de texte par ordinateur." },
+        { "text": "Vision par ordinateur", "desc": "Capacité des systèmes à comprendre le contenu visuel d'images et à en générer." },
+        { "text": "Synthèse d’image", "desc": "Création d'images par ordinateur via la modélisation géométrique, cela comprend la modélisation 3D, la rasterisation et le rendu." },
+        { "text": "Animation 3D", "desc": "Simulation de mouvements de structures tridimensionnelles, y-compris la cinématique inverse, la dynamique, les collisions, les simulations physiques, etc." },
+        { "text": "Architecture des ordinateurs", "desc": "Organisation interne et gestion matérielle des systèmes informatiques (assembleur, architecture x86, pipelines, caches, etc.)." },
+        { "text": "Analyse topologique des données", "desc": "Étude de la structure géométrique des données, en particulier en utilisant la topologie algébrique (persistance homologique, diagrammes de persistance, etc.)." },
+        { "text": "Chaînes de Markov et martingales", "desc": "Modèles de probabilités pour les processus aléatoires." },
+        { "text": "Théorie de la mesure", "desc": "Fondement mathématique de l'intégration et des probabilités." },
+        { "text": "Intégrale de Lebesgue", "desc": "Théorie moderne de l'intégration plus robuste que celle de Riemann." },
+        { "text": "Théorie de Fourier", "desc": "Analyse fréquentielle des signaux périodiques." },
+        { "text": "Probabilités continues", "desc": "Modélisation de variables aléatoires sur des ensembles infinis." },
+        { "text": "Analyse complexe", "desc": "Étude des fonctions de variables complexes (Fonctions holomorphes, analitique, résidus, etc.)." },
+        { "text": "Robotique (raspberry pi)", "desc": "Conception d'un robot mobile autonome à base de Raspberry Pi très bas niveau, comprenant la programmation des capteurs, actionneurs, et de l'algorithme de navigation, détection d'obstacles (e.g. transformée de Hough)." },
+        { "text": "Physique quantique", "desc": "Lois de la physique régissant l'infiniment petit, dualité onde-corpuscule, sphère de Bloch, bosons et fermions, etc." },
+        { "text": "Physique statistique", "desc": "Propriétés collectives des systèmes à grand nombre de particules, modélisation par des distributions statistiques notamment grâce aux fonctions de partition." },
+        { "text": "Relativité et principes variationnels", "desc": "Physique et référentiels relativistes, métrique de Minkowski, tenseur énergie-impulsion, principe de moindre action, etc." },
+        { "text": "Mécanique des fluides", "desc": "Étude de l'écoulement des gaz et des liquides, modélisation par les équations de Navier-Stokes." },
+        { "text": "Mécanique des milieux déformables", "desc": "Comportement des solides sous contraintes, rupture, élasticité, plasticité, etc." },
+        { "text": "Biologie moléculaire", "desc": "Étude des processus du vivant au niveau moléculaire, notamment la structure de l'ADN, la transcription, la traduction, etc." },
+        { "text": "Sciences cognitives", "desc": "Étude pluridisciplinaire des mécanismes de la pensée, de l'apprentissage, de la perception (e.g., conception logarithmique des nombres), etc." },
+        { "text": "Économie", "desc": "Analyse des systèmes de production et de régulation financière." },
+        { "text": "Management et ingénierie des entreprises (MIE)", "desc": "Gestion de l'innovation et des organisations." }
       ]
     },
     {
       "title": "Lycée Saint-Louis — Classes préparatoires MPSI/MP*, 2020–2022",
       "logo": "saintlouis.jpeg",
-      "desc": "Formation intensive en mathématiques, physique et informatique (option informatique). Préparation au concours d’entrée de l’École Polytechnique et des grandes écoles d’ingénieurs françaises.",
+      "logo_desc": "Lycée Saint-Louis : Institution prestigieuse du Quartier Latin, unique lycée public français dédié exclusivement aux CPGE scientifiques.",
+      "desc": "Formation de haut niveau en Mathématiques et Physique. Programme intensif sur deux ans axé sur la rigueur démonstrative, l'abstraction et la modélisation. Préparation aux concours d'entrée des Grandes Écoles d'ingénieurs (Polytechnique, ENS, Mines, Centrale).",
       "chips": [
-        "Séries et suites", "Topologie", "Calcul différentiel", "Équations différentielles", "Intégrales généralisées",
-        "Algèbre linéaire", "Réduction et diagonalisation",
-        "Groupes, corps, anneaux, algèbres", "Polynômes et fractions rationnelles",
-        "Probabilités discrète", 
-        "Mécanique du point et du solide", "Électromagnétisme", "Électrocinétique", "Optique géométrique", "Optique physique",
-        "Thermodynamique", "Diffusion thermique",
-        "Complexité algorithmique", "Arbres binaires et graphes", "Automates et grammaires", "Programmation fonctionnelle (OCaml)", "Programmation impérative (Python)"
+        { "text": "Séries et suites", "desc": "Convergence de suites et séries numériques, séries de fonctions, séries entières. Étude des développements asymptotiques et comparaisons locales." },
+        { "text": "Topologie", "desc": "Espaces vectoriels normés, notions de voisinage, compacité, connexité et théorie de la continuité dans les espaces métriques." },
+        { "text": "Calcul différentiel", "desc": "Différentiabilité des fonctions de plusieurs variables, calcul de gradients, jacobiennes et optimisation sous contraintes (extrema)." },
+        { "text": "Équations différentielles", "desc": "Équations linéaires du 1er et 2nd ordre, systèmes différentiels linéaires et méthodes de résolution numérique (Cauchy-Lipschitz)." },
+        { "text": "Intégrales généralisées", "desc": "Théorie de l'intégration de Riemann sur un intervalle quelconque, intégrales à paramètres et calcul de primitives complexes, convergence dominée." },
+        { "text": "Algèbre linéaire", "desc": "Espaces vectoriels de dimension finie et infinie, dualité, calcul matriciel avancé et formes bilinéaires, espaces préhilbertiens." },
+        { "text": "Réduction et diagonalisation", "desc": "Théorie spectrale, réduction de Jordan, polynômes d'endomorphismes et simplification de structures linéaires complexes." },
+        { "text": "Groupes, corps, anneaux, algèbres", "desc": "Étude approfondie des structures algébriques fondamentales, arithmétique et théorie des nombres." },
+        { "text": "Polynômes et fractions rationnelles", "desc": "Algèbre formelle, décomposition en éléments simples, arithmétique dans les anneaux euclidiens." },
+        { "text": "Probabilités discrètes", "desc": "Espaces probabilisés, variables aléatoires discrètes, moments (espérance, variance) et lois de probabilité classiques." },
+        { "text": "Mécanique du point et du solide", "desc": "Cinématique et dynamique en référentiels non-galiléens, lois du moment cinétique et approche énergétique des systèmes." },
+        { "text": "Électromagnétisme", "desc": "Équations de Maxwell, régimes variables, induction électromagnétique, énergie magnétique et propagation des ondes dans le vide." },
+        { "text": "Électrocinétique", "desc": "Analyse de circuits en régimes permanent et transitoire, fonctions de transfert et filtrage analogique." },
+        { "text": "Optique géométrique", "desc": "Modèle du rayon lumineux, systèmes centrés, lentilles minces, miroirs et instruments d'optique." },
+        { "text": "Optique physique", "desc": "Nature ondulatoire de la lumière, interférences (dispositif de Young, Michelson) et phénomènes de diffraction." },
+        { "text": "Thermodynamique", "desc": "Principes de l'énergie et de l'entropie, étude des fluides réels et parfaits, cycles de machines thermiques." },
+        { "text": "Diffusion thermique", "desc": "Transferts de chaleur par conduction, loi de Fourier et équation de la diffusion dans différents milieux." },
+        { "text": "Complexité algorithmique", "desc": "Analyse de l'efficacité (temporelle et spatiale) des algorithmes, classes de complexité et optimisation." },
+        { "text": "Arbres binaires et graphes", "desc": "Structures de données dynamiques, algorithmes de parcours (BFS, DFS) et recherche de plus court chemin (Dijkstra)." },
+        { "text": "Automates et grammaires", "desc": "Théorie des langages formels, automates finis déterministes et reconnaissance de motifs." },
+        { "text": "Programmation fonctionnelle (OCaml)", "desc": "Maîtrise du typage statique, de la récursivité et des structures de données immuables." },
+        { "text": "Programmation impérative (Python)", "desc": "Utilisation de Python pour le calcul numérique, la simulation physique et l'ingénierie des données." }
       ]
     }
   ],
   "careerpath": [
     {
-      "title": "Chargé d’oraux (Khôlleur) en classes préparatoires MP* — Lycée Saint-Louis, 2023–2026",
+      "title": "Chargé d’oraux (Khôlleur) en MP* — Lycée Saint-Louis, 2023–2026",
       "logo": "saintlouis.jpeg",
-      "desc": "Préparation et évaluation d’étudiants en physique et mathématiques au niveau MP* (BAC+2). Conception d’exercices et d’oraux blancs pour la préparation aux concours des grandes écoles.",
-      "chips": ["Enseignement", "Mathématiques", "Physique"]
+      "logo_desc": "Lycée Saint-Louis : Institution d'excellence du Quartier Latin dédiée aux classes préparatoires scientifiques.",
+      "desc": "Évaluation hebdomadaire et tutorat d'étudiants en mathématiques et physique (niveau MP*). Conception de sujets originaux et préparation intensive aux épreuves orales des concours les plus sélectifs (X, ENS, Mines-Ponts).",
+      "chips": [
+        { "text": "Pédagogie de haut niveau", "desc": "Transmission de méthodes de résolution complexes et de rigueur rédactionnelle." },
+        { "text": "Mathématiques (MP*)", "desc": "Interrogations avancées : analyse, algèbre, probabilités, topologie." },
+        { "text": "Physique", "desc": "Évaluation sur l'ensemble du programme." }
+      ]
     },
     {
-      "title": "Stage de recherche — Shanghai Jiao Tong University (SJTU), 2025",
+      "title": "Stage de recherche en IA — Shanghai Jiao Tong University (SJTU), 2025",
       "logo": "sjtu.png",
-      "desc": "Travail de recherche sur la détection de discours toxique dans des langues peu dotées, avec un focus sur le français. Ce travail a conduit à la publication de l’article <a href='https://arxiv.org/abs/2508.11281' target='_blank'><em>ToxiFrench</em></a>. Ce projet a été distingué par le <b>🏅 Prix du Stage de Recherche 2025 de l’École Polytechnique 🏅</b>, récompensant la qualité scientifique et l’impact du travail mené.",
-      "chips": ["NLP", "SLM", "Fine-tuning", "In-Context Learning", "Détection de toxicité", "IA responsable", "Prix du Stage de Recherche"]
+      "logo_desc": "SJTU : Université de rang mondial, leader en ingénierie et sciences de l'information en Chine.",
+      "desc": "Recherche sur la détection de toxicité dans les langues peu dotées (Low-resource NLP). Publication de l'article <a href='https://arxiv.org/abs/2508.11281' target='_blank'><em>ToxiFrench</em></a>. Lauréat du <b>🏅 Prix du Stage de Recherche 2025 de l’École Polytechnique 🏅</b> pour l'excellence des contributions scientifiques.",
+      "chips": [
+        { "text": "NLP & LLMs", "desc": "Traitement automatique du langage naturel et architectures de Large Language Models." },
+        { "text": "SLM Efficiency", "desc": "Optimisation de Small Language Models pour des performances compétitives à moindre coût computationnel." },
+        { "text": "Fine-tuning & Alignment", "desc": "Entraînement supervisé et alignement des modèles sur des jeux de données spécifiques." },
+        { "text": "Chain-of-Thought", "desc": "Utilisation de techniques de raisonnement par étapes pour améliorer l'interprétabilité." },
+        { "text": "In-Context Learning", "desc": "Optimisation des capacités d'apprentissage Zero-shot et Few-shot via le prompt engineering." },
+        { "text": "Sécurité de l'IA", "desc": "Développement de classifieurs pour la modération automatique et la lutte contre les biais." },
+        { "text": "Distinction académique", "desc": "Prix récompensant le meilleur stage de recherche de la promotion de l'École Polytechnique." }
+      ]
     },
     {
-      "title": "Stage en physique nucléaire — Naarea, 2024",
+      "title": "Stage en Physique Nucléaire — Naarea, 2024",
       "logo": "naarea.png",
-      "desc": "Modélisation informatique de réacteurs à sels fondus (MSR) avec OpenMC et Dymola. Étude des transitoires et de la sûreté nucléaire.",
-      "chips": ["Physique nucléaire", "Simulation", "Modélisation"]
+      "logo_desc": "Naarea : Leader de la Deeptech française développant des micro-générateurs nucléaires de 4e génération.",
+      "desc": "Modélisation multiphysique de réacteurs à sels fondus (MSR). Simulation de la neutronique avec OpenMC et analyse des transitoires thermohydrauliques via Dymola pour garantir la sûreté intrinsèque du système.",
+      "chips": [
+        { "text": "Neutronique", "desc": "Simulation des flux de neutrons et de la criticité du cœur du réacteur." },
+        { "text": "Simulation OpenMC", "desc": "Utilisation du code de transport de particules Monte-Carlo pour l'analyse nucléaire." },
+        { "text": "Modélisation Systèmes", "desc": "Analyse du comportement dynamique et thermique des réacteurs de 4e génération." }
+      ]
     },
     {
-      "title": "Assistant d’enseignement en classe préparatoire MP* — INP-HB (Yamoussoukro, Côte d’Ivoire), 2022–2023",
+      "title": "Assistant d’enseignement en MP* — INP-HB (Yamoussoukro), 2022–2023",
       "logo": "inphb.png",
-      "desc": "Encadrement de cours, travaux pratiques et oraux en physique et mathématiques au niveau MP* (BAC+2). Organisation et correction du concours blanc.",
-      "chips": ["Physique", "Mathématiques", "Enseignement"]
+      "logo_desc": "INP-HB : Pôle d'excellence d'Afrique de l'Ouest formant les cadres et ingénieurs de la région.",
+      "desc": "Service au sein des classes préparatoires. Encadrement des travaux dirigés et organisation des concours blancs. Accompagnement méthodologique des étudiants vers l'intégration des Grandes Écoles françaises et africaines.",
+      "chips": [
+        { "text": "Ingénierie pédagogique", "desc": "Adaptation des supports de cours et création de devoirs surveillés type concours." },
+        { "text": "Analyse & Algèbre", "desc": "Soutien approfondi sur tout le programme de mathématiques MP*." },
+        { "text": "Physique Appliquée", "desc": "Soutien approfondi sur le programme de physique MP*." }
+      ]
     }
   ],
   "publications": [
     {
       "title": "ToxiFrench: Benchmarking and Enhancing Language Models via CoT Fine-Tuning for French Toxicity Detection",
       "logo": "sjtu.png",
+      "logo_desc": "Recherche menée en collaboration avec l'université SJTU.",
       "meta": "Axel Delaval, Shujian Yang, Haicheng Wang, Han Qiu, Jialiang Lu - Shanghai Jiao Tong University (SJTU) - 2025",
-      "desc": "ToxiFrench introduit un benchmark public de 53 622 commentaires français pour la détection de la toxicité, construit via une pipeline d’annotation semi-automatique combinant modèles de langage et validation humaine. Nous montrons que les petits modèles surpassent souvent les grands en robustesse, et proposons un fine-tuning par raisonnement en chaîne (CoT) qui améliore le score F1 de 13 % et atteint les meilleures performances de l’état de l’art.",
-      "chips": ["NLP", "SLM", "Fine-tuning", "In-Context Learning", "Détection de toxicité", "IA responsable"],
+      "desc": "La détection de toxicité en français souffre d'un manque de données annotées. Nous présentons ToxiFrench, un dataset de 53 622 commentaires construit via une pipeline semi-automatisée innovante. Nos recherches révèlent que les modèles de taille réduite (SLMs) surpassent souvent les modèles géants en robustesse. Pour exploiter ce potentiel, nous introduisons une stratégie de fine-tuning par Chaîne de Pensée (CoT) avec Perte Pondérée Dynamique (DWL). Notre modèle Qwen3-4B ainsi optimisé surpasse GPT-4o et DeepSeek-R1, établissant un nouvel état de l'art tout en préservant ses capacités multilingues.",
+      "chips": [
+        { "text": "NLP", "desc": "Natural Language Processing." },
+        { "text": "SLM", "desc": "Small Language Models." },
+        { "text": "Fine-tuning", "desc": "Ré-entraînement ciblé." },
+        { "text": "Chaînes de pensée", "desc": "Chain-of-Thought : apprentissage d'étape de raisonnement permettant (en général) d'améliorer les performances des LLMs." },
+        { "text": "In-Context Learning", "desc": "Apprentissage contextuel, sans entraînement supplémentaire." },
+        { "text": "Détection de toxicité", "desc": "Classification éthique." },
+        { "text": "IA responsable"}
+      ],
       "link": "https://arxiv.org/abs/2508.11281"
     }
   ],
   "projects": [
     {
-      "title": "Ondelettes — Filtres miroirs et compression JPEG 2000 (novembre 2025)",
-      "logo": "delaunay.jpg",
-      "desc": "<a href='https://github.com/AxelDlv00/Ondelettes' target='_blank'><em>Ondelettes</em></a> est une présentation Beamer et un notebook pédagogique open-source illustrant les bases mathématiques et l’implémentation pratique des <b>ondelettes</b> (AMR, QMF) appliquées à la <b>compression d’images JPEG 2000</b>. Le projet inclut une <b>simulation Python</b> utilisant <em>PyWavelets</em> et <em>Matplotlib</em> pour visualiser la décomposition, la quantification et la reconstruction.",
-      "chips": ["Traitement du signal", "Ondelette", "JPEG 2000", "Python", "Compression d’image", "LaTeX", "Pédagogie open-source"]
-    },
-    {
-      "title": "ChineseIsEasy — Outils pour apprendre le chinois efficacement (novembre 2025)",
+      "title": "Ecosystème ChineseIsEasy — Apprentissage du Mandarin (2026)",
       "logo": "anki.png",
+      "logo_desc": "ChineseIsEasy : Suite d'outils open-source pour l'apprentissage du chinois.",
       "media": "gifs/琴.gif",
-      "desc": "<a href='https://github.com/AxelDlv00/ChineseIsEasy' target='_blank'><em>ChineseIsEasy</em></a> est un écosystème complet d’outils open-source conçu pour optimiser l’apprentissage du chinois pour les francophones. Il génère automatiquement des <b>decks Anki de haute qualité</b> à partir de jeux de données ouverts (CCCEDICT, SUBTLEX-CH, HSK Standard Course), enrichis avec des <b>définitions françaises structurées</b>, des <b>exemples progressifs CH→PN→FR</b>, des <b>images sémantiques</b> (générées avec <a href='https://huggingface.co/RunDiffusion/Juggernaut-XL-v9' target='_blank'><code>Juggernaut XL v9</code></a> via des prompts produits par <code>GPT-4o-mini</code>), et des <b>audios</b> stables. Le projet inclut également un <b>moteur HanziWriter unifié</b> pour les animations de traits, ainsi qu’un <b>générateur de dialogues aléatoires</b> pour s’entraîner à la traduction. Toute la chaîne est <b>déterministe</b> et permet de reconstruire l’ensemble des decks à partir du code source. La version v2.0 fournit plus de <b>28 000 mots classés par fréquence</b>, des <b>decks HSK entièrement structurés</b>, et une compatibilité complète <b>desktop + mobile + AnkiWeb</b>.",
-      "chips": ["Apprentissage des langues", "Chinois", "Anki", "NLP", "Éducation", "Python", "Modèle de diffusion", "Modèles génératifs", "GPT-4o-mini", "Juggernaut XL v9"]
+      "desc": "Développement d'un écosystème complet optimisant l'apprentissage du mandarin pour les francophones. <br><br>• <b><a href='https://github.com/AxelDlv00/ChineseIsEasy' target='_blank'>Générateur de Decks Anki :</a></b> <br>&nbsp;&nbsp;&nbsp;&nbsp;◦ <i>AnkiWords & HSKWords :</i> 30 000+ flashcards basées sur la fréquence (<a href='https://openlexicon.fr/datasets-info/SUBTLEX-CH/README-subtlex-ch.html'>SUBTLEX-CH</a>) avec audio réaliste via <a href='https://github.com/OpenBMB/VoxCPM' target='_blank'><b>VoxCPM</b></a> et images sémantiques via <a href='https://huggingface.co/RunDiffusion/Juggernaut-XL-v9' target='_blank'><b>Juggernaut XL</b></a>.<br>&nbsp;&nbsp;&nbsp;&nbsp;◦ <i>AnkiPoems & AnkiChengyu :</i> Modules spécialisés pour la poésie classique et les idiomes.<br>&nbsp;&nbsp;&nbsp;&nbsp;◦ <i>AnkiTonalPractice :</i> Set de flashcards groupées par pinyin pour la maîtrise les tons.<br>• <b><a href='https://github.com/AxelDlv00/GeoChina' target='_blank'>GeoChina :</a></b> Application interactive (ECharts) d'exploration géographique et culturelle des provinces et villes chinoises (<a href='https://axeldlv00.github.io/GeoChina/' target='_blank'>Démo</a>).<br>• <b><a href='https://github.com/AxelDlv00/ChineseIsEasy-Calligraphy' target='_blank'>Calligraphy Engine :</a></b> Générateur de grilles d'écriture (Tian Ge Zi) avec animation en temps réel des traits (HanziWriter) (<a href='https://axeldlv00.github.io/ChineseIsEasy-Calligraphy/' target='_blank'>Démo</a>).",
+      "chips": [
+        { "text": "Anki Automation", "desc": "Génération de decks avec répétition espacée (SRS)." },
+        { "text": "Voice Cloning (VoxCPM)", "desc": "Synthèse vocale réaliste par clonage de voix (Zero-shot TTS)." },
+        { "text": "Pipeline GenAI", "desc": "Génération d'images contextuelles via Juggernaut XL v9." },
+        { "text": "Data Mining", "desc": "Extraction massive de données (CC-CEDICT, SUBTLEX-CH, HSK)." },
+        { "text": "GeoChina (ECharts)", "desc": "Cartographie interactive et data-visualisation." },
+        { "text": "Calligraphy JS", "desc": "Moteur d'animation de traits et génération de grilles." }
+      ]
     },
     {
       "title": "ToxiFrench : Détection de toxicité en français (août 2025)",
       "logo": "sjtu.png",
-      "desc": "Jeu de données et modèles pour la détection de toxicité en français. Les <a href='https://huggingface.co/datasets/Naela00/ToxiFrench' target='_blank'><em>données</em></a>, <a href='https://huggingface.co/Naela00/ToxiFrench' target='_blank'><em>modèles</em></a>, <a href='https://github.com/AxelDlv00/ToxiFrench' target='_blank'><em>codes</em></a> et <a href='https://arxiv.org/abs/2508.11281' target='_blank'><em>publication associée</em></a> sont disponibles sur la <a href='https://axeldlv00.github.io/ToxiFrench/' target='_blank'><em>page du projet</em></a>",
-      "chips": ["NLP", "SLM", "Fine-tuning", "In-Context Learning", "Détection de toxicité", "IA responsable"]
+      "logo_desc": "Projet de recherche en collaboration avec l'université SJTU.",
+      "desc": "Jeu de données et modèles pour la détection de toxicité en français. Les <a href='https://huggingface.co/datasets/AxelDlv00/ToxiFrench' target='_blank'><em>données</em></a>, <a href='https://huggingface.co/AxelDlv00/ToxiFrench' target='_blank'><em>modèles</em></a>, <a href='https://github.com/AxelDlv00/ToxiFrench' target='_blank'><em>codes</em></a> et <a href='https://arxiv.org/abs/2508.11281' target='_blank'><em>publication associée</em></a> sont disponibles sur la <a href='https://axeldlv00.github.io/ToxiFrench/' target='_blank'><em>page du projet</em></a>",
+      "chips": [
+        { "text": "NLP", "desc": "Natural Language Processing." },
+        { "text": "SLM", "desc": "Small Language Models." },
+        { "text": "Fine-tuning", "desc": "Entraînement spécialisé." },
+        { "text": "In-Context Learning", "desc": "Apprentissage via prompt." },
+        { "text": "Détection de toxicité", "desc": "Analyse de contenu malveillant." },
+        { "text": "IA responsable", "desc": "Sécurité des plateformes web." }
+      ]
+    },
+    {
+      "title": "Ondelettes — Filtres miroirs et compression JPEG 2000 (novembre 2025)",
+      "logo": "delaunay.jpg",
+      "logo_desc": "Illustration d'une triangulation en géométrie discrète.",
+      "desc": "<a href='https://github.com/AxelDlv00/Ondelettes' target='_blank'><em>Ondelettes</em></a> est une présentation Beamer et un notebook pédagogique open-source illustrant les bases mathématiques et l’implémentation pratique des <b>ondelettes</b> (AMR, QMF) appliquées à la <b>compression d’images JPEG 2000</b>. Le projet inclut une <b>simulation Python</b> utilisant <em>PyWavelets</em> et <em>Matplotlib</em> pour visualiser la décomposition, la quantification et la reconstruction.",
+      "chips": [
+        { "text": "Traitement du signal", "desc": "Analyse et transformation de données temporelles ou spatiales." },
+        { "text": "Ondelette", "desc": "Fonction mathématique de décomposition multi-échelle." },
+        { "text": "JPEG 2000", "desc": "Standard de compression d'image haute performance." },
+        { "text": "Compression d’image", "desc": "Réduction du stockage sans perte de qualité visuelle." },
+        { "text": "Pédagogie open-source", "desc": "Contenu éducatif libre et collaboratif." }
+      ]
     },
     {
       "title": "Comment Banners : Extension VS Code pour bannières de commentaires (juillet 2025)",
       "desc": "Extension <a href='https://marketplace.visualstudio.com/items?itemName=naela.comment-banners' target='_blank'><em>VS Code</em></a> permettant d’insérer rapidement des <b>bannières de commentaires stylisées</b> pour structurer et embellir le code. Elle reconnaît automatiquement la syntaxe des commentaires selon le langage (C, Python, LaTeX, etc.) et propose plusieurs styles (double ligne, arrondi, classique, flèches, etc.). Le code source est disponible sur <a href='https://github.com/AxelDlv00/comment-banners' target='_blank'><em>GitHub</em></a>.",
-      "chips": ["VS Code", "Extension", "TypeScript", "Développement logiciel"]
+      "chips": [
+        { "text": "VS Code", "desc": "Éditeur de code leader de Microsoft." },
+        { "text": "Extension", "desc": "Module complémentaire de fonctionnalités." },
+        { "text": "TypeScript", "desc": "Langage de programmation basé sur JavaScript avec typage." },
+        { "text": "Développement logiciel", "desc": "Conception d'outils informatiques." }
+      ]
     },
     {
       "title": "LaTeX Shortcuts : Raccourcis clavier pour LaTeX dans VS Code (juillet 2025)",
       "desc": "Extension <a href='https://marketplace.visualstudio.com/items?itemName=naela.latex-shortcuts' target='_blank'><em>VS Code</em></a> offrant des <b>raccourcis clavier rapides</b> pour la mise en forme LaTeX. Elle permet d’entourer automatiquement le texte sélectionné par des commandes comme <code>\\textbf{...}</code>, <code>$...$</code>, <code>\\left(...\\right)</code> ou <code>\\underline{...}</code>, pour rendre l’écriture LaTeX fluide et agréable. Le code source est disponible sur <a href='https://github.com/AxelDlv00/latex-shortcuts' target='_blank'><em>GitHub</em></a>.",
-      "chips": ["VS Code", "Extension", "TypeScript", "LaTeX"]
+      "chips": [
+        { "text": "VS Code", "desc": "IDE polyvalent." },
+        { "text": "Extension", "desc": "Outil d'aide à la rédaction." },
+        { "text": "TypeScript", "desc": "Développement d'outils web/vscode." },
+        { "text": "LaTeX", "desc": "Standard de rédaction scientifique." }
+      ]
     },
     {
       "title": "RepoToPrompt : Conversion de dépôts Git en texte structuré pour la lisibilité par un LLM (juin 2025)",
       "desc": "<a href='https://github.com/AxelDlv00/RepoToPrompt' target='_blank'><em>RepoToPrompt</em></a> est un outil Python qui convertit un dépôt complet en un <b>document texte unique et structuré</b>, idéal pour l’audit, l’archivage ou l’usage avec des modèles de langage. Il permet de filtrer les fichiers inclus/exclus, d’ignorer les binaires, de retirer les images base64 des notebooks Jupyter et de définir une en-tête personnalisée. Inspiré de <a href='https://github.com/mpoon/gpt-repository-loader' target='_blank'>gpt-repository-loader</a>, il offre un contrôle plus flexible sur les extensions et le format de sortie.",
-      "chips": ["Repository", "LLM", "Automatisation", "Outils développeur"]
+      "chips": [
+        { "text": "Repository", "desc": "Dépôt de gestion de versions de code." },
+        { "text": "LLM", "desc": "Large Language Models." },
+        { "text": "Automatisation", "desc": "Gain de temps par script Python." },
+        { "text": "Outils développeur", "desc": "Utilitaires facilitant le travail de code." }
+      ]
     }
   ]
 }

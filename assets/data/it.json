@@ -1,122 +1,250 @@
 {
   "nav": {
     "scolarpath": "Formazione",
-    "careerpath": "Esperienze professionali",
+    "careerpath": "Percorso professionale",
     "publications": "Ricerca",
-    "projects": "Progetti Open Source"
+    "projects": "Progetti OpenSource"
   },
   "hero": {
-    "title": "Presentazione · Progetti e Attività di Ricerca",
-    "subtitle": "Sono uno studente del quarto anno all’École Polytechnique, con un percorso focalizzato su informatica e matematica. Mi piace esplorare le connessioni tra scienza e sensibilità artistica — in particolare, la musica occupa un posto importante nella mia vita, come spazio di espressione e di equilibrio.",
-    "tags": ["Informatica", "Matematica", "Musica", "Ricerca interdisciplinare", "École Polytechnique", "Mines Paris"]
+    "title": "Presentazione, progetti e lavori di ricerca",
+    "subtitle": "Sono uno studente al 4° anno dell'École Polytechnique, all'interno di un percorso che unisce matematica e informatica. Se l'arte e la scienza sono spesso percepite come antinomiche, io le considero, da parte mia, come indissociabili: la scienza permette di comprendere il mondo, mentre l'arte permette di sentirlo. Coniugare il rigore analitico con l'intuizione e la sensibilità artistica mi sembra, in questo senso, essenziale. La mia affinità per le arti si esprime attraverso la musica, con la pratica di diversi strumenti e la composizione, ma anche attraverso le arti visive e la letteratura, in particolare la poesia. Tuttavia, se questa sensibilità nutre la mia riflessione, essa non deve minimamente intaccare il mio rigore scientifico. Questa dualità plasma la mia filosofia di vita e di ricerca: prestare un'attenzione assoluta al rigore di ogni affermazione che io possa formulare.",
+    "artwork_desc": "Ritmo n°1 (1938) di Robert Delaunay. Questa composizione monumentale segna l'apice delle ricerche dell'artista sull'orfismo e il contrasto simultaneo. Attraverso giochi di cerchi concentrici e curve, Delaunay esplora qui la dinamica pura del colore, creando un'illusione di movimento attraverso la sola interazione fisica dello sguardo.",
+    "monet_artwork_desc": "La casa vista dal giardino delle rose (v. 1922-1924) di Claude Monet. In quest'opera tarda, Monet si allontana dalla rappresentazione fedele per catturare un'impressione pura. I contorni svaniscono a favore di un'esplosione cromatica, prefigurando l'astrazione lirica attraverso lo studio vibrante della luce.",
+    "poem_intro": "Come un volo stridente d'uccelli in fermento,\nTutti i miei ricordi si abbattono su di me,",
+    "poem_rest": "\nSi abbattono tra il fogliame giallo\nDel mio cuore che specchia il suo tronco piegato d'ontano\nSulla superficie viola dell'acqua dei Rimpianti,\nChe malinconicamente scorre accanto,\nSi abbattono, e poi il cattivo rumore\nChe una brezza umida salendo placa,\nSi spegne gradualmente nell'albero, così bene\nChe dopo un istante non si sente più nulla,\nNull'altro che la voce che celebra l'Assente,\nNull'altro che la voce - oh così languida! -\nDell'uccello che fu il mio Primo Amore,\nE che canta ancora come al primo giorno;\nE, nella splendore triste di una luna\nChe sorge pallida e solenne, una\nNotte malinconica e pesante d'estate,\nPiena di silenzio e di oscurità,\nCulla sull'azzurro che un vento dolce sfiora\nL'albero che brividisce e l'uccello che piange.",
+    "tags": [
+      { "text": "Informatica", "desc": "Studio teorico e pratico di algoritmica, IA e sistemi complessi." },
+      { "text": "Matematica", "desc": "Analisi, probabilità, algebra, ecc." },
+      { "text": "Musica", "desc": "Pratica di diversi strumenti (in particolare pianoforte, sassofono, violoncello) e composizione." },
+      { "text": "Ricerca interdisciplinare", "desc": "Applicazione di strumenti informatici ad altri ambiti (musica, fisica, ecc.)." },
+      { "text": "École Polytechnique", "desc": "Prestigiosa istituzione francese (1ª nel ranking delle scuole d'ingegneria francesi) che ha formato allievi come Poincaré, Cauchy, ecc." },
+      { "text": "Mines Paris", "desc": "Scuola d'ingegneria dell'Università PSL (2ª nel ranking francese), rinomata per la sua ricerca e i suoi legami industriali." }
+    ]
   },
-  "last_updated": "Ultimo aggiornamento: 13 gennaio 2026",
+  "last_updated": "Ultimo aggiornamento: 26 gennaio 2026",
   "scolarpath": [
     {
       "title": "Mines Paris – PSL — Doppia laurea in Informatica, 2025–2026",
-      "desc": "Doppia laurea congiunta con l’École Polytechnique, incentrata su informatica e matematica.",
       "logo": "mines.png",
+      "logo_desc": "Mines Paris - PSL: Scuola di livello mondiale da cui provengono leader come Anne Rigail (Air France).",
+      "desc": "Doppia laurea congiunta con l'École Polytechnique, focalizzata sull'informatica.",
       "chips": [
-        "Modelli generativi", "Elaborazione del linguaggio naturale", "Compilazione", "Crittografia", "Distribuzioni e applicazioni", "Morfologia matematica", "Diritto", "Controversie scientifiche e sociali"
+        { "text": "Modelli generativi", "desc": "IA creative (GAN, Diffusion, LLM) per la creazione automatica di contenuti." },
+        { "text": "Elaborazione del linguaggio naturale", "desc": "NLP: interazione uomo-macchina attraverso il linguaggio umano." },
+        { "text": "Compilazione", "desc": "Trasformazione di codice sorgente in istruzioni eseguibili da un processore." },
+        { "text": "Crittografia", "desc": "Protezione dei dati mediante principi matematici di cifratura." },
+        { "text": "Distribuzioni e applicazioni", "desc": "Generalizzazione delle funzioni matematiche, che permette in particolare di modellare fenomeni fisici." },
+        { "text": "Database", "desc": "In particolare SQL per la gestione e l'interrogazione di dati strutturati." },
+        { "text": "Pentesting", "desc": "Test di penetrazione per valutare la sicurezza dei sistemi informatici, in particolare sulla piattaforma Rootme." },
+        { "text": "Morfologia matematica", "desc": "Elaborazione delle immagini basata sulla teoria degli insiemi e sulla geometria." },
+        { "text": "Diritto", "desc": "Introduzione al diritto francese ed europeo, con particolare attenzione al diritto del lavoro." },
+        { "text": "Controversie", "desc": "Studio sociologico dei grandi dibattiti scientifici e tecnici." }
       ]
     },
     {
-      "title": "École Polytechnique (l’X) — Corso di Ingegneria, 2022–2025",
-      "desc": "Formazione multidisciplinare che combina matematica, fisica e informatica, con una specializzazione progressiva in apprendimento automatico e modellazione numerica.",
+      "title": "École Polytechnique (l'X) — Ciclo d'Ingegneria, 2022–2025",
       "logo": "polytechnique.png",
+      "logo_desc": "L'X: Scuola d'eccellenza fondata nel 1794, che ha formato scienziati rinomati come Poincaré e Cauchy.",
+      "desc": "Formazione multidisciplinare che unisce matematica, fisica e informatica, con una specializzazione progressiva nell'apprendimento automatico e nella modellazione numerica.",
       "chips": [
-        "Apprendimento automatico", "Deep Learning", "Elaborazione del linguaggio naturale (NLP)", "Visione artificiale",
-        "Sintesi d’immagine", "Animazione 3D", "Architettura dei computer",
-        "Analisi topologica dei dati", "Catene di Markov e martingale", "Teoria della misura", "Integrale di Lebesgue", "Analisi di Fourier", "Probabilità continue", "Analisi complessa", "Robotica", "Fisica quantistica", "Fisica statistica", "Relatività e principi variazionali",
-        "Meccanica dei fluidi", "Meccanica dei mezzi continui",
-        "Biologia molecolare", "Scienze cognitive", "Economia", "Gestione e Ingegneria d’impresa (MIE)"
+        { "text": "Machine Learning", "desc": "Apprendimento automatico: modelli che apprendono da dati statistici." },
+        { "text": "Deep Learning", "desc": "Apprendimento profondo che utilizza reti neurali multistrato." },
+        { "text": "NLP", "desc": "Analisi e generazione di testo tramite computer." },
+        { "text": "Visione artificiale", "desc": "Capacità dei sistemi di comprendere il contenuto visivo delle immagini e di generarne di nuove." },
+        { "text": "Sintesi d'immagine", "desc": "Creazione di immagini al computer tramite modellazione geometrica, inclusi modellazione 3D, rasterizzazione e rendering." },
+        { "text": "Animazione 3D", "desc": "Simulazione di movimenti di strutture tridimensionali, inclusa cinematica inversa, dinamica, collisioni, simulazioni fisiche, ecc." },
+        { "text": "Architettura degli elaboratori", "desc": "Organizzazione interna e gestione hardware dei sistemi informatici (assembly, architettura x86, pipeline, cache, ecc.)." },
+        { "text": "Analisi topologica dei dati", "desc": "Studio della struttura geometrica dei dati, in particolare utilizzando la topologia algebrica (persistenza omologica, diagrammi di persistenza, ecc.)." },
+        { "text": "Catene di Markov e martingale", "desc": "Modelli probabilistici per processi aleatori." },
+        { "text": "Teoria della misura", "desc": "Fondamento matematico dell'integrazione e della probabilità." },
+        { "text": "Integrale di Lebesgue", "desc": "Teoria moderna dell'integrazione, più robusta di quella di Riemann." },
+        { "text": "Teoria di Fourier", "desc": "Analisi frequenziale dei segnali periodici." },
+        { "text": "Probabilità continue", "desc": "Modellazione di variabili aleatorie su insiemi infiniti." },
+        { "text": "Analisi complessa", "desc": "Studio delle funzioni di variabili complesse (funzioni olomorfe, analitiche, residui, ecc.)." },
+        { "text": "Robotica (Raspberry Pi)", "desc": "Progettazione di un robot mobile autonomo basato su Raspberry Pi a basso livello, inclusa la programmazione di sensori, attuatori e algoritmi di navigazione/rilevamento ostacoli (es. trasformata di Hough)." },
+        { "text": "Fisica quantistica", "desc": "Leggi della fisica che regolano l'infinitamente piccolo, dualità onda-particella, sfera di Bloch, bosoni e fermioni, ecc." },
+        { "text": "Fisica statistica", "desc": "Proprietà collettive di sistemi con un gran numero di particelle, modellazione tramite distribuzioni statistiche grazie alle funzioni di partizione." },
+        { "text": "Relatività e principi variazionali", "desc": "Fisica e sistemi di riferimento relativistici, metrica di Minkowski, tensore energia-impulso, principio di minima azione, ecc." },
+        { "text": "Meccanica dei fluidi", "desc": "Studio del flusso di gas e liquidi, modellazione tramite le equazioni di Navier-Stokes." },
+        { "text": "Meccanica dei solidi deformabili", "desc": "Comportamento dei solidi sotto sforzo, rottura, elasticità, plasticità, ecc." },
+        { "text": "Biologia molecolare", "desc": "Studio dei processi vitali a livello molecolare, in particolare la struttura del DNA, trascrizione, traduzione, ecc." },
+        { "text": "Scienze cognitive", "desc": "Studio multidisciplinare dei meccanismi del pensiero, dell'apprendimento, della percezione (es. concezione logaritmica dei numeri), ecc." },
+        { "text": "Economia", "desc": "Analisi dei sistemi di produzione e della regolamentazione finanziaria." },
+        { "text": "Management e ingegneria d'impresa (MIE)", "desc": "Gestione dell'innovazione e delle organizzazioni." }
       ]
     },
     {
-      "title": "Lycée Saint-Louis — 'Classe préparatoire' MPSI/MP*, 2020–2022",
+      "title": "Lycée Saint-Louis — Classi preparatorie MPSI/MP*, 2020–2022",
       "logo": "saintlouis.jpeg",
-      "desc": "Formazione intensiva in matematica, fisica e informatica (opzione informatica), finalizzata alla preparazione dei concorsi d’ammissione all’École Polytechnique e alle grandi scuole d’ingegneria francesi.",
+      "logo_desc": "Lycée Saint-Louis: Prestigiosa istituzione del Quartiere Latino, l'unico liceo pubblico francese dedicato esclusivamente alle CPGE scientifiche.",
+      "desc": "Formazione di alto livello in Matematica e Fisica. Programma intensivo biennale incentrato sul rigore dimostrativo, l'astrazione e la modellazione. Preparazione ai concorsi d'ingresso delle Grandes Écoles d'ingegneria (Polytechnique, ENS, Mines, Centrale).",
       "chips": [
-        "Serie e successioni", "Topologia", "Calcolo differenziale", "Equazioni differenziali", "Integrali generalizzati",
-        "Algebra lineare", "Riduzione e diagonalizzazione",
-        "Gruppi, campi, anelli, algebre", "Polinomi e frazioni razionali",
-        "Probabilità discrete",
-        "Meccanica del punto e del corpo rigido", "Elettromagnetismo", "Elettrocinetica", "Ottica geometrica", "Ottica fisica",
-        "Termodinamica", "Diffusione termica",
-        "Complessità algoritmica", "Alberi binari e grafi", "Automi e grammatiche", "Programmazione funzionale (OCaml)", "Programmazione imperativa (Python)"
+        { "text": "Serie e successioni", "desc": "Convergenza di successioni e serie numeriche, serie di funzioni, serie di potenze. Studio degli sviluppi asintotici e confronti locali." },
+        { "text": "Topologia", "desc": "Spazi vettoriali normati, concetti di intorno, compattezza, connessione e teoria della continuità negli spazi metrici." },
+        { "text": "Calcolo differenziale", "desc": "Differenziabilità di funzioni di più variabili, calcolo di gradienti, jacobiane e ottimizzazione vincolata (estremi)." },
+        { "text": "Equazioni differenziali", "desc": "Equazioni lineari del 1° e 2° ordine, sistemi differenziali lineari e metodi di risoluzione numerica (Cauchy-Lipschitz)." },
+        { "text": "Integrali generalizzati", "desc": "Teoria dell'integrazione di Riemann su intervalli qualsiasi, integrali parametrici e calcolo di primitive complesse, convergenza dominata." },
+        { "text": "Algebra lineare", "desc": "Spazi vettoriali di dimensione finita e infinita, dualità, calcolo matriciale avanzato, forme bilineari e spazi prehilbertiani." },
+        { "text": "Riduzione e diagonalizzazione", "desc": "Teoria spettrale, riduzione di Jordan, polinomi di endomorfismi e semplificazione di strutture lineari complesse." },
+        { "text": "Gruppi, corpi, anelli, algebre", "desc": "Studio approfondito delle strutture algebriche fondamentali, aritmetica e teoria dei numeri." },
+        { "text": "Polinomi e frazioni razionali", "desc": "Algebra formale, decomposizione in fratti semplici, aritmetica negli anelli euclidei." },
+        { "text": "Probabilità discrete", "desc": "Spazi probabilizzati, variabili aleatorie discrete, momenti (speranza, varianza) e leggi di probabilità classiche." },
+        { "text": "Meccanica del punto e del solido", "desc": "Cinematica e dinamica in sistemi di riferimento non galileiani, leggi del momento angolare e approccio energetico ai sistemi." },
+        { "text": "Elettromagnetismo", "desc": "Equazioni di Maxwell, regimi variabili, induzione elettromagnetica, energia magnetica e propagazione delle onde nel vuoto." },
+        { "text": "Elettrocinetica", "desc": "Analisi di circuiti in regime permanente e transitorio, funzioni di trasferimento e filtraggio analogico." },
+        { "text": "Ottica geometrica", "desc": "Modello del raggio luminoso, sistemi centrati, lenti sottili, specchi e strumenti ottici." },
+        { "text": "Ottica fisica", "desc": "Natura ondulatoria della luce, interferenza (dispositivo di Young, Michelson) e fenomeni di diffrazione." },
+        { "text": "Termodinamica", "desc": "Principi dell'energia e dell'entropia, studio dei fluidi reali e ideali, cicli delle macchine termiche." },
+        { "text": "Diffusione termica", "desc": "Trasferimento di calore per conduzione, legge di Fourier ed equazione della diffusione in diversi mezzi." },
+        { "text": "Complessità algoritmica", "desc": "Analisi dell'efficienza (temporale e spaziale) degli algoritmi, classi di complessità e ottimizzazione." },
+        { "text": "Alberi binari e grafi", "desc": "Strutture dati dinamiche, algoritmi di attraversamento (BFS, DFS) e ricerca del cammino minimo (Dijkstra)." },
+        { "text": "Automi e grammatiche", "desc": "Teoria dei linguaggi formali, automi a stati finiti deterministici e riconoscimento di pattern." },
+        { "text": "Programmazione funzionale (OCaml)", "desc": "Padronanza della tipizzazione statica, della ricorsione e delle strutture dati immutabili." },
+        { "text": "Programmazione imperativa (Python)", "desc": "Utilizzo di Python per il calcolo numerico, la simulazione fisica e l'ingegneria dei dati." }
       ]
     }
   ],
   "careerpath": [
     {
-      "title": "Esaminatore orale (Khôlleur) per le 'Classe préparatoire' MP* — Lycée Saint-Louis, 2023–2026",
+      "title": "Tutor per prove orali (Khôlleur) in MP* — Lycée Saint-Louis, 2023–2026",
       "logo": "saintlouis.jpeg",
-      "desc": "Preparazione e valutazione di studenti in matematica e fisica a livello MP* (equivalente al secondo anno universitario). Ideazione di esercizi e simulazioni orali per i concorsi d’ammissione alle Grandes Écoles.",
-      "chips": ["Insegnamento", "Matematica", "Fisica"]
+      "logo_desc": "Lycée Saint-Louis: Istituzione d'eccellenza nel Quartiere Latino dedicata alle classi preparatorie scientifiche.",
+      "desc": "Valutazione settimanale e tutoraggio di studenti in matematica e fisica (livello MP*). Ideazione di problemi originali e preparazione intensiva alle prove orali dei concorsi più selettivi (X, ENS, Mines-Ponts).",
+      "chips": [
+        { "text": "Pedagogia di alto livello", "desc": "Trasmissione di metodi di risoluzione complessi e rigore formale." },
+        { "text": "Matematica (MP*)", "desc": "Interrogazioni avanzate: analisi, algebra, probabilità, topologia." },
+        { "text": "Fisica", "desc": "Valutazione sull'intero programma ministeriale." }
+      ]
     },
     {
-      "title": "Tirocinio di ricerca — Shanghai Jiao Tong University (SJTU), 2025",
+      "title": "Tirocinio di ricerca in IA — Shanghai Jiao Tong University (SJTU), 2025",
       "logo": "sjtu.png",
-      "desc": "Progetto di ricerca sulla rilevazione del linguaggio tossico in lingue a bassa disponibilità di risorse, con particolare attenzione al francese. Questo lavoro ha portato alla pubblicazione dell’articolo <a href='https://arxiv.org/abs/2508.11281' target='_blank'><em>ToxiFrench</em></a>. Il progetto è stato premiato con il <b>🏅 Premio per il Tirocinio di Ricerca 2025 dell’École Polytechnique 🏅</b>, in riconoscimento della qualità scientifica e dell’impatto del lavoro svolto.",
-      "chips": ["NLP", "SLM", "Fine-tuning", "Apprendimento contestuale", "Rilevazione della tossicità", "IA responsabile", "Premio per il Tirocinio di Ricerca"]
+      "logo_desc": "SJTU: Università di livello mondiale, leader in ingegneria e scienze dell'informazione in Cina.",
+      "desc": "Ricerca sulla rilevazione della tossicità nelle lingue a basse risorse (Low-resource NLP). Pubblicazione dell'articolo <a href='https://arxiv.org/abs/2508.11281' target='_blank'><em>ToxiFrench</em></a>. Vincitore del <b>🏅 Prix du Stage de Recherche 2025 dell’École Polytechnique 🏅</b> per l'eccellenza del contributo scientifico.",
+      "chips": [
+        { "text": "NLP & LLM", "desc": "Elaborazione del linguaggio naturale e architetture di Large Language Models." },
+        { "text": "SLM Efficiency", "desc": "Ottimizzazione di Small Language Models per prestazioni competitive a costi computazionali ridotti." },
+        { "text": "Fine-tuning & Alignment", "desc": "Addestramento supervisionato e allineamento dei modelli su dataset specifici." },
+        { "text": "Chain-of-Thought", "desc": "Utilizzo di tecniche di ragionamento a tappe per migliorare l'interpretabilità." },
+        { "text": "In-Context Learning", "desc": "Ottimizzazione delle capacità di apprendimento Zero-shot e Few-shot tramite prompt engineering." },
+        { "text": "Sicurezza dell'IA", "desc": "Sviluppo di classificatori per la moderazione automatica e il contrasto ai bias." },
+        { "text": "Riconoscimento accademico", "desc": "Premio conferito al miglior tirocinio di ricerca della promozione dell'École Polytechnique." }
+      ]
     },
     {
-      "title": "Tirocinio in fisica nucleare — Naarea, 2024",
+      "title": "Tirocinio in Fisica Nucleare — Naarea, 2024",
       "logo": "naarea.png",
-      "desc": "Modellazione computazionale di reattori a sali fusi (MSR) con OpenMC e Dymola. Studio dei transitori e della sicurezza nucleare.",
-      "chips": ["Fisica nucleare", "Simulazione", "Modellazione"]
+      "logo_desc": "Naarea: Leader della Deeptech francese nello sviluppo di micro-generatori nucleari di IV generazione.",
+      "desc": "Modellazione multifisica di reattori a sali fusi (MSR). Simulazione neutronica con OpenMC e analisi dei transitori termoidraulici tramite Dymola per garantire la sicurezza intrinseca del sistema.",
+      "chips": [
+        { "text": "Neutronica", "desc": "Simulazione dei flussi neutronici e della criticità del nocciolo del reattore." },
+        { "text": "Simulazione OpenMC", "desc": "Utilizzo del codice di trasporto particellare Monte Carlo per l'analisi nucleare." },
+        { "text": "Modellazione di sistema", "desc": "Analisi del comportamento dinamico e termico dei reattori di IV generazione." }
+      ]
     },
     {
-      "title": "Assistente all’insegnamento nelle 'Classe préparatoire' MP* — INP-HB (Yamoussoukro, Costa d’Avorio), 2022–2023",
+      "title": "Assistente alla didattica in MP* — INP-HB (Yamoussoukro), 2022–2023",
       "logo": "inphb.png",
-      "desc": "Supervisione di lezioni, esercitazioni e orali in fisica e matematica al livello MP*. Organizzazione e correzione degli esami simulati nazionali.",
-      "chips": ["Fisica", "Matematica", "Insegnamento"]
+      "logo_desc": "INP-HB: Polo d'eccellenza dell'Africa Occidentale per la formazione di quadri e ingegneri.",
+      "desc": "Servizio all'interno delle classi preparatorie. Supervisione di esercitazioni e organizzazione di simulazioni d'esame. Supporto metodologico agli studenti per l'integrazione nelle Grandes Écoles francesi e africane.",
+      "chips": [
+        { "text": "Ingegneria pedagogica", "desc": "Adattamento dei materiali didattici e creazione di prove d'esame tipo concorso." },
+        { "text": "Analisi & Algebra", "desc": "Supporto approfondito sull'intero programma di matematica MP*." },
+        { "text": "Fisica Applicata", "desc": "Supporto approfondito sul programma di fisica MP*." }
+      ]
     }
   ],
   "publications": [
     {
       "title": "ToxiFrench: Benchmarking and Enhancing Language Models via CoT Fine-Tuning for French Toxicity Detection",
       "logo": "sjtu.png",
-      "meta": "Axel Delaval, Shujian Yang, Haicheng Wang, Han Qiu, Jialiang Lu — Shanghai Jiao Tong University (SJTU), 2025",
-      "desc": "ToxiFrench presenta un benchmark pubblico di 53.622 commenti online in francese per la rilevazione di linguaggio tossico, costruito tramite una pipeline di annotazione semi-automatica che combina modelli linguistici e validazione umana. Dimostriamo che i modelli linguistici di piccole dimensioni spesso superano quelli più grandi in termini di robustezza, e proponiamo una strategia di fine-tuning basata sul Chain-of-Thought (CoT) che migliora l’F1-score del 13% raggiungendo lo stato dell’arte.",
-      "chips": ["NLP", "SLM", "Fine-Tuning", "In-Context Learning", "Rilevamento di tossicità", "IA responsabile"],
+      "logo_desc": "Ricerca condotta in collaborazione con l'università SJTU.",
+      "meta": "Axel Delaval, Shujian Yang, Haicheng Wang, Han Qiu, Jialiang Lu - Shanghai Jiao Tong University (SJTU) - 2025",
+      "desc": "La rilevazione della tossicità in francese soffre della scarsità di dati annotati. Presentiamo ToxiFrench, un dataset di 53.622 commenti costruito tramite una pipeline semi-automatica innovativa. Le nostre ricerche rivelano che i modelli di dimensioni ridotte (SLM) superano spesso i modelli giganti in termini di robustezza. Per sfruttare questo potenziale, introduciamo una strategia di fine-tuning tramite Catena di Pensiero (CoT) con Perdita Ponderata Dinamica (DWL). Il nostro modello Qwen3-4B così ottimizzato supera GPT-4o e DeepSeek-R1, stabilendo un nuovo stato dell'arte pur preservando le proprie capacità multilingue.",
+      "chips": [
+        { "text": "NLP", "desc": "Natural Language Processing." },
+        { "text": "SLM", "desc": "Small Language Models." },
+        { "text": "Fine-tuning", "desc": "Riallineamento mirato." },
+        { "text": "Chain-of-Thought", "desc": "Apprendimento di passaggi logici che migliorano le performance dei LLM." },
+        { "text": "In-Context Learning", "desc": "Apprendimento contestuale senza addestramento aggiuntivo." },
+        { "text": "Rilevazione tossicità", "desc": "Classificazione etica." },
+        { "text": "IA responsabile", "desc": "Sviluppo di sistemi sicuri." }
+      ],
       "link": "https://arxiv.org/abs/2508.11281"
     }
   ],
   "projects": [
     {
-      "title": "Ondelettes — Wavelet e Compressione JPEG 2000 (novembre 2025)",
-      "logo": "delaunay.jpg",
-      "desc": "<a href='https://github.com/AxelDlv00/Ondelettes' target='_blank'><em>Ondelettes</em></a> è una presentazione Beamer e un notebook didattico open-source che illustra le basi matematiche e l’implementazione pratica delle <b>wavelet</b> (AMR, QMF) applicate alla <b>compressione di immagini JPEG 2000</b>. Il progetto include una <b>simulazione Python</b> con <em>PyWavelets</em> e <em>Matplotlib</em> per visualizzare decomposizione, quantizzazione e ricostruzione.",
-      "chips": ["Elaborazione del segnale", "Wavelet", "JPEG 2000", "Python", "Compressione d’immagine", "LaTeX", "Educazione open-source"]
-    },
-    {
-      "title": "ChineseIsEasy — Strumenti per imparare il cinese in modo efficace (novembre 2025)",
+      "title": "Ecosistema ChineseIsEasy — Apprendimento del Mandarino (2026)",
       "logo": "anki.png",
+      "logo_desc": "ChineseIsEasy: Suite di strumenti open-source per lo studio del cinese.",
       "media": "gifs/琴.gif",
-      "desc": "<a href='https://github.com/AxelDlv00/ChineseIsEasy' target='_blank'><em>ChineseIsEasy</em></a> è un ecosistema open-source completo progettato per aiutare gli studenti francofoni a imparare il cinese in modo più efficace. Il sistema genera automaticamente <b>mazzi Anki di alta qualità</b> a partire da dataset aperti (CCCEDICT, SUBTLEX-CH, HSK Standard Course) e li arricchisce con <b>definizioni strutturate in francese</b>, <b>esempi progressivi CH→PN→FR</b>, <b>immagini semantiche</b> (create con <a href='https://huggingface.co/RunDiffusion/Juggernaut-XL-v9' target='_blank'><code>Juggernaut XL v9</code></a> utilizzando prompt generati da <code>GPT-4o-mini</code>) e <b>audio</b> stabili. Il progetto include anche un <b>motore HanziWriter unificato</b> per le animazioni dei tratti e un <b>generatore di dialoghi casuali</b> per esercitarsi nella traduzione. L’intera pipeline è <b>totalmente deterministica</b>, consentendo di ricostruire ogni mazzo direttamente dal codice sorgente. La versione v2.0 offre più di <b>28.000 parole classificate per frequenza</b>, <b>mazzi HSK strutturati</b> e piena compatibilità <b>desktop, mobile e AnkiWeb</b>.",
-      "chips": ["Apprendimento linguistico", "Cinese", "Anki", "NLP", "Educazione", "Python", "Modello di diffusione", "Modelli generativi", "GPT-4o-mini", "Juggernaut XL v9"]
+      "desc": "Sviluppo di un ecosistema completo che ottimizza l'apprendimento del mandarino per i francofoni. <br><br>• <b><a href='https://github.com/AxelDlv00/ChineseIsEasy' target='_blank'>Generatore di Deck Anki:</a></b> <br>&nbsp;&nbsp;&nbsp;&nbsp;◦ <i>AnkiWords & HSKWords:</i> oltre 30.000 flashcard basate sulla frequenza (<a href='https://openlexicon.fr/datasets-info/SUBTLEX-CH/README-subtlex-ch.html'>SUBTLEX-CH</a>) con audio realistico via <a href='https://github.com/OpenBMB/VoxCPM' target='_blank'><b>VoxCPM</b></a> e immagini semantiche via <a href='https://huggingface.co/RunDiffusion/Juggernaut-XL-v9' target='_blank'><b>Juggernaut XL</b></a>.<br>&nbsp;&nbsp;&nbsp;&nbsp;◦ <i>AnkiPoems & AnkiChengyu:</i> moduli specializzati per poesia classica e idiomi.<br>&nbsp;&nbsp;&nbsp;&nbsp;◦ <i>AnkiTonalPractice:</i> set di flashcard raggruppate per pinyin per padroneggiare i toni.<br>• <b><a href='https://github.com/AxelDlv00/GeoChina' target='_blank'>GeoChina:</a></b> applicazione interattiva (ECharts) di esplorazione geografica e culturale delle province e città cinesi (<a href='https://axeldlv00.github.io/GeoChina/' target='_blank'>Demo</a>).<br>• <b><a href='https://github.com/AxelDlv00/ChineseIsEasy-Calligraphy' target='_blank'>Calligraphy Engine:</a></b> generatore di griglie di scrittura (Tian Ge Zi) con animazione dei tratti in tempo reale (HanziWriter) (<a href='https://axeldlv00.github.io/ChineseIsEasy-Calligraphy/' target='_blank'>Demo</a>).",
+      "chips": [
+        { "text": "Anki Automation", "desc": "Generazione di deck con ripetizione spaziata (SRS)." },
+        { "text": "Voice Cloning (VoxCPM)", "desc": "Sintesi vocale realistica tramite clonazione vocale (Zero-shot TTS)." },
+        { "text": "Pipeline GenAI", "desc": "Generazione di immagini contestuali tramite Juggernaut XL v9." },
+        { "text": "Data Mining", "desc": "Estrazione massiva di dati (CC-CEDICT, SUBTLEX-CH, HSK)." },
+        { "text": "GeoChina (ECharts)", "desc": "Cartografia interattiva e data-visualizzazione." },
+        { "text": "Calligraphy JS", "desc": "Motore di animazione dei tratti e generazione di griglie." }
+      ]
     },
     {
-      "title": "ToxiFrench: Rilevamento della tossicità in francese (agosto 2025)",
+      "title": "ToxiFrench: Rilevazione della tossicità in francese (agosto 2025)",
       "logo": "sjtu.png",
-      "desc": "Dataset e modelli per il rilevamento della tossicità in lingua francese. I <a href='https://huggingface.co/datasets/Naela00/ToxiFrench' target='_blank'><em>dataset</em></a>, <a href='https://huggingface.co/Naela00/ToxiFrench' target='_blank'><em>modelli</em></a>, <a href='https://github.com/AxelDlv00/ToxiFrench' target='_blank'><em>codici sorgente</em></a> e <a href='https://arxiv.org/abs/2508.11281' target='_blank'><em>articolo associato</em></a> sono disponibili sulla <a href='https://axeldlv00.github.io/ToxiFrench/' target='_blank'><em>pagina del progetto</em></a>.",
-      "chips": ["NLP", "SLM", "Fine-Tuning", "In-Context Learning", "Rilevamento di tossicità", "IA responsabile"]
+      "logo_desc": "Progetto di ricerca in collaborazione con l'università SJTU.",
+      "desc": "Dataset e modelli per la rilevazione della tossicità in lingua francese. I <a href='https://huggingface.co/datasets/AxelDlv00/ToxiFrench' target='_blank'><em>dati</em></a>, i <a href='https://huggingface.co/AxelDlv00/ToxiFrench' target='_blank'><em>modelli</em></a>, i <a href='https://github.com/AxelDlv00/ToxiFrench' target='_blank'><em>codici</em></a> e la <a href='https://arxiv.org/abs/2508.11281' target='_blank'><em>pubblicazione associata</em></a> sono disponibili sulla <a href='https://axeldlv00.github.io/ToxiFrench/' target='_blank'><em>pagina del progetto</em></a>.",
+      "chips": [
+        { "text": "NLP", "desc": "Natural Language Processing." },
+        { "text": "SLM", "desc": "Small Language Models." },
+        { "text": "Fine-tuning", "desc": "Addestramento specializzato." },
+        { "text": "In-Context Learning", "desc": "Apprendimento tramite prompt." },
+        { "text": "Rilevazione tossicità", "desc": "Analisi di contenuti malevoli." },
+        { "text": "IA responsabile", "desc": "Sicurezza delle piattaforme web." }
+      ]
+    },
+    {
+      "title": "Wavelets — Filtri speculari e compressione JPEG 2000 (novembre 2025)",
+      "logo": "delaunay.jpg",
+      "logo_desc": "Illustrazione di una triangolazione in geometria discreta.",
+      "desc": "<a href='https://github.com/AxelDlv00/Ondelettes' target='_blank'><em>Ondelettes</em></a> è una presentazione Beamer e un notebook pedagogico open-source che illustra le basi matematiche e l'implementazione pratica delle <b>ondine (wavelets)</b> (AMR, QMF) applicate alla <b>compressione d'immagine JPEG 2000</b>. Il progetto include una <b>simulazione Python</b> utilizzando <em>PyWavelets</em> e <em>Matplotlib</em> per visualizzare la decomposizione, la quantizzazione e la ricostruzione.",
+      "chips": [
+        { "text": "Elaborazione dei segnali", "desc": "Analisi e trasformazione di dati temporali o spaziali." },
+        { "text": "Ondina (Wavelet)", "desc": "Funzione matematica di decomposizione multiscala." },
+        { "text": "JPEG 2000", "desc": "Standard di compressione d'immagine ad alte prestazioni." },
+        { "text": "Compressione d'immagine", "desc": "Riduzione dello spazio di archiviazione senza perdita di qualità visiva." },
+        { "text": "Didattica open-source", "desc": "Contenuto educativo libero e collaborativo." }
+      ]
     },
     {
       "title": "Comment Banners: Estensione VS Code per banner di commento (luglio 2025)",
-      "desc": "Estensione per <a href='https://marketplace.visualstudio.com/items?itemName=naela.comment-banners' target='_blank'><em>VS Code</em></a> che consente di inserire rapidamente <b>banner di commento stilizzati</b> per strutturare e rendere più leggibile il codice. Riconosce automaticamente la sintassi dei commenti secondo il linguaggio (C, Python, LaTeX, ecc.) e offre diversi stili (doppia linea, arrotondato, classico, con frecce, ecc.). Il codice sorgente è disponibile su <a href='https://github.com/AxelDlv00/comment-banners' target='_blank'><em>GitHub</em></a>.",
-      "chips": ["VS Code", "Estensione", "TypeScript", "Sviluppo software"]
+      "desc": "Estensione <a href='https://marketplace.visualstudio.com/items?itemName=naela.comment-banners' target='_blank'><em>VS Code</em></a> che permette di inserire rapidamente <b>banner di commento stilizzati</b> per strutturare ed abbellire il codice. Riconosce automaticamente la sintassi dei commenti in base al linguaggio (C, Python, LaTeX, ecc.) e propone diversi stili (doppia linea, arrotondato, classico, frecce, ecc.). Il codice sorgente è disponibile su <a href='https://github.com/AxelDlv00/comment-banners' target='_blank'><em>GitHub</em></a>.",
+      "chips": [
+        { "text": "VS Code", "desc": "Editor di codice leader di Microsoft." },
+        { "text": "Estensione", "desc": "Modulo complementare di funzionalità." },
+        { "text": "TypeScript", "desc": "Linguaggio di programmazione basato su JavaScript con tipizzazione." },
+        { "text": "Sviluppo software", "desc": "Progettazione di strumenti informatici." }
+      ]
     },
     {
       "title": "LaTeX Shortcuts: Scorciatoie da tastiera per LaTeX in VS Code (luglio 2025)",
-      "desc": "Estensione per <a href='https://marketplace.visualstudio.com/items?itemName=naela.latex-shortcuts' target='_blank'><em>VS Code</em></a> che offre <b>scorciatoie rapide da tastiera</b> per la formattazione LaTeX. Permette di avvolgere automaticamente il testo selezionato con comandi come <code>\\textbf{...}</code>, <code>$...$</code>, <code>\\left(...\\right)</code> o <code>\\underline{...}</code>, rendendo la scrittura in LaTeX più fluida e piacevole. Il codice sorgente è disponibile su <a href='https://github.com/AxelDlv00/latex-shortcuts' target='_blank'><em>GitHub</em></a>.",
-      "chips": ["VS Code", "Estensione", "TypeScript", "LaTeX"]
+      "desc": "Estensione <a href='https://marketplace.visualstudio.com/items?itemName=naela.latex-shortcuts' target='_blank'><em>VS Code</em></a> che offre <b>scorciatoie da tastiera rapide</b> per la formattazione LaTeX. Permette di avvolgere automaticamente il testo selezionato con comandi come <code>\\textbf{...}</code>, <code>$...$</code>, <code>\\left(...\\right)</code> o <code>\\underline{...}</code>, rendendo la scrittura in LaTeX fluida e piacevole. Il codice sorgente è disponibile su <a href='https://github.com/AxelDlv00/latex-shortcuts' target='_blank'><em>GitHub</em></a>.",
+      "chips": [
+        { "text": "VS Code", "desc": "IDE versatile." },
+        { "text": "Estensione", "desc": "Strumento di ausilio alla redazione." },
+        { "text": "TypeScript", "desc": "Sviluppo di strumenti web/VS Code." },
+        { "text": "LaTeX", "desc": "Standard di redazione scientifica." }
+      ]
     },
     {
       "title": "RepoToPrompt: Conversione di repository Git in testo strutturato per LLM (giugno 2025)",
-      "desc": "<a href='https://github.com/AxelDlv00/RepoToPrompt' target='_blank'><em>RepoToPrompt</em></a> è uno strumento Python che converte un intero repository Git in un <b>documento di testo unico e strutturato</b>, ideale per audit, archiviazione o utilizzo con modelli linguistici di grandi dimensioni. Permette di filtrare i file inclusi/esclusi, ignorare i binari, rimuovere le immagini codificate base64 dai notebook Jupyter e aggiungere intestazioni personalizzate. Ispirato a <a href='https://github.com/mpoon/gpt-repository-loader' target='_blank'>gpt-repository-loader</a>, offre un controllo più flessibile sulle estensioni e sul formato di output.",
-      "chips": ["Repository", "LLM", "Automazione", "Strumenti per sviluppatori"]
+      "desc": "<a href='https://github.com/AxelDlv00/RepoToPrompt' target='_blank'><em>RepoToPrompt</em></a> è uno strumento Python che converte un intero repository in un <b>unico documento di testo strutturato</b>, ideale per audit, archiviazione o utilizzo con modelli di linguaggio. Permette di filtrare i file, ignorare i binari, rimuovere immagini base64 dai notebook Jupyter e definire intestazioni personalizzate. Ispirato a <a href='https://github.com/mpoon/gpt-repository-loader' target='_blank'>gpt-repository-loader</a>, offre un controllo più flessibile su estensioni e formato di output.",
+      "chips": [
+        { "text": "Repository", "desc": "Deposito di gestione versioni del codice." },
+        { "text": "LLM", "desc": "Large Language Models." },
+        { "text": "Automazione", "desc": "Risparmio di tempo tramite script Python." },
+        { "text": "Developer Tools", "desc": "Utility per facilitare il lavoro di programmazione." }
+      ]
     }
   ]
 }

@@ -1,89 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- =========================================================
-       META & PAGE INFO
-       ========================================================= -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Axel Delaval — Research & Projects</title>
-  <link rel="icon" type="image/png" href="assets/icons/favicon.png">
-  <meta name="description" content="Axel Delaval — Researcher in Computer Science, Machine Learning, and Music AI. École Polytechnique & Mines Paris–PSL. Projects, publications, and interdisciplinary work.">
-  <meta name="keywords" content="Axel Delaval, Ecole Polytechnique, Mines Paris, research, computer science, machine learning, NLP, music AI, ToxiFrench">
+  
+  <title>Axel Delaval | Computer Science & AI Researcher</title>
+  <meta name="description" content="Axel Delaval — Researcher in Computer Science, Machine Learning, and Music AI. École Polytechnique & Mines Paris–PSL.">
+  <meta name="keywords" content="Axel Delaval, Ecole Polytechnique, Mines Paris, research, NLP, AI, ToxiFrench">
   <meta name="author" content="Axel Delaval">
 
-  <!-- =========================================================
-       STYLESHEETS
-       (Fonts, Theme, Layout, Components)
-       ========================================================= -->
-  <link rel="stylesheet" href="assets/fonts/inter.css">        <!-- Custom Inter font -->
-  <link rel="stylesheet" href="assets/css/theme.css">          <!-- Color palette & dark/light mode -->
-  <link rel="stylesheet" href="assets/css/base.css">           <!-- Base typography & resets -->
-  <link rel="stylesheet" href="assets/css/layout.css">         <!-- Page layout & positioning -->
-  <link rel="stylesheet" href="assets/css/components.css">     <!-- Buttons, cards, etc. -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://axeldlv00.github.io/axel-delaval-personal-page/">
+  <meta property="og:title" content="Axel Delaval | Computer Science & AI Researcher">
+  <meta property="og:description" content="Student at École Polytechnique & Mines Paris. Research in NLP, SLMs, and Responsible AI.">
+  <meta property="og:image" content="https://axeldlv00.github.io/axel-delaval-personal-page/assets/img/hero.jpg">
+
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://axeldlv00.github.io/axel-delaval-personal-page/">
+  <meta property="twitter:title" content="Axel Delaval | Researcher & Engineer">
+  <meta property="twitter:description" content="Research in NLP, SLMs, and Responsible AI.">
+  <meta property="twitter:image" content="https://axeldlv00.github.io/axel-delaval-personal-page/assets/img/hero.jpg">
+  
+  <link rel="stylesheet" href="assets/fonts/inter.css">
+  <link rel="stylesheet" href="assets/css/theme.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/layout.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/animations.css">
+
+  <link rel="icon" type="image/png" href="assets/icons/favicon.png">
 </head>
 
 <body>
 
-  <!-- =========================================================
-       HEADER & NAVIGATION BAR
-       ========================================================= -->
   <header>
     <nav class="navbar">
-      <!-- Website Logo / Brand -->
       <div class="logo">Axel Delaval</div>
+      
+      <ul class="links" id="nav-links">
+        <li><a href="#scolarpath" data-i18n="nav.scolarpath">Education</a></li>
+        <li><a href="#careerpath" data-i18n="nav.careerpath">Experience</a></li>
+        <li><a href="#publications" data-i18n="nav.publications">Research</a></li>
+        <li><a href="#projects" data-i18n="nav.projects">Projects</a></li>
+      </ul>
 
-      <!-- Navigation Links (inserted dynamically via JS) -->
-      <ul class="links" id="nav-links"></ul>
-
-      <!-- Language Switcher (interactive buttons) -->
       <div class="lang-switcher" id="lang-switcher">
-        <button data-lang="en">EN</button>     <!-- English -->
-        <button data-lang="fr">FR</button>     <!-- French -->
-        <button data-lang="zh">中文</button>   <!-- Chinese -->
-        <button data-lang="it">IT</button>     <!-- Italian -->
+        <button data-lang="en" aria-label="English">EN</button>
+        <button data-lang="fr" aria-label="Français">FR</button>
+        <button data-lang="zh" aria-label="Chinese">中文</button>
+        <button data-lang="it" aria-label="Italiano">IT</button>
       </div>
     </nav>
   </header>
 
-  <!-- =========================================================
-       MAIN CONTENT SECTIONS
-       (Filled dynamically using app.js)
-       ========================================================= -->
   <main>
-    <!-- Hero / Intro Section (title, photo, tagline, etc.) -->
-    <section class="hero" id="hero"></section>
+    <section class="hero" id="hero">
+      <div class="hero-content fade-in">
+        <h1 data-i18n="hero.title">Profile, Projects, and Research Work</h1>
+        
+        <p class="meta" id="last-updated">Last updated: January 2026</p>
+        
+        <p data-i18n="hero.subtitle">
+          I am a fourth-year student at École Polytechnique, with a focus on computer science and mathematics. 
+          I enjoy exploring the intersections between science and artistic sensibility.
+        </p>
 
-    <!-- === Social Links Section === -->
-    <section class="social-links" id="social-links"></section>
+        <div class="tags" id="hero-tags">
+          <span class="tag">Computer Science</span>
+          <span class="tag">Mathematics</span>
+          <span class="tag">Music</span>
+        </div>
+      </div>
 
-    <!-- Publications section -->
+      <div class="hero-image fade-in-delayed">
+        <a href="https://www.mam.paris.fr/fr/oeuvre/rythme-ndeg1" 
+          target="_blank" 
+          rel="noopener" 
+          id="hero-artwork-link"
+          data-i18n="hero.artwork_desc">
+          <img src="assets/img/hero.jpg" alt="Rythme n°1 artwork - Robert Delaunay" class="clickable-hero">
+        </a>
+
+        <a href="https://www.marmottan.fr/notice/5103/" 
+          target="_blank" 
+          rel="noopener" 
+          data-i18n="hero.monet_artwork_desc">
+          <img src="assets/img/monet.jpg" alt="La Maison vue du jardin aux roses - Claude Monet" class="clickable-hero">
+        </a>
+      </div>
+    </section>
+
+    <section class="social-links fade-in-delayed" id="social-links">
+      <a class="social-button" href="https://github.com/AxelDlv00" target="_blank" data-tooltip="View my code on GitHub">
+        <img src="assets/img/icons/github.svg" alt="GitHub"> GitHub
+      </a>
+      <a class="social-button" href="https://huggingface.co/AxelDlv00" target="_blank" data-tooltip="See my models & datasets">
+        <img src="assets/img/icons/huggingface.svg" alt="Hugging Face"> Hugging Face
+      </a>
+      <a class="social-button" href="https://scholar.google.com/citations?user=-89Mh24AAAAJ" target="_blank" data-tooltip="Read my publications">
+        <img src="assets/img/icons/googlescholar.png" alt="Scholar"> Scholar
+      </a>
+    </section>
+
     <section id="publications"></section>
-
-    <!-- scolarpath section -->
     <section id="scolarpath"></section>
-
-    <!-- careerpath section -->
     <section id="careerpath"></section>
-
-    <!-- Projects section -->
     <section id="projects"></section>
 
   </main>
 
-  <!-- =========================================================
-       FOOTER
-       ========================================================= -->
   <footer>
-    <p>© 2025 Axel Delaval — Built with GitHub Pages</p>
-    <p id="last-updated" class="meta"></p>
+    <p>© 2026 Axel Delaval</p>
   </footer>
 
-  <!-- =========================================================
-       SCRIPTS
-       (Handles dynamic content & language switching)
-       ========================================================= -->
-  <script src="assets/js/app.js"></script>
+  <script type="module" src="assets/js/main.js"></script>
 
 </body>
 </html>

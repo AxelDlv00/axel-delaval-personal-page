@@ -1,122 +1,253 @@
 {
   "nav": {
-    "scolarpath": "教育经历",
-    "careerpath": "职业经历",
-    "publications": "科研成果",
+    "scolarpath": "教育背景",
+    "careerpath": "职业生涯",
+    "publications": "科学研究",
     "projects": "开源项目"
   },
   "hero": {
-    "title": "个人简介 · 项目与科研工作",
-    "subtitle": "我目前就读于法国综合理工学院（École Polytechnique）四年级，主修计算机科学与数学。我热衷于探索科学与艺术感性之间的联系——音乐在我的生活中占据着重要位置，是表达与平衡的空间。",
-    "tags": ["计算机科学", "数学", "音乐", "跨学科研究", "综合理工学院", "巴黎矿业学院"]
+    "title": "个人简介、项目与研究成果",
+    "subtitle": "我是巴黎综合理工学院（École Polytechnique）的四年级学生，主修数学与计算机科学。尽管艺术与科学常被视为对立，但在我看来，二者密不可分：科学让我们理解世界，而艺术让我们感受世界。将严谨的逻辑分析与直觉、艺术感性相结合，对我而言至关重要。我对艺术的热爱体现在音乐上——包括多种乐器的演奏与作曲，同时也延伸至视觉艺术与文学（尤其是诗歌）。然而，即便这种感性丰富了我的思考，它绝不会动摇我的科学严谨性。这种双重性铸就了我的生活与研究哲学：对我所提出的每一项断言，都保持绝对严谨的态度。",
+    "artwork_desc": "罗伯特·德劳内（Robert Delaunay）的作品《节奏 n°1》（1938年）。这件宏伟的构图标志着艺术家在奥费主义（Orphism）及色彩同时对比研究上的巅峰。通过同心圆与曲线的交织，德劳内在此探索了色彩的纯粹动力，仅凭视觉交互便营造出一种运动的错觉。",
+    "monet_artwork_desc": "克劳德·莫奈（Claude Monet）的作品《玫瑰花园看到的房子》（约1922-1924年）。在这一晚年杰作中，莫奈摒弃了写实描绘，转而捕捉纯粹的印象。轮廓在色彩的喷薄中消融，通过对光影震颤的研究，预示了抒情抽象主义的诞生。",
+    "poem_intro": "宛如一群惊起乱飞的噪鸟，\n往事的所有回忆向我袭来，",
+    "poem_rest": "\n落在我的心那黄色的叶丛，\n心正照着它那弯曲的桤木干，\n在“懊悔”之水的紫色的明镜里，\n它就在那儿忧郁地流着，\n它们落下来，随后那恶意的喧声，\n被一吹拂而上的潮湿微风平息，\n在树丛中渐渐消失，以至，\n过了一会儿，什么也听不见，\n除了那赞美“不在者”的声音，\n除了那声音——噢，多么软弱无力！——\n那曾是我“初恋”的鸟儿的声音，\n它至今仍像第一天那样歌唱；\n在苍白、庄严升起的月亮那，\n悲凉的光辉里，一个，\n忧郁而沉重的夏季之夜，\n充满了寂静与黑暗，\n在微风拂过的蔚蓝之上，\n摇曳着战栗的树与哭泣的鸟。",
+    "tags": [
+      { "text": "计算机科学", "desc": "算法、人工智能及复杂系统的理论与实践研究。" },
+      { "text": "数学", "desc": "分析、概率、代数等。" },
+      { "text": "音乐", "desc": "擅长多种乐器（尤指钢琴、萨克斯、大提琴）及作曲。" },
+      { "text": "跨学科研究", "desc": "将计算机工具应用于其他领域（音乐、物理等）。" },
+      { "text": "巴黎综合理工学院", "desc": "法国顶尖学府（法国工程师院校排名第1），曾培养出庞加莱、柯西等名家。" },
+      { "text": "巴黎矿业学院", "desc": "隶属于巴黎文理研究大学（PSL）的工程师学院（排名第2），以科研实力和工业界联系著称。" }
+    ]
   },
-  "last_updated": "最后更新：2026年1月13日",
+  "last_updated": "最后更新日期：2026年1月26日",
   "scolarpath": [
     {
-      "title": "巴黎矿业学院 – PSL — 计算机科学双学位, 2025–2026",
+      "title": "巴黎矿业学院 (Mines Paris – PSL) — 计算机科学双学位，2025–2026",
       "logo": "mines.png",
-      "desc": "与法国综合理工学院联合培养的双学位项目，侧重于计算机科学与数学。",
+      "logo_desc": "Mines Paris - PSL：世界级工程师学院，校友包括法航CEO安妮·里盖尔等领袖。",
+      "desc": "与巴黎综合理工学院联合培养的双学位项目，专注于计算机科学。",
       "chips": [
-        "生成模型", "自然语言处理", "编译原理", "密码学", "分布与应用", "数学形态学", "法律", "社会争议"
+        { "text": "生成式模型", "desc": "创意AI（GANs、扩散模型、大语言模型），用于自动内容创作。" },
+        { "text": "自然语言处理", "desc": "NLP：通过人类语言实现人机交互。" },
+        { "text": "编译原理", "desc": "将源代码转换为处理器可执行指令的过程。" },
+        { "text": "密码学", "desc": "通过数学原理保护数据的加密技术。" },
+        { "text": "广义函数（分布理论）及其应用", "desc": "数学函数的泛化，常用于物理现象建模。" },
+        { "text": "数据库", "desc": "特别是用于管理和查询结构化数据的SQL技术。" },
+        { "text": "渗透测试", "desc": "评估计算机系统安全性的入侵测试（如在Rootme平台上进行）。" },
+        { "text": "数学形态学", "desc": "基于集合论和几何学的图像处理方法。" },
+        { "text": "法律", "desc": "法国及欧洲法律概论，特别是劳动法。" },
+        { "text": "科学争议研究", "desc": "重大科学技术辩论的社会学研究。" }
       ]
     },
     {
-      "title": "法国综合理工学院（l’X）— 工程师课程, 2022–2025",
-      "desc": "多学科培养体系，融合数学、物理与计算机科学，并逐步在机器学习与数值建模方向深化。",
+      "title": "巴黎综合理工学院 (l'X) — 工程师项目，2022–2025",
       "logo": "polytechnique.png",
+      "logo_desc": "L'X：创建于1794年的卓越学府，培养了庞加莱和柯西等著名科学家。",
+      "desc": "涵盖数学、物理和计算机的跨学科培养，逐步向机器学习和数值建模专业化。",
       "chips": [
-        "机器学习", "深度学习", "自然语言处理（NLP）", "计算机视觉",
-        "图像合成", "三维动画", "计算机体系结构",
-        "拓扑数据分析", "马尔可夫链与鞅", "测度论", "勒贝格积分", "傅里叶分析", "连续概率论", "复分析", "机器人学", "量子物理", "统计物理", "相对论与变分原理",
-        "流体力学", "连续介质力学",
-        "分子生物学", "认知科学", "经济学", "企业管理与工程（MIE）"
+        { "text": "机器学习", "desc": "通过统计数据学习的模型。" },
+        { "text": "深度学习", "desc": "使用多层神经网络的深度学习。" },
+        { "text": "自然语言处理 (NLP)", "desc": "计算机对文本的分析与生成。" },
+        { "text": "计算机视觉", "desc": "系统理解并生成图像视觉内容的能力。" },
+        { "text": "图像合成", "desc": "通过几何建模进行计算机绘图，包括3D建模、光栅化和渲染。" },
+        { "text": "3D动画", "desc": "三维结构运动模拟，包括逆运动学、动力学、碰撞及物理模拟等。" },
+        { "text": "计算机体系结构", "desc": "计算机系统的内部组织与硬件管理（汇编、x86架构、流水线、缓存等）。" },
+        { "text": "拓扑数据分析", "desc": "研究数据的几何结构，特别是使用代数拓扑（持久同调、持久图等）。" },
+        { "text": "马尔可夫链与鞅", "desc": "随机过程的概率模型。" },
+        { "text": "测度论", "desc": "积分与概率的数学基础。" },
+        { "text": "勒贝格积分", "desc": "比黎曼积分更稳健的现代积分理论。" },
+        { "text": "傅里叶理论", "desc": "周期信号的频域分析。" },
+        { "text": "连续概率", "desc": "无限集上的随机变量建模。" },
+        { "text": "复分析", "desc": "复变函数研究（全纯函数、解析函数、留数等）。" },
+        { "text": "机器人技术 (树莓派)", "desc": "基于树莓派的底层自动移动机器人设计，涵盖传感器/执行器编程及导航算法（如霍夫变换）。" },
+        { "text": "量子物理", "desc": "统治微观世界的物理规律：波粒二象性、布洛赫球、玻色子与费米子等。" },
+        { "text": "统计物理", "desc": "多粒子系统的集体性质，通过配分函数等进行统计分布建模。" },
+        { "text": "相对论与变分原理", "desc": "相对论物理、闵可夫斯基度规、能量-动量张量、最小作用量原理等。" },
+        { "text": "流体力学", "desc": "研究气体与液体流动，通过纳维-斯托克斯方程进行建模。" },
+        { "text": "可变形介质力学", "desc": "固体在应力下的行为：断裂、弹性、塑性等。" },
+        { "text": "分子生物学", "desc": "分子层面的生命过程研究，如DNA结构、转录、翻译等。" },
+        { "text": "认知科学", "desc": "关于思维、学习、知觉（如数字的对数感知）机制的跨学科研究。" },
+        { "text": "经济学", "desc": "生产系统与金融监管分析。" },
+        { "text": "管理与企业工程 (MIE)", "desc": "创新管理与组织管理。" }
       ]
     },
     {
-      "title": "圣路易中学 — MPSI/MP* 预科班, 2020–2022",
+      "title": "圣路易高中 — 预科班 MPSI/MP*，2020–2022",
       "logo": "saintlouis.jpeg",
-      "desc": "强化数学、物理与计算机科学训练（含信息学选修），为法国综合理工学院及其他顶级工程师学校入学考试做准备。",
+      "logo_desc": "圣路易高中：位于拉丁区的著名学府，法国唯一专门致力于科学预科（CPGE）的公立高中。",
+      "desc": "高强度的数学与物理培训。两年的密集课程专注于论证严谨性、抽象化与建模。备战顶尖工程师学院（X, ENS, Mines, Centrale）的入学竞考。",
       "chips": [
-        "数列与级数", "拓扑学", "微分计算", "微分方程", "广义积分",
-        "线性代数", "矩阵化简与对角化",
-        "群、域、环、代数", "多项式与有理分式",
-        "离散概率论", 
-        "质点与刚体力学", "电磁学", "电路理论", "几何光学", "物理光学",
-        "热力学", "热扩散",
-        "算法复杂度", "二叉树与图论", "自动机与文法", "函数式编程（OCaml）", "命令式编程（Python）"
+        { "text": "序列与级数", "desc": "数值序列与级数的收敛性、函数级数、幂级数。渐近展开与局部比较研究。" },
+        { "text": "拓扑学", "desc": "赋范向量空间、邻域概念、紧致性、连通性及度量空间中的连续性理论。" },
+        { "text": "微分学", "desc": "多元函数的微分、梯度计算、雅可比矩阵及约束优化（极值）。" },
+        { "text": "微分方程", "desc": "一阶与二阶线性微分方程、线性微分方程组及数值解法（柯西-利普希茨）。" },
+        { "text": "广义积分", "desc": "任意区间上的黎曼积分理论、含参积分、复基元计算、控制收敛定理。" },
+        { "text": "线性代数", "desc": "有限及无限维向量空间、对偶性、高级矩阵计算、双线性型、内积空间。" },
+        { "text": "简化与对角化", "desc": "谱理论、若尔当标准型、内同态多项式及复杂线性结构的简化。" },
+        { "text": "群、环、域、代数", "desc": "基础代数结构的深入研究，算术与数论。" },
+        { "text": "多项式与分式", "desc": "形式代数、部分分式分解、欧几里得环中的算术。" },
+        { "text": "离散概率", "desc": "概率空间、离散随机变量、矩（期望、方差）及经典概率分布。" },
+        { "text": "质点与刚体力学", "desc": "非惯性系中的运动学与动力学，角动量定理及系统能量分析。" },
+        { "text": "电磁学", "desc": "麦克斯韦方程组、时变场、电磁感应、磁能及真空中的波传播。" },
+        { "text": "电路理论", "desc": "稳态与暂态电路分析、传递函数与模拟滤波。" },
+        { "text": "几何光学", "desc": "光线模型、共轴系统、薄透镜、面镜及光学仪器。" },
+        { "text": "物理光学", "desc": "光的波动性、干涉（杨氏双缝、迈克尔逊）及衍射现象。" },
+        { "text": "热力学", "desc": "能量与熵原理、实际与理想流体研究、热机循环。" },
+        { "text": "热扩散", "desc": "通过传导的热传递、傅里叶定律及不同介质中的扩散方程。" },
+        { "text": "算法复杂度", "desc": "算法效率（时间与空间）分析、复杂度类及优化。" },
+        { "text": "二叉树与图论", "desc": "动态数据结构、遍历算法（BFS, DFS）及最短路径搜索（Dijkstra）。" },
+        { "text": "自动机与文法", "desc": "形式语言理论、确定性有限自动机及模式识别。" },
+        { "text": "函数式编程 (OCaml)", "desc": "掌握静态类型、递归及不可变数据结构。" },
+        { "text": "指令式编程 (Python)", "desc": "使用Python进行数值计算、物理模拟及数据工程。" }
       ]
     }
   ],
   "careerpath": [
     {
-      "title": "预科班 MP* 口试考官 — 圣路易中学, 2023–2026",
+      "title": "MP* 班客座考官 (Khôlleur) — 圣路易高中，2023–2026",
       "logo": "saintlouis.jpeg",
-      "desc": "为预科班学生准备并评估数学与物理口试（相当于本科二年级水平）。设计题目与模拟考试，用于法国工程师学院入学考试训练。",
-      "chips": ["教学", "数学", "物理"]
+      "logo_desc": "圣路易高中：致力于科学预科的卓越机构。",
+      "desc": "每周对 MP* 班学生进行数学和物理评估与辅导。设计原创题目，为学生备战最严格的竞考口试（X, ENS, Mines-Ponts）做准备。",
+      "chips": [
+        { "text": "高级教学法", "desc": "传授复杂解题方法与严谨的解题规范。" },
+        { "text": "数学 (MP*)", "desc": "深度考核：分析、代数、概率、拓扑。" },
+        { "text": "物理", "desc": "对全大纲知识点进行评估。" }
+      ]
     },
     {
-      "title": "研究实习 — 上海交通大学（SJTU），2025",
+      "title": "人工智能科研实习 — 上海交通大学 (SJTU)，2025",
       "logo": "sjtu.png",
-      "desc": "在低资源语言中进行有害言论检测的研究，重点关注法语。这项工作促成了论文 <a href='https://arxiv.org/abs/2508.11281' target='_blank'><em>ToxiFrench</em></a> 的发表。该项目荣获<b>🏅 巴黎综合理工学院2025年度科研实习奖 🏅</b>，以表彰其卓越的科研质量和影响力。",
-      "chips": ["NLP", "SLM", "微调", "上下文学习", "有害言论检测", "负责任的人工智能", "科研实习奖"]
+      "logo_desc": "上海交通大学：中国工程与信息科学领域的顶尖大学。",
+      "desc": "研究低资源语言中的毒性检测。发表论文 <a href='https://arxiv.org/abs/2508.11281' target='_blank'><em>ToxiFrench</em></a>。荣获<b>🏅 2025年巴黎综合理工学院科研实习奖 🏅</b>，表彰其卓越的科学贡献。",
+      "chips": [
+        { "text": "NLP & 大语言模型", "desc": "自然语言处理与大语言模型架构。" },
+        { "text": "小模型效率 (SLM)", "desc": "优化小语言模型，以较低计算成本实现竞争性性能。" },
+        { "text": "微调与对齐", "desc": "针对特定数据集的有监督训练与模型对齐。" },
+        { "text": "思维链 (CoT)", "desc": "利用分步推理技术提高模型的可解释性。" },
+        { "text": "上下文学习", "desc": "通过提示工程优化零样本和少样本学习能力。" },
+        { "text": "人工智能安全", "desc": "开发用于自动审核和消除偏见的分类器。" },
+        { "text": "学术荣誉", "desc": "该奖项授予该届巴黎综合理工学院的最佳科研实习项目。" }
+      ]
     },
     {
-      "title": "核物理实习 — Naarea 公司, 2024",
+      "title": "核物理实习 — Naarea，2024",
       "logo": "naarea.png",
-      "desc": "利用 OpenMC 与 Dymola 进行熔盐堆（MSR）建模与仿真，研究瞬态行为与核安全分析。",
-      "chips": ["核物理", "仿真", "建模"]
+      "logo_desc": "Naarea：开发第四代核能微发电机组的法国深科技领军企业。",
+      "desc": "熔盐堆 (MSR) 的多物理场建模。使用 OpenMC 模拟中子物理，并通过 Dymola 分析热工水力瞬态，以确保系统的固有安全性。",
+      "chips": [
+        { "text": "中子学", "desc": "反应堆堆芯的中子流与临界性模拟。" },
+        { "text": "OpenMC 模拟", "desc": "使用蒙特卡罗粒子输运代码进行核分析。" },
+        { "text": "系统建模", "desc": "第四代反应堆动力学与热行为分析。" }
+      ]
     },
     {
-      "title": "预科班助教 — 科特迪瓦雅穆苏克罗国立高等理工学院（INP-HB）, 2022–2023",
+      "title": "MP* 班助教 — INP-HB（雅穆苏克罗），2022–2023",
       "logo": "inphb.png",
-      "desc": "负责预科班数学与物理课程、实验与口试辅导，组织并批改全国模拟考试。",
-      "chips": ["物理", "数学", "教学"]
+      "logo_desc": "INP-HB：西非卓越教育中心，培养该地区的精英干部与工程师。",
+      "desc": "在预科班服役。负责指导习题课并组织模拟竞考。为学生提供方法论指导，助力其考入法国及非洲的顶尖工程师学院。",
+      "chips": [
+        { "text": "教学工程", "desc": "改编课程教材并创建竞考模拟试卷。" },
+        { "text": "分析与代数", "desc": "MP* 数学全大纲深度辅导。" },
+        { "text": "应用物理", "desc": "MP* 物理全大纲深度辅导。" }
+      ]
     }
   ],
   "publications": [
     {
-      "title": "ToxiFrench：通过推理链微调提升法语有害语言检测的语言模型性能",
+      "title": "ToxiFrench: Benchmarking and Enhancing Language Models via CoT Fine-Tuning for French Toxicity Detection",
       "logo": "sjtu.png",
-      "meta": "Axel Delaval, Shujian Yang, Haicheng Wang, Han Qiu, Jialiang Lu — 上海交通大学（SJTU）, 2025",
-      "desc": "ToxiFrench 提出一个包含 53,622 条法语网络评论的公开基准数据集，用于有害语言检测。数据集通过半自动标注流程构建，结合大语言模型与人工验证。结果显示，小型语言模型在鲁棒性方面往往优于大型模型。我们提出了一种基于推理链（CoT）的微调策略，使 F1 得分提升 13%，达到当今最先进水平。",
-      "chips": ["NLP", "小型语言模型（SLM）", "微调", "上下文学习（ICL）", "有害语言检测", "负责任的人工智能"],
+      "logo_desc": "与上海交通大学合作进行的研究。",
+      "meta": "Axel Delaval, Shujian Yang, Haicheng Wang, Han Qiu, Jialiang Lu - 上海交通大学 (SJTU) - 2025",
+      "desc": "法语毒性检测长期受困于标注数据的匮乏。我们推出了 ToxiFrench，这是一个包含 53,622 条评论的数据集，通过创新的半自动流水线构建。研究发现，小语言模型 (SLMs) 在鲁棒性上往往超越大型模型。为了挖掘这一潜力，我们引入了基于动态加权损失 (DWL) 的思维链 (CoT) 微调策略。经过优化的 Qwen3-4B 模型表现超越了 GPT-4o 和 DeepSeek-R1，在保持多语言能力的同时创下了新的 SOTA（行业领先水平）。",
+      "chips": [
+        { "text": "NLP", "desc": "自然语言处理。" },
+        { "text": "SLM", "desc": "小语言模型。" },
+        { "text": "微调", "desc": "有针对性的再训练。" },
+        { "text": "思维链", "desc": "Chain-of-Thought：学习推理步骤，通常可提升大语言模型的性能。" },
+        { "text": "上下文学习", "desc": "在不进行额外训练的情况下通过上下文学习。" },
+        { "text": "毒性检测", "desc": "伦理分类。" },
+        { "text": "负责任的 AI" }
+      ],
       "link": "https://arxiv.org/abs/2508.11281"
     }
   ],
   "projects": [
     {
-      "title": "Ondelettes —— 小波与 JPEG 2000 图像压缩 （2025年11月)",
-      "logo": "delaunay.jpg",
-      "desc": "<a href='https://github.com/AxelDlv00/Ondelettes' target='_blank'><em>Ondelettes</em></a> 是一个开源的 Beamer 演示与教学笔记本，用于讲解 <b>小波变换</b>（AMR、QMF） 的数学原理及其在 <b>JPEG 2000 图像压缩</b> 中的应用。项目包含一个基于 <em>PyWavelets</em> 与 <em>Matplotlib</em> 的 <b>Python 模拟流程</b>，可视化分解、量化与重建过程。",
-      "chips": ["信号处理", "小波", "JPEG 2000", "Python", "图像压缩", "LaTeX", "开源教育"]
-    },
-    {
-      "title": "ChineseIsEasy —— 高效学习中文的开源工具集 （2025年11月)",
+      "title": "ChineseIsEasy 生态系统 — 中文学习工具 (2026)",
       "logo": "anki.png",
+      "logo_desc": "ChineseIsEasy：一套开源的中文学习工具集。",
       "media": "gifs/琴.gif",
-      "desc": "<a href='https://github.com/AxelDlv00/ChineseIsEasy' target='_blank'><em>ChineseIsEasy</em></a> 是一套完整的开源工具生态系统，专为以法语为母语的学习者提升中文学习效率而设计。系统可自动生成基于开放数据集（CCCEDICT、SUBTLEX-CH、HSK 标准教程）的<b>高质量 Anki 词汇卡包</b>，并加入<b>结构化法语释义</b>、<b>分阶段例句（中文→拼音→法语）</b>、<b>语义化图片</b>（通过 <a href='https://huggingface.co/RunDiffusion/Juggernaut-XL-v9' target='_blank'><code>Juggernaut XL v9</code></a> 结合 <code>GPT-4o-mini</code> 生成提示词）以及<b>稳定音频</b>。项目还包含统一的 <b>HanziWriter 笔画动画引擎</b>和<b>随机对话生成器</b>，用于翻译训练。整条生产链<b>完全可复现</b>，所有卡片均可从源码重新构建。v2.0 版本提供超过<b>28,000 个按频率排序的词汇</b>、<b>结构化 HSK 词汇包</b>，并支持 <b>桌面端、移动端与 AnkiWeb</b> 全平台使用。",
-      "chips": ["语言学习", "中文", "Anki", "自然语言处理", "教育", "Python", "扩散模型", "生成模型", "GPT-4o-mini", "Juggernaut XL v9"]
+      "desc": "开发了一套完整的生态系统，旨在为法语母语者优化中文学习效率。<br><br>• <b><a href='https://github.com/AxelDlv00/ChineseIsEasy' target='_blank'>Anki 记忆库生成器：</a></b> <br>&nbsp;&nbsp;&nbsp;&nbsp;◦ <i>AnkiWords & HSKWords：</i> 基于词频（<a href='https://openlexicon.fr/datasets-info/SUBTLEX-CH/README-subtlex-ch.html'>SUBTLEX-CH</a>）的 30,000+ 记忆卡片，利用 <a href='https://github.com/OpenBMB/VoxCPM' target='_blank'><b>VoxCPM</b></a> 提供逼真音频，并由 <a href='https://huggingface.co/RunDiffusion/Juggernaut-XL-v9' target='_blank'><b>Juggernaut XL</b></a> 生成语义图像。<br>&nbsp;&nbsp;&nbsp;&nbsp;◦ <i>AnkiPoems & AnkiChengyu：</i> 针对古典诗词和成语的专题模块。<br>&nbsp;&nbsp;&nbsp;&nbsp;◦ <i>AnkiTonalPractice：</i> 按拼音分组的记忆卡，用于掌握声调。<br>• <b><a href='https://github.com/AxelDlv00/GeoChina' target='_blank'>GeoChina：</a></b> 基于 ECharts 的交互式应用，用于探索中国各省市的地理与文化 (<a href='https://axeldlv00.github.io/GeoChina/' target='_blank'>演示</a>)。<br>• <b><a href='https://github.com/AxelDlv00/ChineseIsEasy-Calligraphy' target='_blank'>书法引擎：</a></b> 生成田字格练习帖，支持实时笔顺动画 (HanziWriter) (<a href='https://axeldlv00.github.io/ChineseIsEasy-Calligraphy/' target='_blank'>演示</a>)。",
+      "chips": [
+        { "text": "Anki 自动化", "desc": "生成带间隔重复（SRS）的记忆库。" },
+        { "text": "语音克隆 (VoxCPM)", "desc": "逼真的零样本语音合成 (Zero-shot TTS)。" },
+        { "text": "生成式 AI 流水线", "desc": "通过 Juggernaut XL v9 生成语境相关图像。" },
+        { "text": "数据挖掘", "desc": "海量数据提取（CC-CEDICT, SUBTLEX-CH, HSK）。" },
+        { "text": "GeoChina (ECharts)", "desc": "交互式地图与数据可视化。" },
+        { "text": "Calligraphy JS", "desc": "笔画动画引擎与字格生成。" }
+      ]
     },
     {
-      "title": "ToxiFrench：法语有害语言检测项目 （2025年8月)",
+      "title": "ToxiFrench：法语毒性检测 (2025年8月)",
       "logo": "sjtu.png",
-      "desc": "本项目提供法语有害言论检测的数据集与模型。相关资源包括 <a href='https://huggingface.co/datasets/Naela00/ToxiFrench' target='_blank'><em>数据集</em></a>、<a href='https://huggingface.co/Naela00/ToxiFrench' target='_blank'><em>模型</em></a>、<a href='https://github.com/AxelDlv00/ToxiFrench' target='_blank'><em>代码</em></a> 和 <a href='https://arxiv.org/abs/2508.11281' target='_blank'><em>论文</em></a>，均可在 <a href='https://axeldlv00.github.io/ToxiFrench/' target='_blank'><em>项目主页</em></a> 查看。",
-      "chips": ["NLP", "小型语言模型（SLM）", "微调", "上下文学习（ICL）", "有害语言检测", "负责任的人工智能"]
+      "logo_desc": "与上海交通大学合作的科研项目。",
+      "desc": "用于法语毒性检测的数据集和模型。相关的<a href='https://huggingface.co/datasets/AxelDlv00/ToxiFrench' target='_blank'><em>数据</em></a>、<a href='https://huggingface.co/AxelDlv00/ToxiFrench' target='_blank'><em>模型</em></a>、<a href='https://github.com/AxelDlv00/ToxiFrench' target='_blank'><em>代码</em></a>及<a href='https://arxiv.org/abs/2508.11281' target='_blank'><em>论文</em></a>均可在<a href='https://axeldlv00.github.io/ToxiFrench/' target='_blank'><em>项目主页</em></a>获取。",
+      "chips": [
+        { "text": "NLP", "desc": "自然语言处理。" },
+        { "text": "SLM", "desc": "小语言模型。" },
+        { "text": "微调", "desc": "专业化训练。" },
+        { "text": "上下文学习", "desc": "通过 Prompt 学习。" },
+        { "text": "毒性检测", "desc": "恶意内容分析。" },
+        { "text": "负责任的 AI", "desc": "网络平台安全。" }
+      ]
     },
     {
-      "title": "Comment Banners：VS Code 注释横幅扩展 （2025年7月)",
-      "desc": "<a href='https://marketplace.visualstudio.com/items?itemName=naela.comment-banners' target='_blank'><em>VS Code</em></a> 扩展，可快速插入<b>美观的注释横幅</b>，用于结构化与美化代码。它能自动识别编程语言的注释语法（如 C、Python、LaTeX 等），并提供多种样式（双线、圆角、经典、箭头等）。源代码托管于 <a href='https://github.com/AxelDlv00/comment-banners' target='_blank'><em>GitHub</em></a>。",
-      "chips": ["VS Code", "扩展", "TypeScript", "软件开发"]
+      "title": "小波分析 — 镜像滤波器与 JPEG 2000 压缩 (2025年11月)",
+      "logo": "delaunay.jpg",
+      "logo_desc": "离散几何中的三角剖分示意图。",
+      "desc": "<a href='https://github.com/AxelDlv00/Ondelettes' target='_blank'><em>Ondelettes</em></a> 是一个开源的教学项目（包含 Beamer 演示稿和 Notebook），展示了<b>小波分析</b>（AMR, QMF）在 <b>JPEG 2000 图像压缩</b>中的数学基础与实际应用。该项目包含一个使用 <em>PyWavelets</em> 和 <em>Matplotlib</em> 的 <b>Python 模拟器</b>，用于可视化分解、量化和重建过程。",
+      "chips": [
+        { "text": "信号处理", "desc": "时间或空间数据的分析与变换。" },
+        { "text": "小波", "desc": "用于多尺度分解的数学函数。" },
+        { "text": "JPEG 2000", "desc": "高性能图像压缩标准。" },
+        { "text": "图像压缩", "desc": "在不损失视觉质量的前提下减少存储占用。" },
+        { "text": "开源教学", "desc": "自由协作的教育内容。" }
+      ]
     },
     {
-      "title": "LaTeX Shortcuts：VS Code 中的 LaTeX 快捷键 （2025年7月)",
-      "desc": "该 <a href='https://marketplace.visualstudio.com/items?itemName=naela.latex-shortcuts' target='_blank'><em>VS Code</em></a> 扩展提供<b>快速键盘快捷键</b>，便于 LaTeX 格式编辑。它能自动将选中文本包裹在如 <code>\\textbf{...}</code>、<code>$...$</code>、<code>\\left(...\\right)</code> 或 <code>\\underline{...}</code> 等命令中，使 LaTeX 编写更加流畅与高效。源码可在 <a href='https://github.com/AxelDlv00/latex-shortcuts' target='_blank'><em>GitHub</em></a> 获取。",
-      "chips": ["VS Code", "扩展", "TypeScript", "LaTeX"]
+      "title": "Comment Banners：VS Code 注释横幅扩展 (2025年7月)",
+      "logo_desc": "自动识别语法并美化代码结构的工具。",
+      "desc": "一款 <a href='https://marketplace.visualstudio.com/items?itemName=naela.comment-banners' target='_blank'><em>VS Code 插件</em></a>，可快速插入<b>样式化的注释横幅</b>，用于结构化和美化代码。它能根据语言（C, Python, LaTeX 等）自动识别注释语法，并提供多种样式（双线、圆角、经典、箭头等）。源代码托管于 <a href='https://github.com/AxelDlv00/comment-banners' target='_blank'><em>GitHub</em></a>。",
+      "chips": [
+        { "text": "VS Code", "desc": "微软领先的代码编辑器。" },
+        { "text": "插件", "desc": "功能扩展模块。" },
+        { "text": "TypeScript", "desc": "基于 JavaScript 的带类型编程语言。" },
+        { "text": "软件开发", "desc": "计算机工具设计。" }
+      ]
     },
     {
-      "title": "RepoToPrompt：将 Git 仓库转换为结构化文本以供大语言模型使用 （2025年6月)",
-      "desc": "<a href='https://github.com/AxelDlv00/RepoToPrompt' target='_blank'><em>RepoToPrompt</em></a> 是一个 Python 工具，可将整个 Git 仓库转换为单个<b>结构化文本文件</b>，适用于审计、归档或大语言模型提示输入。它支持灵活筛选文件、自动跳过二进制文件、删除 Jupyter Notebook 的 base64 图像，并允许自定义标题。该项目灵感来源于 <a href='https://github.com/mpoon/gpt-repository-loader' target='_blank'>gpt-repository-loader</a>，但提供更灵活的扩展与输出格式控制。",
-      "chips": ["仓库", "大语言模型（LLM）", "自动化", "开发者工具"]
+      "title": "LaTeX Shortcuts：VS Code LaTeX 快捷键插件 (2025年7月)",
+      "logo_desc": "提升科学写作流程度的工具。",
+      "desc": "这款 <a href='https://marketplace.visualstudio.com/items?itemName=naela.latex-shortcuts' target='_blank'><em>VS Code 插件</em></a> 为 LaTeX 排版提供<b>快速键盘快捷键</b>。它能自动为选中文本添加 <code>\\textbf{...}</code>, <code>$...$</code>, <code>\\left(...\\right)</code> 或 <code>\\underline{...}</code> 等命令，让 LaTeX 写作变得流畅且愉悦。源代码见 <a href='https://github.com/AxelDlv00/latex-shortcuts' target='_blank'><em>GitHub</em></a>。",
+      "chips": [
+        { "text": "VS Code", "desc": "多功能 IDE。" },
+        { "text": "插件", "desc": "辅助编辑工具。" },
+        { "text": "TypeScript", "desc": "Web/VSCode 工具开发。" },
+        { "text": "LaTeX", "desc": "科学写作标准。" }
+      ]
+    },
+    {
+      "title": "RepoToPrompt：将 Git 仓库转换为 LLM 可读的结构化文本 (2025年6月)",
+      "logo_desc": "优化大模型上下文输入的自动化脚本。",
+      "desc": "<a href='https://github.com/AxelDlv00/RepoToPrompt' target='_blank'><em>RepoToPrompt</em></a> 是一个 Python 工具，可将整个仓库转换为<b>单一的结构化文本文件</b>，非常适合审计、归档或与大语言模型配合使用。它支持文件过滤、忽略二进制文件、移除 Jupyter Notebook 中的 base64 图像以及自定义文件头。灵感来自 <a href='https://github.com/mpoon/gpt-repository-loader' target='_blank'>gpt-repository-loader</a>，但提供了对扩展名和输出格式更灵活的控制。",
+      "chips": [
+        { "text": "仓库", "desc": "代码版本管理仓库。" },
+        { "text": "LLM", "desc": "大语言模型。" },
+        { "text": "自动化", "desc": "通过 Python 脚本节省时间。" },
+        { "text": "开发者工具", "desc": "简化编码工作的实用程序。" }
+      ]
     }
   ]
 }
