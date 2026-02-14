@@ -21,7 +21,7 @@
       { "text": "Mines Paris", "desc": "École d'ingénieurs de l'Université PSL (2e du classement des écoles d'ingénieurs françaises), réputée pour sa recherche et ses liens industriels." }
     ]
   },
-  "last_updated": "Dernière mise à jour : 26 janvier 2026",
+  "last_updated": "Dernière mise à jour : 14 février 2026",
   "scolarpath": [
     {
       "title": "Mines Paris – PSL — Double diplôme en Informatique, 2025–2026",
@@ -175,8 +175,34 @@
   ],
   "projects": [
     {
+      "title": "EULAI : Assistant local d'analyse de documents juridiques (janvier 2026)",
+      "logo": "eulai.png",
+      "logo_desc": "EULAI : Extension de navigateur pour l'analyse de CGU et politiques de confidentialité.",
+      "desc": "<b>EULAI</b> est une extension Chrome axée sur la confidentialité qui résume et analyse les documents juridiques complexes (CGU, Politiques de confidentialité) directement dans le navigateur. C'est l'une des premières extensions à exploiter l'<b>inférence 100% locale</b> via WebGPU. <br><br>• <b>Inférence locale :</b> Chat IA haute performance propulsé par <em>MLC Web-LLM</em> (modèle Qwen-0.6B fine-tuné).<br>• <b>Segmentation hiérarchique :</b> Découpage intelligent des documents massifs pour éviter la perte de contexte.<br>• <b>Transparence des sources :</b> Fonction 'View Source' permettant de voir le segment exact utilisé par l'IA.<br>• <b>Sorties type TOS;DR :</b> Classification des clauses en [GOOD], [NEUTRAL], [BAD], et [BLOCKER].",
+      "chips": [
+        { "text": "WebGPU Inference", "desc": "Exécution de LLM en local dans le navigateur." },
+        { "text": "NLP", "desc": "Analyse et résumé de textes juridiques." },
+        { "text": "Fine-tuning", "desc": "Optimisation du modèle Qwen-0.6B sur des données spécifiques." },
+        { "text": "Privacy-focused", "desc": "Aucune donnée n'est envoyée vers un serveur tiers." },
+        { "text": "Dataset Generation", "desc": "Pipeline de création de données synthétiques via Gemini." }
+      ]
+    },
+    {
+      "title": "MorphFile : CLI Rust de traitement de médias (février 2026)",
+      "logo": "morphfile.png",
+      "logo_desc": "MorphFile : Outil en ligne de commande pour la manipulation de fichiers média.",
+      "desc": "<b>MorphFile</b> est un outil CLI haute performance écrit en <b>Rust</b> pour convertir, compresser, recadrer et fusionner divers formats de médias de manière locale et sécurisée. <br><br>• <b>Polyvalence :</b> Conversion entre formats (JPG, PNG, PDF), compression sans perte de qualité visuelle et fusion de documents hétérogènes.<br>• <b>Performance Rust :</b> Utilisation des bibliothèques <em>image</em> et <em>lopdf</em> pour une exécution ultra-rapide.<br>• <b>Confidentialité :</b> Alternative locale aux outils en ligne évitant l'upload de documents sensibles.<br>• <b>Architecture modulaire :</b> Design extensible facilitant l'ajout futur de nouveaux formats (audio, vidéo).",
+      "chips": [
+        { "text": "Rust", "desc": "Langage système garantissant sécurité mémoire et performance." },
+        { "text": "CLI", "desc": "Command Line Interface développée avec Clap." },
+        { "text": "Traitement d'image", "desc": "Manipulation de pixels, redimensionnement et compression." },
+        { "text": "Manipulation PDF", "desc": "Fusion et gestion de structures de documents PDF." },
+        { "text": "Open Source", "desc": "Solution libre remplaçant les outils web limités." }
+      ]
+    },
+    {
       "title": "Ecosystème ChineseIsEasy — Apprentissage du Mandarin (2026)",
-      "logo": "anki.png",
+      "logo": "chineseiseasy.png",
       "logo_desc": "ChineseIsEasy : Suite d'outils open-source pour l'apprentissage du chinois.",
       "media": "gifs/琴.gif",
       "desc": "Développement d'un écosystème complet optimisant l'apprentissage du mandarin pour les francophones. <br><br>• <b><a href='https://github.com/AxelDlv00/ChineseIsEasy' target='_blank'>Générateur de Decks Anki :</a></b> <br>&nbsp;&nbsp;&nbsp;&nbsp;◦ <i>AnkiWords & HSKWords :</i> 30 000+ flashcards basées sur la fréquence (<a href='https://openlexicon.fr/datasets-info/SUBTLEX-CH/README-subtlex-ch.html'>SUBTLEX-CH</a>) avec audio réaliste via <a href='https://github.com/OpenBMB/VoxCPM' target='_blank'><b>VoxCPM</b></a> et images sémantiques via <a href='https://huggingface.co/RunDiffusion/Juggernaut-XL-v9' target='_blank'><b>Juggernaut XL</b></a>.<br>&nbsp;&nbsp;&nbsp;&nbsp;◦ <i>AnkiPoems & AnkiChengyu :</i> Modules spécialisés pour la poésie classique et les idiomes.<br>&nbsp;&nbsp;&nbsp;&nbsp;◦ <i>AnkiTonalPractice :</i> Set de flashcards groupées par pinyin pour la maîtrise les tons.<br>• <b><a href='https://github.com/AxelDlv00/GeoChina' target='_blank'>GeoChina :</a></b> Application interactive (ECharts) d'exploration géographique et culturelle des provinces et villes chinoises (<a href='https://axeldlv00.github.io/GeoChina/' target='_blank'>Démo</a>).<br>• <b><a href='https://github.com/AxelDlv00/ChineseIsEasy-Calligraphy' target='_blank'>Calligraphy Engine :</a></b> Générateur de grilles d'écriture (Tian Ge Zi) avec animation en temps réel des traits (HanziWriter) (<a href='https://axeldlv00.github.io/ChineseIsEasy-Calligraphy/' target='_blank'>Démo</a>).",
@@ -206,7 +232,7 @@
     {
       "title": "Ondelettes — Filtres miroirs et compression JPEG 2000 (novembre 2025)",
       "logo": "delaunay.jpg",
-      "logo_desc": "Illustration d'une triangulation en géométrie discrète.",
+      "logo_desc": "Illustration d'une compression jpeg 2000 par ondelettes.",
       "desc": "<a href='https://github.com/AxelDlv00/Ondelettes' target='_blank'><em>Ondelettes</em></a> est une présentation Beamer et un notebook pédagogique open-source illustrant les bases mathématiques et l’implémentation pratique des <b>ondelettes</b> (AMR, QMF) appliquées à la <b>compression d’images JPEG 2000</b>. Le projet inclut une <b>simulation Python</b> utilisant <em>PyWavelets</em> et <em>Matplotlib</em> pour visualiser la décomposition, la quantification et la reconstruction.",
       "chips": [
         { "text": "Traitement du signal", "desc": "Analyse et transformation de données temporelles ou spatiales." },

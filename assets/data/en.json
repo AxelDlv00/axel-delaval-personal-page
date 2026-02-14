@@ -21,7 +21,7 @@
       { "text": "Mines Paris", "desc": "Engineering school of PSL University (ranked #2 among French engineering schools), renowned for its research and industrial ties." }
     ]
   },
-  "last_updated": "Last updated: January 26, 2026",
+  "last_updated": "Last updated: 14 February 2026",
   "scolarpath": [
     {
       "title": "Mines Paris – PSL — Double Degree in Computer Science, 2025–2026",
@@ -175,8 +175,34 @@
   ],
   "projects": [
     {
+      "title": "EULAI: Local AI Assistant for Legal Document Analysis (January 2026)",
+      "logo": "eulai.png",
+      "logo_desc": "EULAI: Browser extension for analyzing ToS and privacy policies.",
+      "desc": "<b>EULAI</b> is a privacy-centric Chrome extension that summarizes and analyzes complex legal documents (ToS, Privacy Policies) directly in the browser. It is one of the first extensions to leverage <b>100% local inference</b> via WebGPU. <br><br>• <b>Local Inference:</b> High-performance AI chat powered by <em>MLC Web-LLM</em> (fine-tuned Qwen-0.6B model).<br>• <b>Hierarchical Segmentation:</b> Intelligent processing of massive documents to prevent context loss.<br>• <b>Source Transparency:</b> 'View Source' feature showing the exact segment used by the AI.<br>• <b>TOS;DR Style Outputs:</b> Clause classification into [GOOD], [NEUTRAL], [BAD], and [BLOCKER].",
+      "chips": [
+        { "text": "WebGPU Inference", "desc": "Running LLMs locally within the browser." },
+        { "text": "NLP", "desc": "Analysis and summarization of legal texts." },
+        { "text": "Fine-tuning", "desc": "Optimization of the Qwen-0.6B model on specific datasets." },
+        { "text": "Privacy-focused", "desc": "No data is sent to third-party servers." },
+        { "text": "Dataset Generation", "desc": "Synthetic data creation pipeline using Gemini." }
+      ]
+    },
+    {
+      "title": "MorphFile: High-performance Rust Media Processing CLI (February 2026)",
+      "logo": "morphfile.png",
+      "logo_desc": "MorphFile: Command-line tool for media file manipulation.",
+      "desc": "<b>MorphFile</b> is a high-performance CLI tool built in <b>Rust</b> to convert, compress, crop, and merge various media formats locally and securely. <br><br>• <b>Versatility:</b> Conversion between formats (JPG, PNG, PDF), compression without visual quality loss, and merging of heterogeneous documents.<br>• <b>Rust Performance:</b> Leveraging <em>image</em> and <em>lopdf</em> libraries for ultra-fast execution.<br>• <b>Privacy:</b> A local alternative to online tools, avoiding the upload of sensitive documents.<br>• <b>Modular Architecture:</b> Extensible design for future support of audio and video formats.",
+      "chips": [
+        { "text": "Rust", "desc": "System language ensuring memory safety and performance." },
+        { "text": "CLI", "desc": "Command Line Interface developed with Clap." },
+        { "text": "Image Processing", "desc": "Pixel manipulation, resizing, and compression." },
+        { "text": "PDF Manipulation", "desc": "Merging and managing PDF document structures." },
+        { "text": "Open Source", "desc": "A free solution replacing limited web-based tools." }
+      ]
+    },
+    {
       "title": "ChineseIsEasy Ecosystem — Mandarin Learning (2026)",
-      "logo": "anki.png",
+      "logo": "chineseiseasy.png",
       "logo_desc": "ChineseIsEasy: Suite of open-source tools for learning Chinese.",
       "media": "gifs/琴.gif",
       "desc": "Development of a comprehensive ecosystem optimizing Mandarin learning for French speakers. <br><br>• <b><a href='https://github.com/AxelDlv00/ChineseIsEasy' target='_blank'>Anki Deck Generator:</a></b> <br>&nbsp;&nbsp;&nbsp;&nbsp;◦ <i>AnkiWords & HSKWords:</i> 30,000+ frequency-based flashcards (<a href='https://openlexicon.fr/datasets-info/SUBTLEX-CH/README-subtlex-ch.html'>SUBTLEX-CH</a>) with realistic audio via <a href='https://github.com/OpenBMB/VoxCPM' target='_blank'><b>VoxCPM</b></a> and semantic images via <a href='https://huggingface.co/RunDiffusion/Juggernaut-XL-v9' target='_blank'><b>Juggernaut XL</b></a>.<br>&nbsp;&nbsp;&nbsp;&nbsp;◦ <i>AnkiPoems & AnkiChengyu:</i> Specialized modules for classical poetry and idioms.<br>&nbsp;&nbsp;&nbsp;&nbsp;◦ <i>AnkiTonalPractice:</i> Flashcard set grouped by pinyin to master tones.<br>• <b><a href='https://github.com/AxelDlv00/GeoChina' target='_blank'>GeoChina:</a></b> Interactive application (ECharts) for geographical and cultural exploration of Chinese provinces and cities (<a href='https://axeldlv00.github.io/GeoChina/' target='_blank'>Demo</a>).<br>• <b><a href='https://github.com/AxelDlv00/ChineseIsEasy-Calligraphy' target='_blank'>Calligraphy Engine:</a></b> Writing grid generator (Tian Ge Zi) with real-time stroke animation (HanziWriter) (<a href='https://axeldlv00.github.io/ChineseIsEasy-Calligraphy/' target='_blank'>Demo</a>).",
@@ -206,7 +232,7 @@
     {
       "title": "Wavelets — Mirror Filters and JPEG 2000 Compression (November 2025)",
       "logo": "delaunay.jpg",
-      "logo_desc": "Illustration of a triangulation in discrete geometry.",
+      "logo_desc": "Illustration of a JPEG 2000 compression via wavelets.",
       "desc": "<a href='https://github.com/AxelDlv00/Ondelettes' target='_blank'><em>Wavelets</em></a> is an open-source pedagogical Beamer presentation and notebook illustrating the mathematical foundations and practical implementation of <b>wavelets</b> (AMR, QMF) applied to <b>JPEG 2000 image compression</b>. The project includes a <b>Python simulation</b> using <em>PyWavelets</em> and <em>Matplotlib</em> to visualize decomposition, quantization, and reconstruction.",
       "chips": [
         { "text": "Signal Processing", "desc": "Analysis and transformation of temporal or spatial data." },

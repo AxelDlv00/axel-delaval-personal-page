@@ -21,7 +21,7 @@
       { "text": "Mines Paris", "desc": "Scuola d'ingegneria dell'Università PSL (2ª nel ranking francese), rinomata per la sua ricerca e i suoi legami industriali." }
     ]
   },
-  "last_updated": "Ultimo aggiornamento: 26 gennaio 2026",
+  "last_updated": "Ultimo aggiornamento: 14 Febbraio 2026",
   "scolarpath": [
     {
       "title": "Mines Paris – PSL — Doppia laurea in Informatica, 2025–2026",
@@ -175,8 +175,34 @@
   ],
   "projects": [
     {
+      "title": "EULAI: Assistente AI locale per l'analisi di documenti legali (Gennaio 2026)",
+      "logo": "eulai.png",
+      "logo_desc": "EULAI: Estensione browser per l'analisi di Termini di Servizio e privacy policy.",
+      "desc": "<b>EULAI</b> è un'estensione per Chrome incentrata sulla privacy, progettata per riassumere e analizzare documenti legali complessi direttamente nel browser. È una delle prime estensioni a sfruttare l'<b>inferenza 100% locale</b> tramite WebGPU. <br><br>• <b>Inferenza Locale:</b> Chat AI ad alte prestazioni basata su <em>MLC Web-LLM</em> (modello Qwen-0.6B ottimizzato).<br>• <b>Segmentazione Gerarchica:</b> Elaborazione intelligente di documenti estesi per prevenire la perdita di contesto.<br>• <b>Trasparenza delle Fonti:</b> Funzione 'View Source' che mostra l'esatto segmento di testo utilizzato dall'AI.<br>• <b>Output in stile TOS;DR:</b> Classificazione delle clausole in [GOOD], [NEUTRAL], [BAD], e [BLOCKER].",
+      "chips": [
+        { "text": "Inferenza WebGPU", "desc": "Esecuzione di LLM localmente nel browser." },
+        { "text": "NLP", "desc": "Analisi e riassunto di testi giuridici." },
+        { "text": "Fine-tuning", "desc": "Ottimizzazione del modello Qwen-0.6B su dataset specifici." },
+        { "text": "Privacy-focused", "desc": "Nessun dato viene inviato a server di terze parti." },
+        { "text": "Generazione Dataset", "desc": "Pipeline di creazione dati sintetici tramite Gemini." }
+      ]
+    },
+    {
+      "title": "MorphFile: CLI Rust ad alte prestazioni per l'elaborazione media (Febbraio 2026)",
+      "logo": "morphfile.png",
+      "logo_desc": "MorphFile: Strumento da riga di comando per la manipolazione di file multimediali.",
+      "desc": "<b>MorphFile</b> è un potente strumento CLI scritto in <b>Rust</b> per convertire, comprimere, ritagliare e unire vari formati multimediali in modo locale e sicuro. <br><br>• <b>Versatilità:</b> Conversione tra formati (JPG, PNG, PDF), compressione senza perdita di qualità visiva e unione di documenti eterogenei.<br>• <b>Prestazioni Rust:</b> Utilizzo delle librerie <em>image</em> e <em>lopdf</em> per un'esecuzione ultra-rapida.<br>• <b>Sicurezza:</b> Alternativa locale ai tool online per evitare l'upload di documenti sensibili.<br>• <b>Architettura Modulare:</b> Design estensibile per supportare in futuro formati audio e video.",
+      "chips": [
+        { "text": "Rust", "desc": "Linguaggio di sistema che garantisce sicurezza della memoria e performance." },
+        { "text": "CLI", "desc": "Interfaccia a riga di comando sviluppata con Clap." },
+        { "text": "Image Processing", "desc": "Manipolazione di pixel, ridimensionamento e compressione." },
+        { "text": "Manipolazione PDF", "desc": "Unione e gestione della struttura di documenti PDF." },
+        { "text": "Open Source", "desc": "Soluzione libera che sostituisce i limitati strumenti web." }
+      ]
+    },
+    {
       "title": "Ecosistema ChineseIsEasy — Apprendimento del Mandarino (2026)",
-      "logo": "anki.png",
+      "logo": "chineseiseasy.png",
       "logo_desc": "ChineseIsEasy: Suite di strumenti open-source per lo studio del cinese.",
       "media": "gifs/琴.gif",
       "desc": "Sviluppo di un ecosistema completo che ottimizza l'apprendimento del mandarino per i francofoni. <br><br>• <b><a href='https://github.com/AxelDlv00/ChineseIsEasy' target='_blank'>Generatore di Deck Anki:</a></b> <br>&nbsp;&nbsp;&nbsp;&nbsp;◦ <i>AnkiWords & HSKWords:</i> oltre 30.000 flashcard basate sulla frequenza (<a href='https://openlexicon.fr/datasets-info/SUBTLEX-CH/README-subtlex-ch.html'>SUBTLEX-CH</a>) con audio realistico via <a href='https://github.com/OpenBMB/VoxCPM' target='_blank'><b>VoxCPM</b></a> e immagini semantiche via <a href='https://huggingface.co/RunDiffusion/Juggernaut-XL-v9' target='_blank'><b>Juggernaut XL</b></a>.<br>&nbsp;&nbsp;&nbsp;&nbsp;◦ <i>AnkiPoems & AnkiChengyu:</i> moduli specializzati per poesia classica e idiomi.<br>&nbsp;&nbsp;&nbsp;&nbsp;◦ <i>AnkiTonalPractice:</i> set di flashcard raggruppate per pinyin per padroneggiare i toni.<br>• <b><a href='https://github.com/AxelDlv00/GeoChina' target='_blank'>GeoChina:</a></b> applicazione interattiva (ECharts) di esplorazione geografica e culturale delle province e città cinesi (<a href='https://axeldlv00.github.io/GeoChina/' target='_blank'>Demo</a>).<br>• <b><a href='https://github.com/AxelDlv00/ChineseIsEasy-Calligraphy' target='_blank'>Calligraphy Engine:</a></b> generatore di griglie di scrittura (Tian Ge Zi) con animazione dei tratti in tempo reale (HanziWriter) (<a href='https://axeldlv00.github.io/ChineseIsEasy-Calligraphy/' target='_blank'>Demo</a>).",
@@ -206,7 +232,7 @@
     {
       "title": "Wavelets — Filtri speculari e compressione JPEG 2000 (novembre 2025)",
       "logo": "delaunay.jpg",
-      "logo_desc": "Illustrazione di una triangolazione in geometria discreta.",
+      "logo_desc": "Illustrazione di una compressione JPEG 2000 tramite ondelette.",
       "desc": "<a href='https://github.com/AxelDlv00/Ondelettes' target='_blank'><em>Ondelettes</em></a> è una presentazione Beamer e un notebook pedagogico open-source che illustra le basi matematiche e l'implementazione pratica delle <b>ondine (wavelets)</b> (AMR, QMF) applicate alla <b>compressione d'immagine JPEG 2000</b>. Il progetto include una <b>simulazione Python</b> utilizzando <em>PyWavelets</em> e <em>Matplotlib</em> per visualizzare la decomposizione, la quantizzazione e la ricostruzione.",
       "chips": [
         { "text": "Elaborazione dei segnali", "desc": "Analisi e trasformazione di dati temporali o spaziali." },

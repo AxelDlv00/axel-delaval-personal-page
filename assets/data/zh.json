@@ -21,7 +21,7 @@
       { "text": "巴黎矿业学院", "desc": "隶属于巴黎文理研究大学（PSL）的工程师学院（排名第2），以科研实力和工业界联系著称。" }
     ]
   },
-  "last_updated": "最后更新日期：2026年1月26日",
+  "last_updated": "最后更新日期：2026年2月14日",
   "scolarpath": [
     {
       "title": "巴黎矿业学院 (Mines Paris – PSL) — 计算机科学双学位，2025–2026",
@@ -175,8 +175,34 @@
   ],
   "projects": [
     {
+      "title": "EULAI：法律文件分析本地人工智能助手 (2026年1月)",
+      "logo": "eulai.png",
+      "logo_desc": "EULAI：用于分析服务条款和隐私政策的浏览器扩展。",
+      "desc": "<b>EULAI</b> 是一款专注于隐私保护的 Chrome 浏览器扩展，可直接在浏览器中总结和分析复杂的法律文件（服务条款、隐私政策）。它是首批通过 WebGPU 实现 <b>100% 本地推理</b> 的扩展程序之一。<br><br>• <b>本地推理：</b> 由 <em>MLC Web-LLM</em>（经过微调的 Qwen-0.6B 模型）驱动的高性能人工智能对话。<br>• <b>层级化分段：</b> 对大规模文档进行智能切片，以防止上下文丢失。<br>• <b>源码透明度：</b> “查看源码”功能可显示人工智能分析时使用的精确文本段落。<br>• <b>TOS;DR 风格输出：</b> 将条款分类为 [良好]、[中立]、[糟糕] 和 [阻碍]。",
+      "chips": [
+        { "text": "WebGPU 推理", "desc": "在浏览器内本地运行大语言模型。" },
+        { "text": "自然语言处理", "desc": "法律文本的分析与摘要。" },
+        { "text": "微调", "desc": "在特定数据集上优化 Qwen-0.6B 模型。" },
+        { "text": "隐私核心", "desc": "不向第三方服务器发送任何数据。" },
+        { "text": "数据集生成", "desc": "使用 Gemini 的合成数据构建流水线。" }
+      ]
+    },
+    {
+      "title": "MorphFile：高性能 Rust 媒体处理命令行工具 (2026年2月)",
+      "logo": "morphfile.png",
+      "logo_desc": "MorphFile：用于媒体文件操作的命令行工具。",
+      "desc": "<b>MorphFile</b> 是一款使用 <b>Rust</b> 编写的高性能命令行工具（CLI），用于在本地安全地转换、压缩、裁剪和合并各种媒体格式。<br><br>• <b>多功能性：</b> 支持多种格式转换（JPG、PNG、PDF）、无损视觉质量压缩以及异构文档合并。<br>• <b>Rust 卓越性能：</b> 利用 <em>image</em> 和 <em>lopdf</em> 库实现极速执行。<br>• <b>安全性：</b> 在线工具的本地替代方案，避免上传敏感文件。<br>• <b>模块化架构：</b> 可扩展设计，便于未来支持音频和视频格式。",
+      "chips": [
+        { "text": "Rust", "desc": "保障内存安全与高性能的系统编程语言。" },
+        { "text": "CLI", "desc": "基于 Clap 开发的命令行界面。" },
+        { "text": "图像处理", "desc": "像素操作、尺寸调整及压缩。" },
+        { "text": "PDF 操作", "desc": "PDF 文档结构的合并与管理。" },
+        { "text": "开源项目", "desc": "替代功能受限的 Web 工具的自由解决方案。" }
+      ]
+    },
+    {
       "title": "ChineseIsEasy 生态系统 — 中文学习工具 (2026)",
-      "logo": "anki.png",
+      "logo": "chineseiseasy.png",
       "logo_desc": "ChineseIsEasy：一套开源的中文学习工具集。",
       "media": "gifs/琴.gif",
       "desc": "开发了一套完整的生态系统，旨在为法语母语者优化中文学习效率。<br><br>• <b><a href='https://github.com/AxelDlv00/ChineseIsEasy' target='_blank'>Anki 记忆库生成器：</a></b> <br>&nbsp;&nbsp;&nbsp;&nbsp;◦ <i>AnkiWords & HSKWords：</i> 基于词频（<a href='https://openlexicon.fr/datasets-info/SUBTLEX-CH/README-subtlex-ch.html'>SUBTLEX-CH</a>）的 30,000+ 记忆卡片，利用 <a href='https://github.com/OpenBMB/VoxCPM' target='_blank'><b>VoxCPM</b></a> 提供逼真音频，并由 <a href='https://huggingface.co/RunDiffusion/Juggernaut-XL-v9' target='_blank'><b>Juggernaut XL</b></a> 生成语义图像。<br>&nbsp;&nbsp;&nbsp;&nbsp;◦ <i>AnkiPoems & AnkiChengyu：</i> 针对古典诗词和成语的专题模块。<br>&nbsp;&nbsp;&nbsp;&nbsp;◦ <i>AnkiTonalPractice：</i> 按拼音分组的记忆卡，用于掌握声调。<br>• <b><a href='https://github.com/AxelDlv00/GeoChina' target='_blank'>GeoChina：</a></b> 基于 ECharts 的交互式应用，用于探索中国各省市的地理与文化 (<a href='https://axeldlv00.github.io/GeoChina/' target='_blank'>演示</a>)。<br>• <b><a href='https://github.com/AxelDlv00/ChineseIsEasy-Calligraphy' target='_blank'>书法引擎：</a></b> 生成田字格练习帖，支持实时笔顺动画 (HanziWriter) (<a href='https://axeldlv00.github.io/ChineseIsEasy-Calligraphy/' target='_blank'>演示</a>)。",
@@ -206,7 +232,7 @@
     {
       "title": "小波分析 — 镜像滤波器与 JPEG 2000 压缩 (2025年11月)",
       "logo": "delaunay.jpg",
-      "logo_desc": "离散几何中的三角剖分示意图。",
+      "logo_desc": "JPEG 2000 小波压缩示意图。",
       "desc": "<a href='https://github.com/AxelDlv00/Ondelettes' target='_blank'><em>Ondelettes</em></a> 是一个开源的教学项目（包含 Beamer 演示稿和 Notebook），展示了<b>小波分析</b>（AMR, QMF）在 <b>JPEG 2000 图像压缩</b>中的数学基础与实际应用。该项目包含一个使用 <em>PyWavelets</em> 和 <em>Matplotlib</em> 的 <b>Python 模拟器</b>，用于可视化分解、量化和重建过程。",
       "chips": [
         { "text": "信号处理", "desc": "时间或空间数据的分析与变换。" },
