@@ -175,40 +175,41 @@
   ],
   "projects": [
     {
-      "title": "EULAI: Local AI Assistant for Legal Document Analysis (January 2026)",
-      "logo": "eulai.png",
-      "logo_desc": "EULAI: Browser extension for analyzing ToS and privacy policies.",
-      "desc": "<b>EULAI</b> is a privacy-centric Chrome extension that summarizes and analyzes complex legal documents (ToS, Privacy Policies) directly in the browser. It is one of the first extensions to leverage <b>100% local inference</b> via WebGPU. <br><br>• <b>Local Inference:</b> High-performance AI chat powered by <em>MLC Web-LLM</em> (fine-tuned Qwen-0.6B model).<br>• <b>Hierarchical Segmentation:</b> Intelligent processing of massive documents to prevent context loss.<br>• <b>Source Transparency:</b> 'View Source' feature showing the exact segment used by the AI.<br>• <b>TOS;DR Style Outputs:</b> Clause classification into [GOOD], [NEUTRAL], [BAD], and [BLOCKER].",
+      "title": "MorphFile: Versatile File Manipulation Tool (2026)",
+      "logo": "morphfile.png",
+      "logo_desc": "MorphFile: CLI utility for fast, local, and secure media file processing.",
+      "link": "https://github.com/AxelDlv00/MorphFile",
+      "desc": "Many online tools exist for file manipulation (compression, conversion, etc.), but they are often limited by quotas and offer poor security. MorphFile is an open-source, 100% local tool written in Rust to ensure optimal performance. It centralizes all essential file manipulation features without any risk of data leaks.",
       "chips": [
-        { "text": "WebGPU Inference", "desc": "Running LLMs locally within the browser." },
-        { "text": "NLP", "desc": "Analysis and summarization of legal texts." },
-        { "text": "Fine-tuning", "desc": "Optimization of the Qwen-0.6B model on specific datasets." },
-        { "text": "Privacy-focused", "desc": "No data is sent to third-party servers." },
-        { "text": "Dataset Generation", "desc": "Synthetic data creation pipeline using Gemini." }
+        { "text": "Rust", "desc": "Performant and secure language." },
+        { "text": "CLI", "desc": "Fast and flexible command-line interface." },
+        { "text": "File Processing", "desc": "Media compression, conversion, and merging." },
+        { "text": "Security", "desc": "Local processing for sensitive data protection." }
       ]
     },
     {
-      "title": "MorphFile: High-performance Rust Media Processing CLI (February 2026)",
-      "logo": "morphfile.png",
-      "logo_desc": "MorphFile: Command-line tool for media file manipulation.",
-      "desc": "<b>MorphFile</b> is a high-performance CLI tool built in <b>Rust</b> to convert, compress, crop, and merge various media formats locally and securely. <br><br>• <b>Versatility:</b> Conversion between formats (JPG, PNG, PDF), compression without visual quality loss, and merging of heterogeneous documents.<br>• <b>Rust Performance:</b> Leveraging <em>image</em> and <em>lopdf</em> libraries for ultra-fast execution.<br>• <b>Privacy:</b> A local alternative to online tools, avoiding the upload of sensitive documents.<br>• <b>Modular Architecture:</b> Extensible design for future support of audio and video formats.",
+      "title": "EULAI: Web Extension for Summarizing Terms of Service (2026)",
+      "logo": "eulai.png",
+      "logo_desc": "EULAI: Browser extension for automatic legal text analysis.",
+      "link": "https://github.com/AxelDlv00/EULAI",
+      "desc": "Instead of blindly accepting unreadable contracts, EULAI allows you to instantly get a summary of key points and risks. The extension uses a Qwen3-0.6B model optimized for fast GPU inference via WebGPU. It is one of the first web extensions to run a SLM (Small Language Model) entirely locally.",
       "chips": [
-        { "text": "Rust", "desc": "System language ensuring memory safety and performance." },
-        { "text": "CLI", "desc": "Command Line Interface developed with Clap." },
-        { "text": "Image Processing", "desc": "Pixel manipulation, resizing, and compression." },
-        { "text": "PDF Manipulation", "desc": "Merging and managing PDF document structures." },
-        { "text": "Open Source", "desc": "A free solution replacing limited web-based tools." }
+        { "text": "Web Extension", "desc": "Module for Chromium browsers." },
+        { "text": "WebGPU", "desc": "Fast inference via GPU computing API." },
+        { "text": "ToS Analysis", "desc": "Automatic audit of legal texts." },
+        { "text": "Local AI", "desc": "Total privacy without third-party servers." }
       ]
     },
     {
       "title": "ChineseIsEasy Ecosystem — Mandarin Learning (2026)",
       "logo": "chineseiseasy.png",
-      "logo_desc": "ChineseIsEasy: Suite of open-source tools for learning Chinese.",
+      "logo_desc": "ChineseIsEasy: Open-source tool suite for Chinese learning.",
       "media": "gifs/琴.gif",
-      "desc": "Development of a comprehensive ecosystem optimizing Mandarin learning for French speakers. <br><br>• <b><a href='https://github.com/AxelDlv00/ChineseIsEasy' target='_blank'>Anki Deck Generator:</a></b> <br>&nbsp;&nbsp;&nbsp;&nbsp;◦ <i>AnkiWords & HSKWords:</i> 30,000+ frequency-based flashcards (<a href='https://openlexicon.fr/datasets-info/SUBTLEX-CH/README-subtlex-ch.html'>SUBTLEX-CH</a>) with realistic audio via <a href='https://github.com/OpenBMB/VoxCPM' target='_blank'><b>VoxCPM</b></a> and semantic images via <a href='https://huggingface.co/RunDiffusion/Juggernaut-XL-v9' target='_blank'><b>Juggernaut XL</b></a>.<br>&nbsp;&nbsp;&nbsp;&nbsp;◦ <i>AnkiPoems & AnkiChengyu:</i> Specialized modules for classical poetry and idioms.<br>&nbsp;&nbsp;&nbsp;&nbsp;◦ <i>AnkiTonalPractice:</i> Flashcard set grouped by pinyin to master tones.<br>• <b><a href='https://github.com/AxelDlv00/GeoChina' target='_blank'>GeoChina:</a></b> Interactive application (ECharts) for geographical and cultural exploration of Chinese provinces and cities (<a href='https://axeldlv00.github.io/GeoChina/' target='_blank'>Demo</a>).<br>• <b><a href='https://github.com/AxelDlv00/ChineseIsEasy-Calligraphy' target='_blank'>Calligraphy Engine:</a></b> Writing grid generator (Tian Ge Zi) with real-time stroke animation (HanziWriter) (<a href='https://axeldlv00.github.io/ChineseIsEasy-Calligraphy/' target='_blank'>Demo</a>).",
+      "link": "https://github.com/AxelDlv00/ChineseIsEasy",
+      "desc": "Development of a complete ecosystem optimizing Mandarin learning for French speakers. <br><br>• <b><a href='https://github.com/AxelDlv00/ChineseIsEasy' target='_blank'>Anki Deck Generator:</a></b> <br>&nbsp;&nbsp;&nbsp;&nbsp;◦ <i>AnkiWords & HSKWords:</i> 30,000+ frequency-based flashcards (<a href='https://openlexicon.fr/datasets-info/SUBTLEX-CH/README-subtlex-ch.html'>SUBTLEX-CH</a>) with realistic audio via <a href='https://github.com/OpenBMB/VoxCPM' target='_blank'><b>VoxCPM</b></a> and semantic images via <a href='https://huggingface.co/RunDiffusion/Juggernaut-XL-v9' target='_blank'><b>Juggernaut XL</b></a>.<br>&nbsp;&nbsp;&nbsp;&nbsp;◦ <i>AnkiPoems & AnkiChengyu:</i> Specialized modules for classical poetry and idioms.<br>&nbsp;&nbsp;&nbsp;&nbsp;◦ <i>AnkiTonalPractice:</i> Flashcard sets grouped by pinyin to master tones.<br>• <b><a href='https://github.com/AxelDlv00/GeoChina' target='_blank'>GeoChina:</a></b> Interactive application (ECharts) for exploring geographical and cultural provinces of China (<a href='https://axeldlv00.github.io/GeoChina/' target='_blank'>Demo</a>).<br>• <b><a href='https://github.com/AxelDlv00/ChineseIsEasy-Calligraphy' target='_blank'>Calligraphy Engine:</a></b> Grid generator (Tian Ge Zi) with real-time stroke animation (HanziWriter) (<a href='https://axeldlv00.github.io/ChineseIsEasy-Calligraphy/' target='_blank'>Demo</a>).",
       "chips": [
         { "text": "Anki Automation", "desc": "Deck generation with Spaced Repetition (SRS)." },
-        { "text": "Voice Cloning (VoxCPM)", "desc": "Realistic speech synthesis via zero-shot TTS." },
+        { "text": "Voice Cloning (VoxCPM)", "desc": "Realistic speech synthesis via Zero-shot TTS." },
         { "text": "GenAI Pipeline", "desc": "Contextual image generation via Juggernaut XL v9." },
         { "text": "Data Mining", "desc": "Massive data extraction (CC-CEDICT, SUBTLEX-CH, HSK)." },
         { "text": "GeoChina (ECharts)", "desc": "Interactive mapping and data visualization." },
@@ -219,57 +220,62 @@
       "title": "ToxiFrench: French Toxicity Detection (August 2025)",
       "logo": "sjtu.png",
       "logo_desc": "Research project in collaboration with SJTU University.",
-      "desc": "Dataset and models for detecting toxicity in French. The <a href='https://huggingface.co/datasets/AxelDlv00/ToxiFrench' target='_blank'><em>data</em></a>, <a href='https://huggingface.co/AxelDlv00/ToxiFrench' target='_blank'><em>models</em></a>, <a href='https://github.com/AxelDlv00/ToxiFrench' target='_blank'><em>code</em></a> and <a href='https://arxiv.org/abs/2508.11281' target='_blank'><em>associated publication</em></a> are available on the <a href='https://axeldlv00.github.io/ToxiFrench/' target='_blank'><em>project page</em></a>.",
+      "link": "https://github.com/AxelDlv00/ToxiFrench",
+      "desc": "Dataset and models for toxicity detection in French. <a href='https://huggingface.co/datasets/AxelDlv00/ToxiFrench' target='_blank'><em>Data</em></a>, <a href='https://huggingface.co/AxelDlv00/ToxiFrench' target='_blank'><em>models</em></a>, <a href='https://github.com/AxelDlv00/ToxiFrench' target='_blank'><em>code</em></a>, and the <a href='https://arxiv.org/abs/2508.11281' target='_blank'><em>associated publication</em></a> are available on the <a href='https://axeldlv00.github.io/ToxiFrench/' target='_blank'><em>project page</em></a>.",
       "chips": [
         { "text": "NLP", "desc": "Natural Language Processing." },
         { "text": "SLM", "desc": "Small Language Models." },
         { "text": "Fine-tuning", "desc": "Specialized training." },
-        { "text": "In-Context Learning", "desc": "Learning via prompting." },
+        { "text": "In-Context Learning", "desc": "Learning via prompts." },
         { "text": "Toxicity Detection", "desc": "Malicious content analysis." },
-        { "text": "Responsible AI", "desc": "Web platform safety." }
+        { "text": "Responsible AI", "desc": "Web platform security." }
       ]
     },
     {
       "title": "Wavelets — Mirror Filters and JPEG 2000 Compression (November 2025)",
       "logo": "delaunay.jpg",
-      "logo_desc": "Illustration of a JPEG 2000 compression via wavelets.",
-      "desc": "<a href='https://github.com/AxelDlv00/Ondelettes' target='_blank'><em>Wavelets</em></a> is an open-source pedagogical Beamer presentation and notebook illustrating the mathematical foundations and practical implementation of <b>wavelets</b> (AMR, QMF) applied to <b>JPEG 2000 image compression</b>. The project includes a <b>Python simulation</b> using <em>PyWavelets</em> and <em>Matplotlib</em> to visualize decomposition, quantization, and reconstruction.",
+      "logo_desc": "Illustration of JPEG 2000 compression using wavelets.",
+      "link": "https://github.com/AxelDlv00/Ondelettes",
+      "desc": "<a href='https://github.com/AxelDlv00/Ondelettes' target='_blank'><em>Ondelettes</em></a> is an open-source Beamer presentation and educational notebook illustrating the mathematical foundations and practical implementation of <b>wavelets</b> (AMR, QMF) applied to <b>JPEG 2000 image compression</b>. The project includes a <b>Python simulation</b> using <em>PyWavelets</em> and <em>Matplotlib</em> to visualize decomposition, quantization, and reconstruction.",
       "chips": [
         { "text": "Signal Processing", "desc": "Analysis and transformation of temporal or spatial data." },
-        { "text": "Wavelet", "desc": "Mathematical function for multi-scale decomposition." },
+        { "text": "Wavelet", "desc": "Multi-scale decomposition mathematical function." },
         { "text": "JPEG 2000", "desc": "High-performance image compression standard." },
-        { "text": "Image Compression", "desc": "Storage reduction without visual quality loss." },
-        { "text": "Open-Source Education", "desc": "Free and collaborative educational content." }
+        { "text": "Image Compression", "desc": "Storage reduction without loss of visual quality." },
+        { "text": "Open-source Pedagogy", "desc": "Free and collaborative educational content." }
       ]
     },
     {
       "title": "Comment Banners: VS Code Extension for Comment Banners (July 2025)",
-      "desc": "A <a href='https://marketplace.visualstudio.com/items?itemName=naela.comment-banners' target='_blank'><em>VS Code extension</em></a> to quickly insert <b>stylized comment banners</b> to structure and beautify code. It automatically recognizes comment syntax based on the language (C, Python, LaTeX, etc.) and offers several styles (double line, rounded, classic, arrows, etc.). Source code is available on <a href='https://github.com/AxelDlv00/comment-banners' target='_blank'><em>GitHub</em></a>.",
+      "link": "https://axel.github.io/comment-banners/",
+      "desc": "<a href='https://marketplace.visualstudio.com/items?itemName=naela.comment-banners' target='_blank'><em>VS Code</em></a> extension to quickly insert <b>stylized comment banners</b> to structure and beautify code. It automatically recognizes comment syntax based on the language (C, Python, LaTeX, etc.) and offers several styles (double line, rounded, classic, arrows, etc.). Source code is available on <a href='https://github.com/AxelDlv00/comment-banners' target='_blank'><em>GitHub</em></a>.",
       "chips": [
         { "text": "VS Code", "desc": "Microsoft's leading code editor." },
-        { "text": "Extension", "desc": "Functionality add-on module." },
-        { "text": "TypeScript", "desc": "Typed programming language based on JavaScript." },
+        { "text": "Extension", "desc": "Feature add-on module." },
+        { "text": "TypeScript", "desc": "JavaScript-based programming language with typing." },
         { "text": "Software Development", "desc": "Design of computing tools." }
       ]
     },
     {
       "title": "LaTeX Shortcuts: Keyboard Shortcuts for LaTeX in VS Code (July 2025)",
-      "desc": "A <a href='https://marketplace.visualstudio.com/items?itemName=naela.latex-shortcuts' target='_blank'><em>VS Code extension</em></a> providing <b>fast keyboard shortcuts</b> for LaTeX formatting. It allows users to automatically wrap selected text with commands like <code>\\textbf{...}</code>, <code>$...$</code>, <code>\\left(...\\right)</code>, or <code>\\underline{...}</code>, making LaTeX writing fluid and enjoyable. Source code is available on <a href='https://github.com/AxelDlv00/latex-shortcuts' target='_blank'><em>GitHub</em></a>.",
+      "link": "https://axel.github.io/latex-shortcuts/",
+      "desc": "<a href='https://marketplace.visualstudio.com/items?itemName=naela.latex-shortcuts' target='_blank'><em>VS Code</em></a> extension providing <b>fast keyboard shortcuts</b> for LaTeX formatting. It allows you to automatically wrap selected text with commands like <code>\\textbf{...}</code>, <code>$...$</code>, <code>\\left(...\\right)</code>, or <code>\\underline{...}</code>, making LaTeX writing smooth and pleasant. Source code is available on <a href='https://github.com/AxelDlv00/latex-shortcuts' target='_blank'><em>GitHub</em></a>.",
       "chips": [
         { "text": "VS Code", "desc": "Versatile IDE." },
         { "text": "Extension", "desc": "Writing assistance tool." },
-        { "text": "TypeScript", "desc": "Development of web/vscode tools." },
-        { "text": "LaTeX", "desc": "Scientific typesetting standard." }
+        { "text": "TypeScript", "desc": "Web/VS Code tool development." },
+        { "text": "LaTeX", "desc": "Scientific writing standard." }
       ]
     },
     {
-      "title": "RepoToPrompt: Converting Git Repositories to Structured Text for LLM Readability (June 2025)",
-      "desc": "<a href='https://github.com/AxelDlv00/RepoToPrompt' target='_blank'><em>RepoToPrompt</em></a> is a Python tool that converts an entire repository into a <b>single structured text document</b>, ideal for auditing, archiving, or use with Large Language Models. it allows for filtering included/excluded files, ignoring binaries, removing base64 images from Jupyter notebooks, and defining custom headers. Inspired by <a href='https://github.com/mpoon/gpt-repository-loader' target='_blank'>gpt-repository-loader</a>, it offers more flexible control over extensions and output formats.",
+      "title": "RepoToPrompt: Converting Git Repositories into Structured Text for LLM Readability (June 2025)",
+      "link": "https://github.com/AxelDlv00/RepoToPrompt",
+      "desc": "<a href='https://github.com/AxelDlv00/RepoToPrompt' target='_blank'><em>RepoToPrompt</em></a> is a Python tool that converts an entire repository into a <b>single, structured text document</b>, ideal for auditing, archiving, or use with language models. It allows filtering files, ignoring binaries, removing base64 images from Jupyter notebooks, and defining custom headers. Inspired by <a href='https://github.com/mpoon/gpt-repository-loader' target='_blank'>gpt-repository-loader</a>, it offers more flexible control over extensions and output format.",
       "chips": [
-        { "text": "Repository", "desc": "Version control code storage." },
+        { "text": "Repository", "desc": "Code version control storage." },
         { "text": "LLM", "desc": "Large Language Models." },
-        { "text": "Automation", "desc": "Time-saving through Python scripting." },
-        { "text": "Developer Tools", "desc": "Utilities facilitating coding work." }
+        { "text": "Automation", "desc": "Time saving via Python script." },
+        { "text": "Dev Tools", "desc": "Utilities facilitating coding work." }
       ]
     }
   ]

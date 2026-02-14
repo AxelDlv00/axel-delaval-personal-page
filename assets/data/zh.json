@@ -175,56 +175,58 @@
   ],
   "projects": [
     {
-      "title": "EULAI：法律文件分析本地人工智能助手 (2026年1月)",
-      "logo": "eulai.png",
-      "logo_desc": "EULAI：用于分析服务条款和隐私政策的浏览器扩展。",
-      "desc": "<b>EULAI</b> 是一款专注于隐私保护的 Chrome 浏览器扩展，可直接在浏览器中总结和分析复杂的法律文件（服务条款、隐私政策）。它是首批通过 WebGPU 实现 <b>100% 本地推理</b> 的扩展程序之一。<br><br>• <b>本地推理：</b> 由 <em>MLC Web-LLM</em>（经过微调的 Qwen-0.6B 模型）驱动的高性能人工智能对话。<br>• <b>层级化分段：</b> 对大规模文档进行智能切片，以防止上下文丢失。<br>• <b>源码透明度：</b> “查看源码”功能可显示人工智能分析时使用的精确文本段落。<br>• <b>TOS;DR 风格输出：</b> 将条款分类为 [良好]、[中立]、[糟糕] 和 [阻碍]。",
-      "chips": [
-        { "text": "WebGPU 推理", "desc": "在浏览器内本地运行大语言模型。" },
-        { "text": "自然语言处理", "desc": "法律文本的分析与摘要。" },
-        { "text": "微调", "desc": "在特定数据集上优化 Qwen-0.6B 模型。" },
-        { "text": "隐私核心", "desc": "不向第三方服务器发送任何数据。" },
-        { "text": "数据集生成", "desc": "使用 Gemini 的合成数据构建流水线。" }
-      ]
-    },
-    {
-      "title": "MorphFile：高性能 Rust 媒体处理命令行工具 (2026年2月)",
+      "title": "MorphFile：多功能文件处理工具 (2026)",
       "logo": "morphfile.png",
-      "logo_desc": "MorphFile：用于媒体文件操作的命令行工具。",
-      "desc": "<b>MorphFile</b> 是一款使用 <b>Rust</b> 编写的高性能命令行工具（CLI），用于在本地安全地转换、压缩、裁剪和合并各种媒体格式。<br><br>• <b>多功能性：</b> 支持多种格式转换（JPG、PNG、PDF）、无损视觉质量压缩以及异构文档合并。<br>• <b>Rust 卓越性能：</b> 利用 <em>image</em> 和 <em>lopdf</em> 库实现极速执行。<br>• <b>安全性：</b> 在线工具的本地替代方案，避免上传敏感文件。<br>• <b>模块化架构：</b> 可扩展设计，便于未来支持音频和视频格式。",
+      "logo_desc": "MorphFile：用于本地、快速且安全处理媒体文件的 CLI 工具。",
+      "link": "https://github.com/AxelDlv00/MorphFile",
+      "desc": "在线文件处理工具（压缩、转换等）层出不穷，但往往受限于配额且安全性较低。MorphFile 是一款开源、100% 本地的工具，采用 Rust 编写以确保极致性能。它集成了所有核心文件操作功能，完全避免数据泄露风险。",
       "chips": [
-        { "text": "Rust", "desc": "保障内存安全与高性能的系统编程语言。" },
-        { "text": "CLI", "desc": "基于 Clap 开发的命令行界面。" },
-        { "text": "图像处理", "desc": "像素操作、尺寸调整及压缩。" },
-        { "text": "PDF 操作", "desc": "PDF 文档结构的合并与管理。" },
-        { "text": "开源项目", "desc": "替代功能受限的 Web 工具的自由解决方案。" }
+        { "text": "Rust", "desc": "高性能且安全的编程语言。" },
+        { "text": "CLI", "desc": "快速灵活的命令行界面。" },
+        { "text": "文件处理", "desc": "媒体文件的压缩、转换与合并。" },
+        { "text": "安全性", "desc": "本地处理，保护敏感数据。" }
       ]
     },
     {
-      "title": "ChineseIsEasy 生态系统 — 中文学习工具 (2026)",
+      "title": "EULAI：法律条款 (ToS) 自动摘要网页扩展 (2026)",
+      "logo": "eulai.png",
+      "logo_desc": "EULAI：用于自动分析法律文本的浏览器扩展。",
+      "link": "https://github.com/AxelDlv00/EULAI",
+      "desc": "与其盲目接受晦涩难懂的合同，不如使用 EULAI 瞬间获取关键点和风险评估。该扩展使用针对 WebGPU 进行优化的 Qwen3-0.6B 模型，可在 GPU 上实现快速推理。它是首批完全在本地运行 SLM（小语言模型）的网页扩展之一。",
+      "chips": [
+        { "text": "网页扩展", "desc": "适用于 Chromium 系列浏览器。" },
+        { "text": "WebGPU", "desc": "通过 GPU 计算接口实现快速推理。" },
+        { "text": "条款分析", "desc": "自动审计法律文本。" },
+        { "text": "本地 AI", "desc": "无需第三方服务器，确保完全隐私。" }
+      ]
+    },
+    {
+      "title": "ChineseIsEasy 生态系统 — 汉语学习工具 (2026)",
       "logo": "chineseiseasy.png",
-      "logo_desc": "ChineseIsEasy：一套开源的中文学习工具集。",
+      "logo_desc": "ChineseIsEasy：开源汉语学习工具套件。",
       "media": "gifs/琴.gif",
-      "desc": "开发了一套完整的生态系统，旨在为法语母语者优化中文学习效率。<br><br>• <b><a href='https://github.com/AxelDlv00/ChineseIsEasy' target='_blank'>Anki 记忆库生成器：</a></b> <br>&nbsp;&nbsp;&nbsp;&nbsp;◦ <i>AnkiWords & HSKWords：</i> 基于词频（<a href='https://openlexicon.fr/datasets-info/SUBTLEX-CH/README-subtlex-ch.html'>SUBTLEX-CH</a>）的 30,000+ 记忆卡片，利用 <a href='https://github.com/OpenBMB/VoxCPM' target='_blank'><b>VoxCPM</b></a> 提供逼真音频，并由 <a href='https://huggingface.co/RunDiffusion/Juggernaut-XL-v9' target='_blank'><b>Juggernaut XL</b></a> 生成语义图像。<br>&nbsp;&nbsp;&nbsp;&nbsp;◦ <i>AnkiPoems & AnkiChengyu：</i> 针对古典诗词和成语的专题模块。<br>&nbsp;&nbsp;&nbsp;&nbsp;◦ <i>AnkiTonalPractice：</i> 按拼音分组的记忆卡，用于掌握声调。<br>• <b><a href='https://github.com/AxelDlv00/GeoChina' target='_blank'>GeoChina：</a></b> 基于 ECharts 的交互式应用，用于探索中国各省市的地理与文化 (<a href='https://axeldlv00.github.io/GeoChina/' target='_blank'>演示</a>)。<br>• <b><a href='https://github.com/AxelDlv00/ChineseIsEasy-Calligraphy' target='_blank'>书法引擎：</a></b> 生成田字格练习帖，支持实时笔顺动画 (HanziWriter) (<a href='https://axeldlv00.github.io/ChineseIsEasy-Calligraphy/' target='_blank'>演示</a>)。",
+      "link": "https://github.com/AxelDlv00/ChineseIsEasy",
+      "desc": "开发了一套完整的生态系统，旨在优化法语母语者的汉语学习体验。<br><br>• <b><a href='https://github.com/AxelDlv00/ChineseIsEasy' target='_blank'>Anki 卡片生成器：</a></b> <br>&nbsp;&nbsp;&nbsp;&nbsp;◦ <i>AnkiWords & HSKWords：</i> 基于词频 (<a href='https://openlexicon.fr/datasets-info/SUBTLEX-CH/README-subtlex-ch.html'>SUBTLEX-CH</a>) 的 30,000+ 张闪卡，使用 <a href='https://github.com/OpenBMB/VoxCPM' target='_blank'><b>VoxCPM</b></a> 生成逼真语音，并由 <a href='https://huggingface.co/RunDiffusion/Juggernaut-XL-v9' target='_blank'><b>Juggernaut XL</b></a> 提供语义图像。<br>&nbsp;&nbsp;&nbsp;&nbsp;◦ <i>AnkiPoems & AnkiChengyu：</i> 针对古典诗词和成语的专项模块。<br>&nbsp;&nbsp;&nbsp;&nbsp;◦ <i>AnkiTonalPractice：</i> 按拼音分组的闪卡集，用于掌握声调。<br>• <b><a href='https://github.com/AxelDlv00/GeoChina' target='_blank'>GeoChina：</a></b> 探索中国省市地理与文化的交互式应用 (ECharts) (<a href='https://axeldlv00.github.io/GeoChina/' target='_blank'>演示</a>)。<br>• <b><a href='https://github.com/AxelDlv00/ChineseIsEasy-Calligraphy' target='_blank'>书法引擎：</a></b> 支持笔画实时动画 (HanziWriter) 的田字格生成器 (<a href='https://axeldlv00.github.io/ChineseIsEasy-Calligraphy/' target='_blank'>演示</a>)。",
       "chips": [
-        { "text": "Anki 自动化", "desc": "生成带间隔重复（SRS）的记忆库。" },
-        { "text": "语音克隆 (VoxCPM)", "desc": "逼真的零样本语音合成 (Zero-shot TTS)。" },
-        { "text": "生成式 AI 流水线", "desc": "通过 Juggernaut XL v9 生成语境相关图像。" },
-        { "text": "数据挖掘", "desc": "海量数据提取（CC-CEDICT, SUBTLEX-CH, HSK）。" },
+        { "text": "Anki 自动化", "desc": "通过间隔重复系统 (SRS) 生成卡片组。" },
+        { "text": "语音克隆 (VoxCPM)", "desc": "通过零样本 TTS 实现逼真语音合成。" },
+        { "text": "生成式 AI 流水线", "desc": "利用 Juggernaut XL v9 生成语境相关图像。" },
+        { "text": "数据挖掘", "desc": "大规模数据提取 (CC-CEDICT, SUBTLEX-CH, HSK)。" },
         { "text": "GeoChina (ECharts)", "desc": "交互式地图与数据可视化。" },
-        { "text": "Calligraphy JS", "desc": "笔画动画引擎与字格生成。" }
+        { "text": "书法 JS", "desc": "笔画动画引擎与字格生成。" }
       ]
     },
     {
-      "title": "ToxiFrench：法语毒性检测 (2025年8月)",
+      "title": "ToxiFrench：法语毒性内容检测 (2025年8月)",
       "logo": "sjtu.png",
-      "logo_desc": "与上海交通大学合作的科研项目。",
-      "desc": "用于法语毒性检测的数据集和模型。相关的<a href='https://huggingface.co/datasets/AxelDlv00/ToxiFrench' target='_blank'><em>数据</em></a>、<a href='https://huggingface.co/AxelDlv00/ToxiFrench' target='_blank'><em>模型</em></a>、<a href='https://github.com/AxelDlv00/ToxiFrench' target='_blank'><em>代码</em></a>及<a href='https://arxiv.org/abs/2508.11281' target='_blank'><em>论文</em></a>均可在<a href='https://axeldlv00.github.io/ToxiFrench/' target='_blank'><em>项目主页</em></a>获取。",
+      "logo_desc": "与上海交通大学 (SJTU) 合作的研究项目。",
+      "link": "https://github.com/AxelDlv00/ToxiFrench",
+      "desc": "用于法语毒性检测的数据集和模型。相关的 <a href='https://huggingface.co/datasets/AxelDlv00/ToxiFrench' target='_blank'><em>数据</em></a>、<a href='https://huggingface.co/AxelDlv00/ToxiFrench' target='_blank'><em>模型</em></a>、<a href='https://github.com/AxelDlv00/ToxiFrench' target='_blank'><em>代码</em></a> 及 <a href='https://arxiv.org/abs/2508.11281' target='_blank'><em>论文发表</em></a> 均可在 <a href='https://axeldlv00.github.io/ToxiFrench/' target='_blank'><em>项目主页</em></a> 查看。",
       "chips": [
         { "text": "NLP", "desc": "自然语言处理。" },
         { "text": "SLM", "desc": "小语言模型。" },
         { "text": "微调", "desc": "专业化训练。" },
-        { "text": "上下文学习", "desc": "通过 Prompt 学习。" },
+        { "text": "上下文学习", "desc": "通过提示词进行学习。" },
         { "text": "毒性检测", "desc": "恶意内容分析。" },
         { "text": "负责任的 AI", "desc": "网络平台安全。" }
       ]
@@ -232,44 +234,45 @@
     {
       "title": "小波分析 — 镜像滤波器与 JPEG 2000 压缩 (2025年11月)",
       "logo": "delaunay.jpg",
-      "logo_desc": "JPEG 2000 小波压缩示意图。",
-      "desc": "<a href='https://github.com/AxelDlv00/Ondelettes' target='_blank'><em>Ondelettes</em></a> 是一个开源的教学项目（包含 Beamer 演示稿和 Notebook），展示了<b>小波分析</b>（AMR, QMF）在 <b>JPEG 2000 图像压缩</b>中的数学基础与实际应用。该项目包含一个使用 <em>PyWavelets</em> 和 <em>Matplotlib</em> 的 <b>Python 模拟器</b>，用于可视化分解、量化和重建过程。",
+      "logo_desc": "通过小波变换实现的 JPEG 2000 压缩示意图。",
+      "link": "https://github.com/AxelDlv00/Ondelettes",
+      "desc": "<a href='https://github.com/AxelDlv00/Ondelettes' target='_blank'><em>Ondelettes</em></a> 是一个开源教学项目，包含 Beamer 演示稿和 Notebook，展示了应用于 <b>JPEG 2000 图像压缩</b> 的 <b>小波分析</b>（AMR, QMF）数学基础与实践。项目包含使用 <em>PyWavelets</em> 和 <em>Matplotlib</em> 的 <b>Python 模拟</b>，用于可视化分解、量化和重建过程。",
       "chips": [
-        { "text": "信号处理", "desc": "时间或空间数据的分析与变换。" },
-        { "text": "小波", "desc": "用于多尺度分解的数学函数。" },
+        { "text": "信号处理", "desc": "对时间或空间数据进行分析与变换。" },
+        { "text": "小波", "desc": "多尺度分解的数学函数。" },
         { "text": "JPEG 2000", "desc": "高性能图像压缩标准。" },
-        { "text": "图像压缩", "desc": "在不损失视觉质量的前提下减少存储占用。" },
-        { "text": "开源教学", "desc": "自由协作的教育内容。" }
+        { "text": "图像压缩", "desc": "在不损失视觉质量的情况下减少存储占用。" },
+        { "text": "开源教学", "desc": "自由且协作的教育内容。" }
       ]
     },
     {
       "title": "Comment Banners：VS Code 注释横幅扩展 (2025年7月)",
-      "logo_desc": "自动识别语法并美化代码结构的工具。",
-      "desc": "一款 <a href='https://marketplace.visualstudio.com/items?itemName=naela.comment-banners' target='_blank'><em>VS Code 插件</em></a>，可快速插入<b>样式化的注释横幅</b>，用于结构化和美化代码。它能根据语言（C, Python, LaTeX 等）自动识别注释语法，并提供多种样式（双线、圆角、经典、箭头等）。源代码托管于 <a href='https://github.com/AxelDlv00/comment-banners' target='_blank'><em>GitHub</em></a>。",
+      "link": "https://axel.github.io/comment-banners/",
+      "desc": "一款 <a href='https://marketplace.visualstudio.com/items?itemName=naela.comment-banners' target='_blank'><em>VS Code</em></a> 扩展，用于快速插入<b>样式化的注释横幅</b>以结构化和美化代码。它能根据语言（C、Python、LaTeX 等）自动识别注释语法，并提供多种风格（双线、圆角、经典、箭头等）。源代码可在 <a href='https://github.com/AxelDlv00/comment-banners' target='_blank'><em>GitHub</em></a> 获取。",
       "chips": [
         { "text": "VS Code", "desc": "微软领先的代码编辑器。" },
-        { "text": "插件", "desc": "功能扩展模块。" },
-        { "text": "TypeScript", "desc": "基于 JavaScript 的带类型编程语言。" },
-        { "text": "软件开发", "desc": "计算机工具设计。" }
+        { "text": "扩展", "desc": "功能补充模块。" },
+        { "text": "TypeScript", "desc": "基于 JavaScript 的强类型编程语言。" },
+        { "text": "软件开发", "desc": "工具开发与设计。" }
       ]
     },
     {
-      "title": "LaTeX Shortcuts：VS Code LaTeX 快捷键插件 (2025年7月)",
-      "logo_desc": "提升科学写作流程度的工具。",
-      "desc": "这款 <a href='https://marketplace.visualstudio.com/items?itemName=naela.latex-shortcuts' target='_blank'><em>VS Code 插件</em></a> 为 LaTeX 排版提供<b>快速键盘快捷键</b>。它能自动为选中文本添加 <code>\\textbf{...}</code>, <code>$...$</code>, <code>\\left(...\\right)</code> 或 <code>\\underline{...}</code> 等命令，让 LaTeX 写作变得流畅且愉悦。源代码见 <a href='https://github.com/AxelDlv00/latex-shortcuts' target='_blank'><em>GitHub</em></a>。",
+      "title": "LaTeX Shortcuts：VS Code 中的 LaTeX 键盘快捷键 (2025年7月)",
+      "link": "https://axel.github.io/latex-shortcuts/",
+      "desc": "一款 <a href='https://marketplace.visualstudio.com/items?itemName=naela.latex-shortcuts' target='_blank'><em>VS Code</em></a> 扩展，提供快速的 <b>LaTeX 格式化快捷键</b>。它支持自动为选中文本添加命令，如 <code>\\textbf{...}</code>, <code>$...$</code>, <code>\\left(...\\right)</code> 或 <code>\\underline{...}</code>，使 LaTeX 写作更加流畅。源代码可在 <a href='https://github.com/AxelDlv00/latex-shortcuts' target='_blank'><em>GitHub</em></a> 获取。",
       "chips": [
         { "text": "VS Code", "desc": "多功能 IDE。" },
-        { "text": "插件", "desc": "辅助编辑工具。" },
-        { "text": "TypeScript", "desc": "Web/VSCode 工具开发。" },
+        { "text": "扩展", "desc": "辅助编辑工具。" },
+        { "text": "TypeScript", "desc": "Web/VS Code 工具开发。" },
         { "text": "LaTeX", "desc": "科学写作标准。" }
       ]
     },
     {
       "title": "RepoToPrompt：将 Git 仓库转换为 LLM 可读的结构化文本 (2025年6月)",
-      "logo_desc": "优化大模型上下文输入的自动化脚本。",
-      "desc": "<a href='https://github.com/AxelDlv00/RepoToPrompt' target='_blank'><em>RepoToPrompt</em></a> 是一个 Python 工具，可将整个仓库转换为<b>单一的结构化文本文件</b>，非常适合审计、归档或与大语言模型配合使用。它支持文件过滤、忽略二进制文件、移除 Jupyter Notebook 中的 base64 图像以及自定义文件头。灵感来自 <a href='https://github.com/mpoon/gpt-repository-loader' target='_blank'>gpt-repository-loader</a>，但提供了对扩展名和输出格式更灵活的控制。",
+      "link": "https://github.com/AxelDlv00/RepoToPrompt",
+      "desc": "<a href='https://github.com/AxelDlv00/RepoToPrompt' target='_blank'><em>RepoToPrompt</em></a> 是一款 Python 工具，可将整个仓库转换为<b>单一且结构化的文本文件</b>，非常适合审计、归档或与大语言模型配合使用。它支持过滤文件、忽略二进制文件、移除 Jupyter Notebook 中的 base64 图像并定义自定义页眉。受 <a href='https://github.com/mpoon/gpt-repository-loader' target='_blank'>gpt-repository-loader</a> 启发，它在扩展名过滤和输出格式上提供了更灵活的控制。",
       "chips": [
-        { "text": "仓库", "desc": "代码版本管理仓库。" },
+        { "text": "代码库", "desc": "版本控制代码存储。" },
         { "text": "LLM", "desc": "大语言模型。" },
         { "text": "自动化", "desc": "通过 Python 脚本节省时间。" },
         { "text": "开发者工具", "desc": "简化编码工作的实用程序。" }
