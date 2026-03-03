@@ -21,7 +21,7 @@
       { "text": "巴黎矿业学院", "desc": "隶属于巴黎文理研究大学（PSL）的工程师学院（排名第2），以科研实力和工业界联系著称。" }
     ]
   },
-  "last_updated": "最后更新日期：2026年2月14日",
+  "last_updated": "最后更新日期：2026年3月3日",
   "scolarpath": [
     {
       "title": "巴黎矿业学院 (Mines Paris – PSL) — 计算机科学双学位，2025–2026",
@@ -174,6 +174,34 @@
     }
   ],
   "projects": [
+    {
+      "title": "NativeChat：人工智能语言学习应用 (2026年2月)",
+      "logo": "nativechat.png",
+      "logo_desc": "NativeChat：用于沉浸式外语练习的智能聊天界面。",
+      "link": "https://github.com/AxelDlv00/NativeChat",
+      "desc": "界面类似于 Gemini 或 ChatGPT，但专门针对语言学习进行了优化。它通过调用大语言模型（如 Gemini Flash Lite）API 模拟与母语者的真实互动，填补了理论学习与实际对话之间的空白。该工具包含多个实用功能：拼音显示、自动纠错以及错误的教学解释。",
+      "chips": [
+        { "text": "Next.js", "desc": "用于确保界面流畅且响应迅速的现代 Web 框架。" },
+        { "text": "Supabase", "desc": "用于实时数据库管理和同步的后端即服务 (BaaS) 解决方案。" },
+        { "text": "Clerk", "desc": "用于用户管理的安全性身份验证服务。" },
+        { "text": "LLM 集成", "desc": "优化使用 Gemini 和 OpenAI API 进行对话生成和角色扮演。" },
+        { "text": "Capacitor (Android)", "desc": "将 Web 应用部署为 Android 原生移动端的工具。" },
+        { "text": "教育与人工智能", "desc": "人工智能在促进语言习得方面的具体应用。" }
+      ]
+    },
+    {
+      "title": "Comment Markdown Render：VS Code 插件 (2026年2月)",
+      "logo": "comment-markdown-render.png",
+      "logo_desc": "Comment Markdown Render：直接在代码注释中预览 Markdown（包括 LaTeX）的插件。",
+      "link": "https://github.com/AxelDlv00/comment-markdown-render",
+      "desc": "一款将代码注释转化为富文档的 VS Code 插件。它支持悬停时渲染 <b>Markdown</b> 和 <b>LaTeX</b> 公式。该插件最初旨在辅助数学形式化（Lean4），目前已兼容大多数编程语言。",
+      "chips": [
+        { "text": "VS Code 插件", "desc": "为 IDE 开发的生产力工具。" },
+        { "text": "Markdown 与 LaTeX", "desc": "渲染富文本和复杂的数学公式。" },
+        { "text": "TypeScript", "desc": "插件逻辑实现及 VS Code 界面交互。" },
+        { "text": "形式化", "desc": "辅助编写证明和技术文档的工具。" }
+      ]
+    },
     {
       "title": "MorphFile：多功能文件处理工具 (2026)",
       "logo": "morphfile.png",

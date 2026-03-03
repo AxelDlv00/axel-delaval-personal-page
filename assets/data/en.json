@@ -21,7 +21,7 @@
       { "text": "Mines Paris", "desc": "Engineering school of PSL University (ranked #2 among French engineering schools), renowned for its research and industrial ties." }
     ]
   },
-  "last_updated": "Last updated: 14 February 2026",
+  "last_updated": "Last updated: March 3, 2026",
   "scolarpath": [
     {
       "title": "Mines Paris – PSL — Double Degree in Computer Science, 2025–2026",
@@ -174,6 +174,34 @@
     }
   ],
   "projects": [
+    {
+      "title": "NativeChat: AI-Powered Language Learning App (February 2026)",
+      "logo": "nativechat.png",
+      "logo_desc": "NativeChat: Intelligent chat interface for immersive foreign language practice.",
+      "link": "https://github.com/AxelDlv00/NativeChat",
+      "desc": "An interface similar to Gemini or ChatGPT, but optimized for language learning. It bridges the gap between theoretical learning and real-world conversation by simulating interactions with native speakers through API calls to LLMs (e.g., Gemini Flash Lite). The tool features several practical modules: pinyin display, automated correction, and pedagogical error explanations.",
+      "chips": [
+        { "text": "Next.js", "desc": "Modern web framework used to ensure a fluid and responsive interface." },
+        { "text": "Supabase", "desc": "Backend-as-a-Service solution for real-time database management and synchronization." },
+        { "text": "Clerk", "desc": "Secure authentication service for user management." },
+        { "text": "LLM Integration", "desc": "Optimized use of Gemini and OpenAI APIs for dialogue generation and roleplay." },
+        { "text": "Capacitor (Android)", "desc": "Tool for deploying the web application as a native mobile version for Android." },
+        { "text": "Education & AI", "desc": "Practical application of artificial intelligence to facilitate language acquisition." }
+      ]
+    },
+    {
+      "title": "Comment Markdown Render: VS Code Extension (February 2026)",
+      "logo": "comment-markdown-render.png",
+      "logo_desc": "Comment Markdown Render: Extension for visualizing Markdown (including LaTeX) directly within code comments.",
+      "link": "https://github.com/AxelDlv00/comment-markdown-render",
+      "desc": "A VS Code extension that transforms code comments into rich documentation. It supports <b>Markdown</b> rendering and <b>LaTeX</b> equations on hover. Initially designed to facilitate mathematical formalization (Lean4), it is compatible with most programming languages.",
+      "chips": [
+        { "text": "VS Code Extension", "desc": "Development of productivity tools for the IDE." },
+        { "text": "Markdown & LaTeX", "desc": "Rendering of rich text and complex mathematical formulas." },
+        { "text": "TypeScript", "desc": "Extension logic and manipulation of the VS Code interface." },
+        { "text": "Formalization", "desc": "Tool to assist in writing proofs and technical documentation." }
+      ]
+    },
     {
       "title": "MorphFile: Versatile File Manipulation Tool (2026)",
       "logo": "morphfile.png",

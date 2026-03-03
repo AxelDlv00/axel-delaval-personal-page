@@ -21,7 +21,7 @@
       { "text": "Mines Paris", "desc": "École d'ingénieurs de l'Université PSL (2e du classement des écoles d'ingénieurs françaises), réputée pour sa recherche et ses liens industriels." }
     ]
   },
-  "last_updated": "Dernière mise à jour : 14 février 2026",
+  "last_updated": "Dernière mise à jour : 3 Mars 2026",
   "scolarpath": [
     {
       "title": "Mines Paris – PSL — Double diplôme en Informatique, 2025–2026",
@@ -174,6 +174,34 @@
     }
   ],
   "projects": [
+    {
+      "title": "NativeChat : Application d'apprentissage des langues par l'IA (février 2026)",
+      "logo": "nativechat.png",
+      "logo_desc": "NativeChat : Interface de chat intelligente pour la pratique immersive des langues étrangères.",
+      "link": "https://github.com/AxelDlv00/NativeChat",
+      "desc": "Interface similaire à Gemini ou ChatGPT, mais optimisée pour l'apprentissage des langues. Elle permet de combler le fossé entre l'apprentissage théorique et la conversation réelle en simulant des interactions avec des natifs via des appels API à des LLMs (e.g. Gemini Flash Lite). L'outil propose de nombreux modules pratiques : affichage du pinyin, correction automatique et explication pédagogique des erreurs.",
+      "chips": [
+        { "text": "Next.js", "desc": "Framework Web moderne utilisé pour garantir une interface fluide et réactive." },
+        { "text": "Supabase", "desc": "Solution de Backend-as-a-Service pour la gestion de la base de données et de l'authentification en temps réel." },
+        { "text": "Clerk", "desc": "Service d'authentification sécurisé pour la gestion des utilisateurs." },
+        { "text": "Intégration de LLMs", "desc": "Exploitation optimisée des APIs Gemini et OpenAI pour la génération de dialogue et le roleplay." },
+        { "text": "Capacitor (Android)", "desc": "Outil permettant le déploiement de l'application web en version mobile native pour Android." },
+        { "text": "Éducation & IA", "desc": "Application concrète de l'intelligence artificielle pour faciliter l'acquisition de compétences linguistiques." }
+      ]
+    },
+    {
+      "title": "Comment Markdown Render : Extension VS Code (février 2026)",
+      "logo": "comment-markdown-render.png",
+      "logo_desc": "Comment Markdown Render : Extension permettant de visualiser du Markdown (y-compris LaTeX) directement dans les commentaires de code.",
+      "link": "https://github.com/AxelDlv00/comment-markdown-render",
+      "desc": "Extension VS Code permettant de transformer les commentaires de code en documentation riche. Elle supporte le rendu <b>Markdown</b> et les équations <b>LaTeX</b> au survol. Initialement conçue pour faciliter la formalisation mathématique (Lean4), elle est compatible avec la plupart des langages de programmation.",
+      "chips": [
+        { "text": "VS Code Extension", "desc": "Développement d'outils de productivité pour l'IDE." },
+        { "text": "Markdown & LaTeX", "desc": "Rendu de texte riche et de formules mathématiques complexes." },
+        { "text": "TypeScript", "desc": "Logique d'extension et manipulation de l'interface VS Code." },
+        { "text": "Formalisation", "desc": "Outil d'aide à la rédaction de preuves et de documentation technique." }
+      ]
+    },
     {
       "title": "MorphFile : Outil polyvalent de manipulation de fichiers (2026)",
       "logo": "morphfile.png",
