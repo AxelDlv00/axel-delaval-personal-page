@@ -21,8 +21,20 @@
       { "text": "Mines Paris", "desc": "Engineering school of PSL University (ranked #2 among French engineering schools), renowned for its research and industrial ties." }
     ]
   },
-  "last_updated": "Last updated: March 3, 2026",
+  "last_updated": "Last updated: July 6, 2026",
   "scolarpath": [
+    {
+      "title": "Peking University (PKU) — PhD in AI4Math, Mathematics Department, September 2026–August 2030",
+      "logo": "pku.png",
+      "logo_desc": "Peking University: leading Chinese university founded in 1898.",
+      "desc": "PhD in AI4Math in the Mathematics Department at Peking University, affiliated with the Beijing International Center for Mathematical Research (BICMR), under the supervision of <a href='http://faculty.bicmr.pku.edu.cn/~dongbin/' target='_blank'>Prof. Bin Dong</a>.",
+      "chips": [
+        { "text": "AI4Math", "desc": "Artificial intelligence methods for mathematical research and reasoning." },
+        { "text": "Mathematics Department", "desc": "Doctoral program in the Department of Mathematics at Peking University." },
+        { "text": "BICMR", "desc": "Beijing International Center for Mathematical Research." },
+        { "text": "Bin Dong", "desc": "Supervisor at BICMR, Peking University." }
+      ]
+    },
     {
       "title": "Mines Paris – PSL — Double Degree in Computer Science, 2025–2026",
       "logo": "mines.png",
@@ -117,6 +129,18 @@
       ]
     },
     {
+      "title": "Research Intern — Peking University (PKU), April 2026–September 2026",
+      "logo": "pku.png",
+      "logo_desc": "Peking University: leading Chinese university founded in 1898.",
+      "desc": "Research internship at Peking University on autoformalization for mathematics, including Lean4-based formalization workflows and AI-assisted theorem proving, connected with BICMR and the group of <a href='http://faculty.bicmr.pku.edu.cn/~dongbin/' target='_blank'>Prof. Bin Dong</a>.",
+      "chips": [
+        { "text": "Autoformalization", "desc": "Automatic translation of informal mathematical statements and proofs into formal languages." },
+        { "text": "Lean4", "desc": "Interactive theorem prover and programming language used for formal mathematics." },
+        { "text": "AI4Math", "desc": "AI methods for mathematical reasoning, proof search, and formalization." },
+        { "text": "BICMR", "desc": "Beijing International Center for Mathematical Research." }
+      ]
+    },
+    {
       "title": "AI Research Intern — Shanghai Jiao Tong University (SJTU), 2025",
       "logo": "sjtu.png",
       "logo_desc": "SJTU: World-class university, leader in engineering and information sciences in China.",
@@ -174,6 +198,19 @@
     }
   ],
   "projects": [
+    {
+      "title": "Archon: Open-Source AI Research Framework (2026)",
+      "logo": "frenzymath.png",
+      "logo_desc": "frenzymath: GitHub organization behind the Archon project.",
+      "link": "https://github.com/frenzymath/Archon",
+      "desc": "<a href='https://github.com/frenzymath/Archon' target='_blank'><em>Archon</em></a> is an open-source project developed with frenzymath. I contribute to the framework and tooling around research-oriented AI workflows, with an emphasis on rigorous experimentation, reproducibility, and practical developer ergonomics.",
+      "chips": [
+        { "text": "Open Source", "desc": "Public collaborative software development." },
+        { "text": "AI Research Tooling", "desc": "Tools for structuring and evaluating AI research workflows." },
+        { "text": "Python", "desc": "Core language for research and experimentation tooling." },
+        { "text": "Reproducibility", "desc": "Engineering practices for reliable and auditable experiments." }
+      ]
+    },
     {
       "title": "NativeChat: AI-Powered Language Learning App (February 2026)",
       "logo": "nativechat.png",

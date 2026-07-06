@@ -21,8 +21,20 @@
       { "text": "Mines Paris", "desc": "Scuola d'ingegneria dell'Università PSL (2ª nel ranking francese), rinomata per la sua ricerca e i suoi legami industriali." }
     ]
   },
-  "last_updated": "Ultimo aggiornamento: 3 Marzo 2026",
+  "last_updated": "Ultimo aggiornamento: 6 luglio 2026",
   "scolarpath": [
+    {
+      "title": "Peking University (PKU) — Dottorato in AI4Math, dipartimento di matematica, settembre 2026–agosto 2030",
+      "logo": "pku.png",
+      "logo_desc": "Peking University: università cinese di primo piano fondata nel 1898.",
+      "desc": "Dottorato in AI4Math nel dipartimento di matematica della Peking University, affiliato al Beijing International Center for Mathematical Research (BICMR), sotto la supervisione del <a href='http://faculty.bicmr.pku.edu.cn/~dongbin/' target='_blank'>Prof. Bin Dong</a>.",
+      "chips": [
+        { "text": "AI4Math", "desc": "Metodi di intelligenza artificiale per la ricerca e il ragionamento matematico." },
+        { "text": "Dipartimento di matematica", "desc": "Programma dottorale nel dipartimento di matematica della Peking University." },
+        { "text": "BICMR", "desc": "Beijing International Center for Mathematical Research." },
+        { "text": "Bin Dong", "desc": "Supervisore presso il BICMR, Peking University." }
+      ]
+    },
     {
       "title": "Mines Paris – PSL — Doppia laurea in Informatica, 2025–2026",
       "logo": "mines.png",
@@ -117,6 +129,18 @@
       ]
     },
     {
+      "title": "Tirocinio di ricerca — Peking University (PKU), aprile 2026–settembre 2026",
+      "logo": "pku.png",
+      "logo_desc": "Peking University: università cinese di primo piano fondata nel 1898.",
+      "desc": "Tirocinio di ricerca presso Peking University sull’autoformalizzazione della matematica, inclusi workflow di formalizzazione basati su Lean4 e dimostrazione assistita dall’IA, collegato al BICMR e al gruppo del <a href='http://faculty.bicmr.pku.edu.cn/~dongbin/' target='_blank'>Prof. Bin Dong</a>.",
+      "chips": [
+        { "text": "Autoformalizzazione", "desc": "Traduzione automatica di enunciati e dimostrazioni matematiche informali in linguaggi formali." },
+        { "text": "Lean4", "desc": "Dimostratore interattivo di teoremi e linguaggio di programmazione per la matematica formale." },
+        { "text": "AI4Math", "desc": "Metodi di IA per ragionamento matematico, ricerca di prove e formalizzazione." },
+        { "text": "BICMR", "desc": "Beijing International Center for Mathematical Research." }
+      ]
+    },
+    {
       "title": "Tirocinio di ricerca in IA — Shanghai Jiao Tong University (SJTU), 2025",
       "logo": "sjtu.png",
       "logo_desc": "SJTU: Università di livello mondiale, leader in ingegneria e scienze dell'informazione in Cina.",
@@ -174,6 +198,19 @@
     }
   ],
   "projects": [
+    {
+      "title": "Archon: framework open-source per la ricerca in IA (2026)",
+      "logo": "frenzymath.png",
+      "logo_desc": "frenzymath: organizzazione GitHub dietro il progetto Archon.",
+      "link": "https://github.com/frenzymath/Archon",
+      "desc": "<a href='https://github.com/frenzymath/Archon' target='_blank'><em>Archon</em></a> è un progetto open-source sviluppato con frenzymath. Contribuisco al framework e agli strumenti per workflow di ricerca in IA, con attenzione a sperimentazione rigorosa, riproducibilità ed ergonomia per sviluppatori.",
+      "chips": [
+        { "text": "Open source", "desc": "Sviluppo software pubblico e collaborativo." },
+        { "text": "Strumenti per ricerca IA", "desc": "Strumenti per strutturare e valutare workflow di ricerca in IA." },
+        { "text": "Python", "desc": "Linguaggio centrale per strumenti di ricerca e sperimentazione." },
+        { "text": "Riproducibilità", "desc": "Pratiche ingegneristiche per esperimenti affidabili e verificabili." }
+      ]
+    },
     {
       "title": "NativeChat: Applicazione per l'apprendimento delle lingue tramite IA (febbraio 2026)",
       "logo": "nativechat.png",

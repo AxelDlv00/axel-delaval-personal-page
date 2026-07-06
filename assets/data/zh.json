@@ -21,8 +21,20 @@
       { "text": "巴黎矿业学院", "desc": "隶属于巴黎文理研究大学（PSL）的工程师学院（排名第2），以科研实力和工业界联系著称。" }
     ]
   },
-  "last_updated": "最后更新日期：2026年3月3日",
+  "last_updated": "最后更新日期：2026年7月6日",
   "scolarpath": [
+    {
+      "title": "北京大学 (PKU) — AI4Math 数学博士，数学系，2026年9月–2030年8月",
+      "logo": "pku.png",
+      "logo_desc": "北京大学：创立于1898年的中国顶尖大学。",
+      "desc": "将在北京大学数学系攻读 AI4Math 方向博士，并隶属于北京国际数学研究中心（BICMR），导师为 <a href='http://faculty.bicmr.pku.edu.cn/~dongbin/' target='_blank'>董彬教授</a>。",
+      "chips": [
+        { "text": "AI4Math", "desc": "面向数学研究与推理的人工智能方法。" },
+        { "text": "数学系", "desc": "北京大学数学系博士项目。" },
+        { "text": "BICMR", "desc": "北京国际数学研究中心。" },
+        { "text": "董彬", "desc": "北京大学 BICMR 导师。" }
+      ]
+    },
     {
       "title": "巴黎矿业学院 (Mines Paris – PSL) — 计算机科学双学位，2025–2026",
       "logo": "mines.png",
@@ -117,6 +129,18 @@
       ]
     },
     {
+      "title": "科研实习 — 北京大学 (PKU)，2026年4月–2026年9月",
+      "logo": "pku.png",
+      "logo_desc": "北京大学：创立于1898年的中国顶尖大学。",
+      "desc": "在北京大学进行数学自动形式化方向的科研实习，包括基于 Lean4 的形式化工作流与 AI 辅助定理证明，研究方向与 BICMR 及 <a href='http://faculty.bicmr.pku.edu.cn/~dongbin/' target='_blank'>董彬教授</a>团队相关。",
+      "chips": [
+        { "text": "自动形式化", "desc": "将非形式化数学命题与证明自动转化为形式语言。" },
+        { "text": "Lean4", "desc": "用于形式化数学的交互式定理证明器和编程语言。" },
+        { "text": "AI4Math", "desc": "用于数学推理、证明搜索与形式化的 AI 方法。" },
+        { "text": "BICMR", "desc": "北京国际数学研究中心。" }
+      ]
+    },
+    {
       "title": "人工智能科研实习 — 上海交通大学 (SJTU)，2025",
       "logo": "sjtu.png",
       "logo_desc": "上海交通大学：中国工程与信息科学领域的顶尖大学。",
@@ -174,6 +198,19 @@
     }
   ],
   "projects": [
+    {
+      "title": "Archon：开源 AI 研究框架（2026）",
+      "logo": "frenzymath.png",
+      "logo_desc": "frenzymath：Archon 项目的 GitHub 组织。",
+      "link": "https://github.com/frenzymath/Archon",
+      "desc": "<a href='https://github.com/frenzymath/Archon' target='_blank'><em>Archon</em></a> 是与 frenzymath 一起开发的开源项目。我参与研究型 AI 工作流相关的框架与工具建设，重点关注严谨实验、可复现性和实用的开发体验。",
+      "chips": [
+        { "text": "开源", "desc": "公开协作的软件开发。" },
+        { "text": "AI 研究工具", "desc": "用于组织和评估 AI 研究工作流的工具。" },
+        { "text": "Python", "desc": "研究与实验工具的核心语言。" },
+        { "text": "可复现性", "desc": "用于可靠、可审计实验的工程实践。" }
+      ]
+    },
     {
       "title": "NativeChat：人工智能语言学习应用 (2026年2月)",
       "logo": "nativechat.png",
