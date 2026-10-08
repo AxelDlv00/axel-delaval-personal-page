@@ -21,7 +21,7 @@
       { "text": "Mines Paris", "desc": "Scuola d'ingegneria dell'Università PSL (2ª nel ranking francese), rinomata per la sua ricerca e i suoi legami industriali." }
     ]
   },
-  "last_updated": "Ultimo aggiornamento: 6 luglio 2026",
+  "last_updated": "Ultimo aggiornamento: 8 ottobre 2026",
   "scolarpath": [
     {
       "title": "Peking University (PKU) — Dottorato in AI4Math, dipartimento di matematica, settembre 2026–agosto 2030",
@@ -179,6 +179,21 @@
     }
   ],
   "publications": [
+    {
+      "title": "An AI-Assisted Formalization of the Poincaré Conjecture",
+      "logo": "frenzymath.png",
+      "logo_desc": "Progetto di formalizzazione matematica assistita dall'IA con frenzymath.",
+      "meta": "Zhiyuan Zhang, Axel Delaval, Leheng Chen, Jinxuan Chen, Jie Xu, Yuxuan Liao, Jiedong Jiang, Chunlei Liu, Bin Dong - 2026",
+      "desc": "Presentiamo una formalizzazione Lean 4 assistita dall'IA della congettura di Poincaré. Il progetto combina un blueprint di dimostrazione preparato da matematici con traguardi espliciti, consentendo un lavoro parallelo degli agenti e una guida umana efficace. Fornisce le basi per un'infrastruttura riutilizzabile per futuri progetti di formalizzazione in analisi geometrica.",
+      "chips": [
+        { "text": "AI4Math", "desc": "Metodi di intelligenza artificiale per la ricerca e il ragionamento matematico." },
+        { "text": "Lean4", "desc": "Dimostratore interattivo di teoremi e linguaggio di programmazione per la matematica formale." },
+        { "text": "Formalizzazione", "desc": "Traduzione di enunciati e dimostrazioni matematiche in un linguaggio formale." },
+        { "text": "Topologia geometrica", "desc": "Studio delle proprietà topologiche di oggetti e spazi geometrici." },
+        { "text": "Congettura di Poincaré", "desc": "Problema fondamentale di topologia che caratterizza la 3-sfera." }
+      ],
+      "link": "https://arxiv.org/abs/2610.08329"
+    },
     {
       "title": "ToxiFrench: Benchmarking and Enhancing Language Models via CoT Fine-Tuning for French Toxicity Detection",
       "logo": "sjtu.png",

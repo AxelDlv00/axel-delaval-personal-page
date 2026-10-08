@@ -21,7 +21,7 @@
       { "text": "Mines Paris", "desc": "École d'ingénieurs de l'Université PSL (2e du classement des écoles d'ingénieurs françaises), réputée pour sa recherche et ses liens industriels." }
     ]
   },
-  "last_updated": "Dernière mise à jour : 6 juillet 2026",
+  "last_updated": "Dernière mise à jour : 8 octobre 2026",
   "scolarpath": [
     {
       "title": "Peking University (PKU) — Doctorat en AI4Math, département de mathématiques, septembre 2026–août 2030",
@@ -179,6 +179,21 @@
     }
   ],
   "publications": [
+    {
+      "title": "An AI-Assisted Formalization of the Poincaré Conjecture",
+      "logo": "frenzymath.png",
+      "logo_desc": "Projet de formalisation mathématique assistée par IA avec frenzymath.",
+      "meta": "Zhiyuan Zhang, Axel Delaval, Leheng Chen, Jinxuan Chen, Jie Xu, Yuxuan Liao, Jiedong Jiang, Chunlei Liu, Bin Dong - 2026",
+      "desc": "Nous présentons une formalisation Lean 4 assistée par IA de la conjecture de Poincaré. Le projet combine un blueprint de preuve préparé par des mathématiciens avec des jalons explicites, permettant un travail parallèle d'agents et un guidage humain efficace. Il pose les bases d'une infrastructure réutilisable pour les futurs projets de formalisation en analyse géométrique.",
+      "chips": [
+        { "text": "AI4Math", "desc": "Méthodes d'intelligence artificielle pour la recherche et le raisonnement mathématiques." },
+        { "text": "Lean4", "desc": "Assistant de preuve interactif et langage de programmation pour les mathématiques formelles." },
+        { "text": "Formalisation", "desc": "Traduction d'énoncés et de preuves mathématiques vers un langage formel." },
+        { "text": "Topologie géométrique", "desc": "Étude des propriétés topologiques des objets et espaces géométriques." },
+        { "text": "Conjecture de Poincaré", "desc": "Problème majeur de topologie caractérisant la 3-sphère." }
+      ],
+      "link": "https://arxiv.org/abs/2610.08329"
+    },
     {
       "title": "ToxiFrench: Benchmarking and Enhancing Language Models via CoT Fine-Tuning for French Toxicity Detection",
       "logo": "sjtu.png",

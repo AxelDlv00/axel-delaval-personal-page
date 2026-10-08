@@ -21,7 +21,7 @@
       { "text": "Mines Paris", "desc": "Engineering school of PSL University (ranked #2 among French engineering schools), renowned for its research and industrial ties." }
     ]
   },
-  "last_updated": "Last updated: July 6, 2026",
+  "last_updated": "Last updated: October 8, 2026",
   "scolarpath": [
     {
       "title": "Peking University (PKU) — PhD in AI4Math, Mathematics Department, September 2026–August 2030",
@@ -179,6 +179,21 @@
     }
   ],
   "publications": [
+    {
+      "title": "An AI-Assisted Formalization of the Poincaré Conjecture",
+      "logo": "frenzymath.png",
+      "logo_desc": "AI-assisted mathematical formalization project with frenzymath.",
+      "meta": "Zhiyuan Zhang, Axel Delaval, Leheng Chen, Jinxuan Chen, Jie Xu, Yuxuan Liao, Jiedong Jiang, Chunlei Liu, Bin Dong - 2026",
+      "desc": "We present an AI-assisted Lean 4 formalization of the Poincaré conjecture. The project combines a mathematician-prepared proof blueprint with explicit milestone statements, enabling parallel agent work and effective human guidance. It provides a foundation for reusable infrastructure in future geometric-analysis formalization projects.",
+      "chips": [
+        { "text": "AI4Math", "desc": "Artificial intelligence methods for mathematical research and reasoning." },
+        { "text": "Lean4", "desc": "Interactive theorem prover and programming language for formal mathematics." },
+        { "text": "Formalization", "desc": "Translation of mathematical statements and proofs into a formal language." },
+        { "text": "Geometric Topology", "desc": "Study of topological properties of geometric objects and spaces." },
+        { "text": "Poincaré Conjecture", "desc": "A landmark problem in topology, characterizing the 3-sphere." }
+      ],
+      "link": "https://arxiv.org/abs/2610.08329"
+    },
     {
       "title": "ToxiFrench: Benchmarking and Enhancing Language Models via CoT Fine-Tuning for French Toxicity Detection",
       "logo": "sjtu.png",

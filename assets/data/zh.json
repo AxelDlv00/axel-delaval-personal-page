@@ -21,7 +21,7 @@
       { "text": "巴黎矿业学院", "desc": "隶属于巴黎文理研究大学（PSL）的工程师学院（排名第2），以科研实力和工业界联系著称。" }
     ]
   },
-  "last_updated": "最后更新日期：2026年7月6日",
+  "last_updated": "最后更新日期：2026年10月8日",
   "scolarpath": [
     {
       "title": "北京大学 (PKU) — AI4Math 数学博士，数学系，2026年9月–2030年8月",
@@ -179,6 +179,21 @@
     }
   ],
   "publications": [
+    {
+      "title": "An AI-Assisted Formalization of the Poincaré Conjecture",
+      "logo": "frenzymath.png",
+      "logo_desc": "与 frenzymath 合作的 AI 辅助数学形式化研究项目。",
+      "meta": "Zhiyuan Zhang, Axel Delaval, Leheng Chen, Jinxuan Chen, Jie Xu, Yuxuan Liao, Jiedong Jiang, Chunlei Liu, Bin Dong - 2026",
+      "desc": "我们提出了一个由 AI 辅助的、基于 Lean 4 的庞加莱猜想形式化项目。该项目将数学家准备的证明蓝图与明确的里程碑式命题相结合，支持智能体并行工作并获得清晰的人工指导。它为未来几何分析形式化项目的可复用基础设施奠定了基础。",
+      "chips": [
+        { "text": "AI4Math", "desc": "面向数学研究与推理的人工智能方法。" },
+        { "text": "Lean4", "desc": "用于形式化数学的交互式定理证明器与编程语言。" },
+        { "text": "形式化", "desc": "将数学命题与证明转化为形式语言的过程。" },
+        { "text": "几何拓扑", "desc": "研究几何对象与空间的拓扑性质。" },
+        { "text": "庞加莱猜想", "desc": "拓扑学中的里程碑问题，刻画了三维球面。" }
+      ],
+      "link": "https://arxiv.org/abs/2610.08329"
+    },
     {
       "title": "ToxiFrench: Benchmarking and Enhancing Language Models via CoT Fine-Tuning for French Toxicity Detection",
       "logo": "sjtu.png",
